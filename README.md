@@ -1,6 +1,4 @@
-# Global Trade & Maritime Shipping Network Analysis
-
-A comprehensive data pipeline and analysis framework for extracting, analyzing, and visualizing global trade flows and maritime shipping networks using UN COMTRADE data and Global Marine Traffic Density System (GMTDS) data.
+# Interconnected Capstone - COMTRADE API data pipeline & network extraction
 
 ## Overview
 
