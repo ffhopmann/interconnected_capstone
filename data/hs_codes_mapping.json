@@ -1,0 +1,390 @@
+{
+  "TOTAL": {
+    "name": "TOTAL",
+    "ship_type": "mixed"
+  },
+  "01": {
+    "name": "Live animals",
+    "ship_type": "cargo ship"
+  },
+  "02": {
+    "name": "Meat and edible meat offal",
+    "ship_type": "cargo ship"
+  },
+  "03": {
+    "name": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+    "ship_type": "cargo ship"
+  },
+  "04": {
+    "name": "Dairy produce; birds eggs; natural honey; edible products of animal origin",
+    "ship_type": "cargo ship"
+  },
+  "05": {
+    "name": "Products of animal origin, not elsewhere specified or included",
+    "ship_type": "cargo ship"
+  },
+  "06": {
+    "name": "Live trees and other plants; bulbs, roots and the like; cut flowers",
+    "ship_type": "cargo ship"
+  },
+  "07": {
+    "name": "Edible vegetables and certain roots and tubers",
+    "ship_type": "cargo ship"
+  },
+  "08": {
+    "name": "Edible fruit and nuts; peel of citrus fruit or melons",
+    "ship_type": "cargo ship"
+  },
+  "09": {
+    "name": "Coffee, tea, mate and spices",
+    "ship_type": "cargo ship"
+  },
+  "10": {
+    "name": "Cereals",
+    "ship_type": "bulk carrier"
+  },
+  "11": {
+    "name": "Products of the milling industry; malt; starches; inulin; wheat gluten",
+    "ship_type": "bulk carrier"
+  },
+  "12": {
+    "name": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit",
+    "ship_type": "bulk carrier"
+  },
+  "13": {
+    "name": "Lac; gums, resins and other vegetable saps and extracts",
+    "ship_type": "cargo ship"
+  },
+  "14": {
+    "name": "Vegetable plaiting materials; vegetable products not elsewhere specified",
+    "ship_type": "cargo ship"
+  },
+  "15": {
+    "name": "Animal or vegetable fats and oils and their cleavage products",
+    "ship_type": "tanker"
+  },
+  "16": {
+    "name": "Preparations of meat, of fish or of crustaceans, molluscs",
+    "ship_type": "cargo ship"
+  },
+  "17": {
+    "name": "Sugars and sugar confectionery",
+    "ship_type": "bulk carrier"
+  },
+  "18": {
+    "name": "Cocoa and cocoa preparations",
+    "ship_type": "cargo ship"
+  },
+  "19": {
+    "name": "Preparations of cereals, flour, starch or milk; pastrycooks products",
+    "ship_type": "cargo ship"
+  },
+  "20": {
+    "name": "Preparations of vegetables, fruit, nuts or other parts of plants",
+    "ship_type": "cargo ship"
+  },
+  "21": {
+    "name": "Miscellaneous edible preparations",
+    "ship_type": "cargo ship"
+  },
+  "22": {
+    "name": "Beverages, spirits and vinegar",
+    "ship_type": "cargo ship"
+  },
+  "23": {
+    "name": "Residues and waste from the food industries; prepared animal fodder",
+    "ship_type": "bulk carrier"
+  },
+  "24": {
+    "name": "Tobacco and manufactured tobacco substitutes",
+    "ship_type": "cargo ship"
+  },
+  "25": {
+    "name": "Salt; sulphur; earths and stone; plastering materials, lime and cement",
+    "ship_type": "bulk carrier"
+  },
+  "26": {
+    "name": "Ores, slag and ash",
+    "ship_type": "bulk carrier"
+  },
+  "27": {
+    "name": "Mineral fuels, mineral oils and products of their distillation",
+    "ship_type": "tanker"
+  },
+  "28": {
+    "name": "Inorganic chemicals; organic or inorganic compounds of precious metals",
+    "ship_type": "tanker"
+  },
+  "29": {
+    "name": "Organic chemicals",
+    "ship_type": "tanker"
+  },
+  "30": {
+    "name": "Pharmaceutical products",
+    "ship_type": "cargo ship"
+  },
+  "31": {
+    "name": "Fertilisers",
+    "ship_type": "bulk carrier"
+  },
+  "32": {
+    "name": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments",
+    "ship_type": "tanker"
+  },
+  "33": {
+    "name": "Essential oils and resinoids; perfumery, cosmetic or toilet preparations",
+    "ship_type": "cargo ship"
+  },
+  "34": {
+    "name": "Soap, organic surface-active agents, washing preparations, lubricants",
+    "ship_type": "tanker"
+  },
+  "35": {
+    "name": "Albuminoidal substances; modified starches; glues; enzymes",
+    "ship_type": "cargo ship"
+  },
+  "36": {
+    "name": "Explosives; pyrotechnic products; matches; pyrophoric alloys",
+    "ship_type": "cargo ship"
+  },
+  "37": {
+    "name": "Photographic or cinematographic goods",
+    "ship_type": "cargo ship"
+  },
+  "38": {
+    "name": "Miscellaneous chemical products",
+    "ship_type": "tanker"
+  },
+  "39": {
+    "name": "Plastics and articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "40": {
+    "name": "Rubber and articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "41": {
+    "name": "Raw hides and skins (other than furskins) and leather",
+    "ship_type": "cargo ship"
+  },
+  "42": {
+    "name": "Articles of leather; saddlery and harness; travel goods, handbags",
+    "ship_type": "cargo ship"
+  },
+  "43": {
+    "name": "Furskins and artificial fur; manufactures thereof",
+    "ship_type": "cargo ship"
+  },
+  "44": {
+    "name": "Wood and articles of wood; wood charcoal",
+    "ship_type": "bulk carrier"
+  },
+  "45": {
+    "name": "Cork and articles of cork",
+    "ship_type": "cargo ship"
+  },
+  "46": {
+    "name": "Manufactures of straw, of esparto or of other plaiting materials",
+    "ship_type": "cargo ship"
+  },
+  "47": {
+    "name": "Pulp of wood or of other fibrous cellulosic material; recovered paper",
+    "ship_type": "bulk carrier"
+  },
+  "48": {
+    "name": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+    "ship_type": "cargo ship"
+  },
+  "49": {
+    "name": "Printed books, newspapers, pictures and other products of the printing industry",
+    "ship_type": "cargo ship"
+  },
+  "50": {
+    "name": "Silk",
+    "ship_type": "cargo ship"
+  },
+  "51": {
+    "name": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+    "ship_type": "cargo ship"
+  },
+  "52": {
+    "name": "Cotton",
+    "ship_type": "bulk carrier"
+  },
+  "53": {
+    "name": "Other vegetable textile fibres; paper yarn and woven fabrics",
+    "ship_type": "cargo ship"
+  },
+  "54": {
+    "name": "Man-made filaments; strip and the like of man-made textile materials",
+    "ship_type": "cargo ship"
+  },
+  "55": {
+    "name": "Man-made staple fibres",
+    "ship_type": "cargo ship"
+  },
+  "56": {
+    "name": "Wadding, felt and nonwovens; special yarns; twine, cordage, ropes",
+    "ship_type": "cargo ship"
+  },
+  "57": {
+    "name": "Carpets and other textile floor coverings",
+    "ship_type": "cargo ship"
+  },
+  "58": {
+    "name": "Special woven fabrics; tufted textile fabrics; lace; tapestries",
+    "ship_type": "cargo ship"
+  },
+  "59": {
+    "name": "Impregnated, coated, covered or laminated textile fabrics",
+    "ship_type": "cargo ship"
+  },
+  "60": {
+    "name": "Knitted or crocheted fabrics",
+    "ship_type": "cargo ship"
+  },
+  "61": {
+    "name": "Articles of apparel and clothing accessories, knitted or crocheted",
+    "ship_type": "cargo ship"
+  },
+  "62": {
+    "name": "Articles of apparel and clothing accessories, not knitted or crocheted",
+    "ship_type": "cargo ship"
+  },
+  "63": {
+    "name": "Other made up textile articles; sets; worn clothing and worn textile",
+    "ship_type": "cargo ship"
+  },
+  "64": {
+    "name": "Footwear, gaiters and the like; parts of such articles",
+    "ship_type": "cargo ship"
+  },
+  "65": {
+    "name": "Headgear and parts thereof",
+    "ship_type": "cargo ship"
+  },
+  "66": {
+    "name": "Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips",
+    "ship_type": "cargo ship"
+  },
+  "67": {
+    "name": "Prepared feathers and down and articles made of feathers or of down",
+    "ship_type": "cargo ship"
+  },
+  "68": {
+    "name": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
+    "ship_type": "bulk carrier"
+  },
+  "69": {
+    "name": "Ceramic products",
+    "ship_type": "cargo ship"
+  },
+  "70": {
+    "name": "Glass and glassware",
+    "ship_type": "cargo ship"
+  },
+  "71": {
+    "name": "Natural or cultured pearls, precious or semi-precious stones, precious metals",
+    "ship_type": "cargo ship"
+  },
+  "72": {
+    "name": "Iron and steel",
+    "ship_type": "bulk carrier"
+  },
+  "73": {
+    "name": "Articles of iron or steel",
+    "ship_type": "cargo ship"
+  },
+  "74": {
+    "name": "Copper and articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "75": {
+    "name": "Nickel and articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "76": {
+    "name": "Aluminium and articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "78": {
+    "name": "Lead and articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "79": {
+    "name": "Zinc and articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "80": {
+    "name": "Tin and articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "81": {
+    "name": "Other base metals; cermets; articles thereof",
+    "ship_type": "cargo ship"
+  },
+  "82": {
+    "name": "Tools, implements, cutlery, spoons and forks, of base metal",
+    "ship_type": "cargo ship"
+  },
+  "83": {
+    "name": "Miscellaneous articles of base metal",
+    "ship_type": "cargo ship"
+  },
+  "84": {
+    "name": "Machinery and mechanical appliances; parts thereof",
+    "ship_type": "cargo ship"
+  },
+  "85": {
+    "name": "Electrical machinery and equipment and parts thereof",
+    "ship_type": "cargo ship"
+  },
+  "86": {
+    "name": "Railway or tramway locomotives, rolling-stock and parts thereof",
+    "ship_type": "cargo ship"
+  },
+  "87": {
+    "name": "Vehicles other than railway or tramway rolling-stock, and parts",
+    "ship_type": "cargo ship"
+  },
+  "88": {
+    "name": "Aircraft, spacecraft, and parts thereof",
+    "ship_type": "cargo ship"
+  },
+  "89": {
+    "name": "Ships, boats and floating structures",
+    "ship_type": "cargo ship"
+  },
+  "90": {
+    "name": "Optical, photographic, cinematographic, measuring, checking, precision instruments",
+    "ship_type": "cargo ship"
+  },
+  "91": {
+    "name": "Clocks and watches and parts thereof",
+    "ship_type": "cargo ship"
+  },
+  "92": {
+    "name": "Musical instruments; parts and accessories of such articles",
+    "ship_type": "cargo ship"
+  },
+  "93": {
+    "name": "Arms and ammunition; parts and accessories thereof",
+    "ship_type": "cargo ship"
+  },
+  "94": {
+    "name": "Furniture; bedding, mattresses, mattress supports, cushions",
+    "ship_type": "cargo ship"
+  },
+  "95": {
+    "name": "Toys, games and sports requisites; parts and accessories thereof",
+    "ship_type": "cargo ship"
+  },
+  "96": {
+    "name": "Miscellaneous manufactured articles",
+    "ship_type": "cargo ship"
+  },
+  "97": {
+    "name": "Works of art, collectors pieces and antiques",
+    "ship_type": "cargo ship"
+  }
+}

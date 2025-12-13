@@ -1,0 +1,8 @@
+/COMTRADE_API_KEY.json
+
+# Ignore all CSV files
+*.csv
+
+# Ignore large files that exceed GitHub limits
+Geospatial_testing.ipynb
+simulation_pipeline/part_4_simulation/simulation_output_data/simulation_ship_location.json

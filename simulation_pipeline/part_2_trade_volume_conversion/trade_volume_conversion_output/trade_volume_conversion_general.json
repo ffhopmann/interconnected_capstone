@@ -1,0 +1,482 @@
+{
+  "1": {
+    "conversion_factor": 3881.7871522403666,
+    "total_value_usd": 27158020216.0,
+    "total_weight_tons": 6996267.222
+  },
+  "2": {
+    "conversion_factor": 3427.677311925003,
+    "total_value_usd": 160213638526.0,
+    "total_weight_tons": 46741167.253
+  },
+  "3": {
+    "conversion_factor": 5002.375264063985,
+    "total_value_usd": 136819356333.0,
+    "total_weight_tons": 27350878.155
+  },
+  "4": {
+    "conversion_factor": 2775.197475195191,
+    "total_value_usd": 109692122478.0,
+    "total_weight_tons": 39525880.035
+  },
+  "5": {
+    "conversion_factor": 1876.1183041084346,
+    "total_value_usd": 11586841346.0,
+    "total_weight_tons": 6175965.194
+  },
+  "6": {
+    "conversion_factor": 3618.3839807743416,
+    "total_value_usd": 23240385907.0,
+    "total_weight_tons": 6422863.364
+  },
+  "7": {
+    "conversion_factor": 930.9736609150178,
+    "total_value_usd": 95024240507.0,
+    "total_weight_tons": 102069741.064
+  },
+  "8": {
+    "conversion_factor": 1558.540405933265,
+    "total_value_usd": 147150810678.0,
+    "total_weight_tons": 94415781.662
+  },
+  "9": {
+    "conversion_factor": 4401.191625996827,
+    "total_value_usd": 63903579519.0,
+    "total_weight_tons": 14519608.54
+  },
+  "10": {
+    "conversion_factor": 335.017619873967,
+    "total_value_usd": 165198513645.0,
+    "total_weight_tons": 493103955.867
+  },
+  "11": {
+    "conversion_factor": 704.1477800482666,
+    "total_value_usd": 29019188061.0,
+    "total_weight_tons": 41211786.621
+  },
+  "12": {
+    "conversion_factor": 642.8413539592354,
+    "total_value_usd": 152734464219.0,
+    "total_weight_tons": 237592779.74
+  },
+  "13": {
+    "conversion_factor": 8245.665062962958,
+    "total_value_usd": 9345096312.0,
+    "total_weight_tons": 1133334.454
+  },
+  "14": {
+    "conversion_factor": 294.90582862392745,
+    "total_value_usd": 1826656619.0,
+    "total_weight_tons": 6194033.626
+  },
+  "15": {
+    "conversion_factor": 1252.809342549379,
+    "total_value_usd": 154566580642.0,
+    "total_weight_tons": 123375980.201
+  },
+  "16": {
+    "conversion_factor": 5590.433182169445,
+    "total_value_usd": 58206161160.0,
+    "total_weight_tons": 10411744.361
+  },
+  "17": {
+    "conversion_factor": 801.1052648293718,
+    "total_value_usd": 72003244757.0,
+    "total_weight_tons": 89879879.609
+  },
+  "18": {
+    "conversion_factor": 4507.36206327445,
+    "total_value_usd": 61584678060.0,
+    "total_weight_tons": 13663130.939
+  },
+  "19": {
+    "conversion_factor": 3172.705931781252,
+    "total_value_usd": 105701104050.0,
+    "total_weight_tons": 33315758.322
+  },
+  "20": {
+    "conversion_factor": 1834.8797533620277,
+    "total_value_usd": 83083224042.0,
+    "total_weight_tons": 45279928.502
+  },
+  "21": {
+    "conversion_factor": 4508.876776566175,
+    "total_value_usd": 103324916187.0,
+    "total_weight_tons": 22915888.215
+  },
+  "22": {
+    "conversion_factor": 145.5826556142163,
+    "total_value_usd": 149501070291.0,
+    "total_weight_tons": 1026915394.9710001
+  },
+  "23": {
+    "conversion_factor": 636.3837423220247,
+    "total_value_usd": 112871148160.0,
+    "total_weight_tons": 177363343.3
+  },
+  "24": {
+    "conversion_factor": 13514.181115904436,
+    "total_value_usd": 60320718622.0,
+    "total_weight_tons": 4463512.669
+  },
+  "25": {
+    "conversion_factor": 94.00243809282163,
+    "total_value_usd": 72293489924.0,
+    "total_weight_tons": 769059732.819
+  },
+  "26": {
+    "conversion_factor": 176.7380278015661,
+    "total_value_usd": 341528747059.0,
+    "total_weight_tons": 1932401030.538
+  },
+  "27": {
+    "conversion_factor": 508.62221951477267,
+    "total_value_usd": 3078015991476.0,
+    "total_weight_tons": 6051674255.231
+  },
+  "28": {
+    "conversion_factor": 1041.9351003616139,
+    "total_value_usd": 193713617657.0,
+    "total_weight_tons": 185917162.777
+  },
+  "29": {
+    "conversion_factor": 2129.1207122649257,
+    "total_value_usd": 479473332697.0,
+    "total_weight_tons": 225197815.199
+  },
+  "30": {
+    "conversion_factor": 118132.96453357566,
+    "total_value_usd": 821748303944.0,
+    "total_weight_tons": 6956130.384
+  },
+  "31": {
+    "conversion_factor": 434.4322088922908,
+    "total_value_usd": 100998443515.0,
+    "total_weight_tons": 232483783.31
+  },
+  "32": {
+    "conversion_factor": 3774.12924196709,
+    "total_value_usd": 85241201595.0,
+    "total_weight_tons": 22585660.461
+  },
+  "33": {
+    "conversion_factor": 13817.168107990023,
+    "total_value_usd": 167901450350.0,
+    "total_weight_tons": 12151654.307
+  },
+  "34": {
+    "conversion_factor": 2416.9183542184032,
+    "total_value_usd": 77319548155.0,
+    "total_weight_tons": 31990964.039
+  },
+  "35": {
+    "conversion_factor": 4435.131881912699,
+    "total_value_usd": 40724981122.0,
+    "total_weight_tons": 9182360.797
+  },
+  "36": {
+    "conversion_factor": 5438.078063199838,
+    "total_value_usd": 6405631337.0,
+    "total_weight_tons": 1177921.917
+  },
+  "37": {
+    "conversion_factor": 18580.181391097936,
+    "total_value_usd": 13444172810.0,
+    "total_weight_tons": 723575.972
+  },
+  "38": {
+    "conversion_factor": 3098.171178404871,
+    "total_value_usd": 285849060389.0,
+    "total_weight_tons": 92263804.654
+  },
+  "39": {
+    "conversion_factor": 2596.911486228333,
+    "total_value_usd": 702896946841.0,
+    "total_weight_tons": 270666501.561
+  },
+  "40": {
+    "conversion_factor": 3729.2741857773563,
+    "total_value_usd": 219266306507.0,
+    "total_weight_tons": 58795973.582
+  },
+  "41": {
+    "conversion_factor": 3325.423821517309,
+    "total_value_usd": 16828360695.0,
+    "total_weight_tons": 5060516.072
+  },
+  "42": {
+    "conversion_factor": 21392.71087380132,
+    "total_value_usd": 94000258585.0,
+    "total_weight_tons": 4394032.114
+  },
+  "43": {
+    "conversion_factor": 86969.20727625927,
+    "total_value_usd": 3965501548.0,
+    "total_weight_tons": 45596.616
+  },
+  "44": {
+    "conversion_factor": 483.0535840180605,
+    "total_value_usd": 150952509768.0,
+    "total_weight_tons": 312496407.774
+  },
+  "45": {
+    "conversion_factor": 6799.237178823325,
+    "total_value_usd": 2391979751.0,
+    "total_weight_tons": 351801.19299999997
+  },
+  "46": {
+    "conversion_factor": 5355.194765352275,
+    "total_value_usd": 2566251900.0,
+    "total_weight_tons": 479207.949
+  },
+  "47": {
+    "conversion_factor": 456.1744950583061,
+    "total_value_usd": 56630311477.0,
+    "total_weight_tons": 124141774.892
+  },
+  "48": {
+    "conversion_factor": 1415.5394914825495,
+    "total_value_usd": 187746562295.0,
+    "total_weight_tons": 132632514.617
+  },
+  "49": {
+    "conversion_factor": 8277.815935850522,
+    "total_value_usd": 33044565465.0,
+    "total_weight_tons": 3991942.527
+  },
+  "50": {
+    "conversion_factor": 43099.365365387086,
+    "total_value_usd": 1838984797.0,
+    "total_weight_tons": 42668.489
+  },
+  "51": {
+    "conversion_factor": 10905.77178600806,
+    "total_value_usd": 10920035205.0,
+    "total_weight_tons": 1001307.878
+  },
+  "52": {
+    "conversion_factor": 3410.279568865751,
+    "total_value_usd": 51326143263.0,
+    "total_weight_tons": 15050421.007
+  },
+  "53": {
+    "conversion_factor": 1867.437766535032,
+    "total_value_usd": 5734649445.0,
+    "total_weight_tons": 3070865.09
+  },
+  "54": {
+    "conversion_factor": 4028.757829797903,
+    "total_value_usd": 49800789864.0,
+    "total_weight_tons": 12361326.237
+  },
+  "55": {
+    "conversion_factor": 3317.697944339073,
+    "total_value_usd": 36728744239.0,
+    "total_weight_tons": 11070550.983
+  },
+  "56": {
+    "conversion_factor": 4716.965996055686,
+    "total_value_usd": 28853364947.0,
+    "total_weight_tons": 6116932.997
+  },
+  "57": {
+    "conversion_factor": 4671.669273777573,
+    "total_value_usd": 16344908588.0,
+    "total_weight_tons": 3498729.818
+  },
+  "58": {
+    "conversion_factor": 9968.88078676596,
+    "total_value_usd": 11061251324.0,
+    "total_weight_tons": 1109578.052
+  },
+  "59": {
+    "conversion_factor": 7554.898834981645,
+    "total_value_usd": 25666482457.0,
+    "total_weight_tons": 3397329.735
+  },
+  "60": {
+    "conversion_factor": 6256.871683895628,
+    "total_value_usd": 34122849376.0,
+    "total_weight_tons": 5453659.768
+  },
+  "61": {
+    "conversion_factor": 20598.507989425838,
+    "total_value_usd": 248218995742.0,
+    "total_weight_tons": 12050338.591
+  },
+  "62": {
+    "conversion_factor": 27449.475792530302,
+    "total_value_usd": 229436082863.0,
+    "total_weight_tons": 8358486.865
+  },
+  "63": {
+    "conversion_factor": 4465.4921743132345,
+    "total_value_usd": 71198398512.0,
+    "total_weight_tons": 15944132.412
+  },
+  "64": {
+    "conversion_factor": 23533.726008057056,
+    "total_value_usd": 163005473763.0,
+    "total_weight_tons": 6926462.631
+  },
+  "65": {
+    "conversion_factor": 25361.530907140845,
+    "total_value_usd": 14200878223.0,
+    "total_weight_tons": 559937.737
+  },
+  "66": {
+    "conversion_factor": 5401.665232988276,
+    "total_value_usd": 3919390371.0,
+    "total_weight_tons": 725589.277
+  },
+  "67": {
+    "conversion_factor": 13585.708882433839,
+    "total_value_usd": 8795572438.0,
+    "total_weight_tons": 647413.581
+  },
+  "68": {
+    "conversion_factor": 902.6286786417281,
+    "total_value_usd": 60011862465.0,
+    "total_weight_tons": 66485658.926
+  },
+  "69": {
+    "conversion_factor": 1021.7263810289296,
+    "total_value_usd": 58302641950.0,
+    "total_weight_tons": 57062872.245
+  },
+  "70": {
+    "conversion_factor": 1772.7870917713296,
+    "total_value_usd": 87885823892.0,
+    "total_weight_tons": 49574945.745
+  },
+  "71": {
+    "conversion_factor": 1077710.6889429782,
+    "total_value_usd": 873209535506.0,
+    "total_weight_tons": 810244.85
+  },
+  "72": {
+    "conversion_factor": 935.7651370598484,
+    "total_value_usd": 482302154169.0,
+    "total_weight_tons": 515409406.771
+  },
+  "73": {
+    "conversion_factor": 3136.5090309080915,
+    "total_value_usd": 370627916905.0,
+    "total_weight_tons": 118165741.993
+  },
+  "74": {
+    "conversion_factor": 8508.204557615833,
+    "total_value_usd": 211719578028.0,
+    "total_weight_tons": 24884166.406
+  },
+  "75": {
+    "conversion_factor": 13543.622685114482,
+    "total_value_usd": 47432868485.0,
+    "total_weight_tons": 3502229.026
+  },
+  "76": {
+    "conversion_factor": 3534.668096919221,
+    "total_value_usd": 239983746978.0,
+    "total_weight_tons": 67894280.424
+  },
+  "78": {
+    "conversion_factor": 2355.9200817776414,
+    "total_value_usd": 9600266908.0,
+    "total_weight_tons": 4074954.4020000002
+  },
+  "79": {
+    "conversion_factor": 2998.5218229685274,
+    "total_value_usd": 19409675336.0,
+    "total_weight_tons": 6473081.232
+  },
+  "80": {
+    "conversion_factor": 17782.36246768997,
+    "total_value_usd": 7067147864.0,
+    "total_weight_tons": 397424.576
+  },
+  "81": {
+    "conversion_factor": 11101.896441582036,
+    "total_value_usd": 25214027618.0,
+    "total_weight_tons": 2271145.9930000002
+  },
+  "82": {
+    "conversion_factor": 14038.363956633046,
+    "total_value_usd": 68570065204.0,
+    "total_weight_tons": 4884476.953
+  },
+  "83": {
+    "conversion_factor": 7174.861589043647,
+    "total_value_usd": 83491298409.0,
+    "total_weight_tons": 11636642.376
+  },
+  "84": {
+    "conversion_factor": 17753.69277490841,
+    "total_value_usd": 2513622299976.0,
+    "total_weight_tons": 141583068.483
+  },
+  "85": {
+    "conversion_factor": 34656.89377570112,
+    "total_value_usd": 3216381498852.0,
+    "total_weight_tons": 92806398.625
+  },
+  "86": {
+    "conversion_factor": 4887.682297428556,
+    "total_value_usd": 35986374841.0,
+    "total_weight_tons": 7362666.526
+  },
+  "87": {
+    "conversion_factor": 12351.119568364184,
+    "total_value_usd": 1899077896347.0,
+    "total_weight_tons": 153757550.952
+  },
+  "88": {
+    "conversion_factor": 618351.0410998348,
+    "total_value_usd": 223042629494.0,
+    "total_weight_tons": 360705.513
+  },
+  "89": {
+    "conversion_factor": 3262.660662053408,
+    "total_value_usd": 99262607431.0,
+    "total_weight_tons": 30423822.062
+  },
+  "90": {
+    "conversion_factor": 71076.69678315432,
+    "total_value_usd": 649983231734.0,
+    "total_weight_tons": 9144814.843
+  },
+  "91": {
+    "conversion_factor": 203808.29273191388,
+    "total_value_usd": 55171678295.0,
+    "total_weight_tons": 270703.795
+  },
+  "92": {
+    "conversion_factor": 27869.394916578516,
+    "total_value_usd": 8032329832.0,
+    "total_weight_tons": 288213.284
+  },
+  "93": {
+    "conversion_factor": 45378.566461832044,
+    "total_value_usd": 17219739134.0,
+    "total_weight_tons": 379468.557
+  },
+  "94": {
+    "conversion_factor": 5803.075340373583,
+    "total_value_usd": 279500164635.0,
+    "total_weight_tons": 48164145.43
+  },
+  "95": {
+    "conversion_factor": 15365.423188562909,
+    "total_value_usd": 158890299678.0,
+    "total_weight_tons": 10340769.514
+  },
+  "96": {
+    "conversion_factor": 7590.614876489236,
+    "total_value_usd": 60754640277.0,
+    "total_weight_tons": 8003915.528
+  },
+  "97": {
+    "conversion_factor": 371776.329028035,
+    "total_value_usd": 24866241550.0,
+    "total_weight_tons": 66884.951
+  }
+}

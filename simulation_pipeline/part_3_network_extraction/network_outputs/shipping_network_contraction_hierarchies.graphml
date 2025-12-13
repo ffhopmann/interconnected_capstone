@@ -1,0 +1,4986 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="length" attr.type="double" />
+  <key id="d11" for="edge" attr.name="source" attr.type="string" />
+  <key id="d10" for="edge" attr.name="distance" attr.type="float" />
+  <key id="d9" for="node" attr.name="name" attr.type="string" />
+  <key id="d8" for="node" attr.name="country" attr.type="string" />
+  <key id="d7" for="node" attr.name="portName" attr.type="string" />
+  <key id="d6" for="node" attr.name="lat" attr.type="double" />
+  <key id="d5" for="node" attr.name="lon" attr.type="double" />
+  <key id="d4" for="node" attr.name="pos_str" attr.type="string" />
+  <key id="d3" for="node" attr.name="source" attr.type="string" />
+  <key id="d2" for="node" attr.name="value" attr.type="float" />
+  <key id="d1" for="node" attr.name="lat" attr.type="float" />
+  <key id="d0" for="node" attr.name="lon" attr.type="float" />
+  <graph edgedefault="undirected">
+    <node id="24">
+      <data key="d0">9.534026498206323</data>
+      <data key="d1">43.140644118428284</data>
+      <data key="d2">4.5922404374</data>
+      <data key="d3">density</data>
+      <data key="d4">9.534026498206323,43.140644118428284</data>
+    </node>
+    <node id="8221">
+      <data key="d0">28.554455663734448</data>
+      <data key="d1">34.80713726620425</data>
+      <data key="d2">106.87606070838999</data>
+      <data key="d3">density</data>
+      <data key="d4">28.554455663734448,34.80713726620425</data>
+    </node>
+    <node id="8232">
+      <data key="d0">9.191126473425994</data>
+      <data key="d1">43.4770666601733</data>
+      <data key="d2">3.6200445539900006</data>
+      <data key="d3">density</data>
+      <data key="d4">9.191126473425994,43.4770666601733</data>
+    </node>
+    <node id="8233">
+      <data key="d0">28.802564147287463</data>
+      <data key="d1">34.78634609656705</data>
+      <data key="d2">18.10614335457</data>
+      <data key="d3">density</data>
+      <data key="d4">28.802564147287463,34.78634609656705</data>
+    </node>
+    <node id="port_39">
+      <data key="d5">1.2333333333333334</data>
+      <data key="d6">41.1</data>
+      <data key="d3">port</data>
+      <data key="d7">Tarragona</data>
+      <data key="d8">Spain</data>
+      <data key="d4">1.2333333333333334,41.1</data>
+    </node>
+    <node id="67">
+      <data key="d0">15.09175866076799</data>
+      <data key="d1">38.32644096691899</data>
+      <data key="d2">27.60089707826</data>
+      <data key="d3">density</data>
+      <data key="d4">15.09175866076799,38.32644096691899</data>
+    </node>
+    <node id="8265">
+      <data key="d0">31.114526813177317</data>
+      <data key="d1">32.233526636526896</data>
+      <data key="d2">172.39124522636502</data>
+      <data key="d3">density</data>
+      <data key="d4">31.114526813177317,32.233526636526896</data>
+    </node>
+    <node id="8313">
+      <data key="d0">7.9902909598183465</data>
+      <data key="d1">43.23619563810602</data>
+      <data key="d2">10.067300471705</data>
+      <data key="d3">density</data>
+      <data key="d4">7.9902909598183465,43.23619563810602</data>
+    </node>
+    <node id="8354">
+      <data key="d0">17.66986334815047</data>
+      <data key="d1">41.38266568833594</data>
+      <data key="d2">26.19906961423</data>
+      <data key="d3">density</data>
+      <data key="d4">17.66986334815047,41.38266568833594</data>
+    </node>
+    <node id="8357">
+      <data key="d0">28.052188493480635</data>
+      <data key="d1">34.47473020337352</data>
+      <data key="d2">8.23622065965</data>
+      <data key="d3">density</data>
+      <data key="d4">28.052188493480635,34.47473020337352</data>
+    </node>
+    <node id="191">
+      <data key="d0">14.463051778384674</data>
+      <data key="d1">44.04108424572804</data>
+      <data key="d2">3.5219827963</data>
+      <data key="d3">density</data>
+      <data key="d4">14.463051778384674,44.04108424572804</data>
+    </node>
+    <node id="8395">
+      <data key="d0">32.888365798064754</data>
+      <data key="d1">32.52583044638741</data>
+      <data key="d2">2.8678929838</data>
+      <data key="d3">density</data>
+      <data key="d4">32.888365798064754,32.52583044638741</data>
+    </node>
+    <node id="8434">
+      <data key="d0">31.378334213867788</data>
+      <data key="d1">32.55689370717549</data>
+      <data key="d2">3.50757791136</data>
+      <data key="d3">density</data>
+      <data key="d4">31.378334213867788,32.55689370717549</data>
+    </node>
+    <node id="263">
+      <data key="d0">2.504002385624223</data>
+      <data key="d1">41.05690380487283</data>
+      <data key="d2">167.8756605877</data>
+      <data key="d3">density</data>
+      <data key="d4">2.504002385624223,41.05690380487283</data>
+    </node>
+    <node id="port_14">
+      <data key="d5">13.745999999999999</data>
+      <data key="d6">45.650999999999996</data>
+      <data key="d3">port</data>
+      <data key="d7">Trieste</data>
+      <data key="d8">Italy</data>
+      <data key="d4">13.745999999999999,45.650999999999996</data>
+    </node>
+    <node id="8461">
+      <data key="d0">29.64819196038919</data>
+      <data key="d1">43.818453353389145</data>
+      <data key="d2">27.344288706750003</data>
+      <data key="d3">density</data>
+      <data key="d4">29.64819196038919,43.818453353389145</data>
+    </node>
+    <node id="port_13">
+      <data key="d5">17.2</data>
+      <data key="d6">40.46666666666667</data>
+      <data key="d3">port</data>
+      <data key="d7">Taranto</data>
+      <data key="d8">Italy</data>
+      <data key="d4">17.2,40.46666666666667</data>
+    </node>
+    <node id="277">
+      <data key="d0">32.736677245451574</data>
+      <data key="d1">42.906950152800306</data>
+      <data key="d2">5.5239097026</data>
+      <data key="d3">density</data>
+      <data key="d4">32.736677245451574,42.906950152800306</data>
+    </node>
+    <node id="304">
+      <data key="d0">16.333706198580426</data>
+      <data key="d1">36.15053979777676</data>
+      <data key="d2">54.72585886965</data>
+      <data key="d3">density</data>
+      <data key="d4">16.333706198580426,36.15053979777676</data>
+    </node>
+    <node id="8505">
+      <data key="d0">9.41787263473421</data>
+      <data key="d1">43.16577730545186</data>
+      <data key="d2">2.4884651158700004</data>
+      <data key="d3">density</data>
+      <data key="d4">9.41787263473421,43.16577730545186</data>
+    </node>
+    <node id="8513">
+      <data key="d0">28.412900311985897</data>
+      <data key="d1">34.86430643427382</data>
+      <data key="d2">15.37093945828</data>
+      <data key="d3">density</data>
+      <data key="d4">28.412900311985897,34.86430643427382</data>
+    </node>
+    <node id="8537">
+      <data key="d0">14.937457178075363</data>
+      <data key="d1">36.54552206339882</data>
+      <data key="d2">24.464604332682395</data>
+      <data key="d3">density</data>
+      <data key="d4">14.937457178075363,36.54552206339882</data>
+    </node>
+    <node id="8552">
+      <data key="d0">5.075822082527435</data>
+      <data key="d1">40.09048643294126</data>
+      <data key="d2">6.83151883506</data>
+      <data key="d3">density</data>
+      <data key="d4">5.075822082527435,40.09048643294126</data>
+    </node>
+    <node id="port_21">
+      <data key="d5">30.65</data>
+      <data key="d6">46.3</data>
+      <data key="d3">port</data>
+      <data key="d7">Illichivsk</data>
+      <data key="d8">Ukraine</data>
+      <data key="d4">30.65,46.3</data>
+    </node>
+    <node id="8574">
+      <data key="d0">10.45246309169287</data>
+      <data key="d1">37.94262112505635</data>
+      <data key="d2">13.470509386229999</data>
+      <data key="d3">density</data>
+      <data key="d4">10.45246309169287,37.94262112505635</data>
+    </node>
+    <node id="8595">
+      <data key="d0">23.858797573017707</data>
+      <data key="d1">33.04343346986816</data>
+      <data key="d2">4.8125572597</data>
+      <data key="d3">density</data>
+      <data key="d4">23.858797573017707,33.04343346986816</data>
+    </node>
+    <node id="8598">
+      <data key="d0">3.4001708611873114</data>
+      <data key="d1">37.39271089651934</data>
+      <data key="d2">71.32300539423001</data>
+      <data key="d3">density</data>
+      <data key="d4">3.4001708611873114,37.39271089651934</data>
+    </node>
+    <node id="438">
+      <data key="d0">29.265518210956674</data>
+      <data key="d1">31.90432454527208</data>
+      <data key="d2">2.7595392464999997</data>
+      <data key="d3">density</data>
+      <data key="d4">29.265518210956674,31.90432454527208</data>
+    </node>
+    <node id="8645">
+      <data key="d0">5.369918467805038</data>
+      <data key="d1">42.95781794259832</data>
+      <data key="d2">7.7418450134</data>
+      <data key="d3">density</data>
+      <data key="d4">5.369918467805038,42.95781794259832</data>
+    </node>
+    <node id="8664">
+      <data key="d0">18.655301691234463</data>
+      <data key="d1">39.988539339136295</data>
+      <data key="d2">5.09059653876</data>
+      <data key="d3">density</data>
+      <data key="d4">18.655301691234463,39.988539339136295</data>
+    </node>
+    <node id="508">
+      <data key="d0">25.66522372916609</data>
+      <data key="d1">32.82457140346136</data>
+      <data key="d2">11.086791218400002</data>
+      <data key="d3">density</data>
+      <data key="d4">25.66522372916609,32.82457140346136</data>
+    </node>
+    <node id="8704">
+      <data key="d0">14.167299951030595</data>
+      <data key="d1">44.26131548241407</data>
+      <data key="d2">26.331124902199996</data>
+      <data key="d3">density</data>
+      <data key="d4">14.167299951030595,44.26131548241407</data>
+    </node>
+    <node id="8735">
+      <data key="d0">17.075275591068902</data>
+      <data key="d1">41.7367743633751</data>
+      <data key="d2">56.5368993488973</data>
+      <data key="d3">density</data>
+      <data key="d4">17.075275591068902,41.7367743633751</data>
+    </node>
+    <node id="8788">
+      <data key="d0">10.184265658417743</data>
+      <data key="d1">37.58963763245107</data>
+      <data key="d2">415.4871000509</data>
+      <data key="d3">density</data>
+      <data key="d4">10.184265658417743,37.58963763245107</data>
+    </node>
+    <node id="8809">
+      <data key="d0">28.68181443746577</data>
+      <data key="d1">35.06049540007784</data>
+      <data key="d2">11.265707464240002</data>
+      <data key="d3">density</data>
+      <data key="d4">28.68181443746577,35.06049540007784</data>
+    </node>
+    <node id="8815">
+      <data key="d0">11.481611764152102</data>
+      <data key="d1">37.40480354954935</data>
+      <data key="d2">53.792859091180006</data>
+      <data key="d3">density</data>
+      <data key="d4">11.481611764152102,37.40480354954935</data>
+    </node>
+    <node id="636">
+      <data key="d0">32.946211140042706</data>
+      <data key="d1">33.71809805081079</data>
+      <data key="d2">14.708801407829998</data>
+      <data key="d3">density</data>
+      <data key="d4">32.946211140042706,33.71809805081079</data>
+    </node>
+    <node id="8829">
+      <data key="d0">15.799476933355013</data>
+      <data key="d1">37.140852240719674</data>
+      <data key="d2">4.790404558300001</data>
+      <data key="d3">density</data>
+      <data key="d4">15.799476933355013,37.140852240719674</data>
+    </node>
+    <node id="641">
+      <data key="d0">15.567425605837485</data>
+      <data key="d1">38.00256187581992</data>
+      <data key="d2">41.046852836999996</data>
+      <data key="d3">density</data>
+      <data key="d4">15.567425605837485,38.00256187581992</data>
+    </node>
+    <node id="8840">
+      <data key="d0">25.784184473736666</data>
+      <data key="d1">38.28414804562843</data>
+      <data key="d2">36.15409394470001</data>
+      <data key="d3">density</data>
+      <data key="d4">25.784184473736666,38.28414804562843</data>
+    </node>
+    <node id="651">
+      <data key="d0">17.889363888225834</data>
+      <data key="d1">41.319588906490715</data>
+      <data key="d2">6.9877583669500005</data>
+      <data key="d3">density</data>
+      <data key="d4">17.889363888225834,41.319588906490715</data>
+    </node>
+    <node id="8850">
+      <data key="d0">-3.4556316374591716</data>
+      <data key="d1">36.05006247142699</data>
+      <data key="d2">73.69465619450001</data>
+      <data key="d3">density</data>
+      <data key="d4">-3.4556316374591716,36.05006247142699</data>
+    </node>
+    <node id="8852">
+      <data key="d0">18.550379810871526</data>
+      <data key="d1">40.92779319883056</data>
+      <data key="d2">16.21675866387</data>
+      <data key="d3">density</data>
+      <data key="d4">18.550379810871526,40.92779319883056</data>
+    </node>
+    <node id="658">
+      <data key="d0">11.62286776346309</data>
+      <data key="d1">37.81754906111459</data>
+      <data key="d2">46.166646851600994</data>
+      <data key="d3">density</data>
+      <data key="d4">11.62286776346309,37.81754906111459</data>
+    </node>
+    <node id="8864">
+      <data key="d0">16.733647600323195</data>
+      <data key="d1">36.725935800985674</data>
+      <data key="d2">2.8089207845999997</data>
+      <data key="d3">density</data>
+      <data key="d4">16.733647600323195,36.725935800985674</data>
+    </node>
+    <node id="8868">
+      <data key="d0">18.891833585415686</data>
+      <data key="d1">40.515008940247384</data>
+      <data key="d2">11.673097566084</data>
+      <data key="d3">density</data>
+      <data key="d4">18.891833585415686,40.515008940247384</data>
+    </node>
+    <node id="8951">
+      <data key="d0">21.893958166832643</data>
+      <data key="d1">35.44089834576493</data>
+      <data key="d2">5.41465990087</data>
+      <data key="d3">density</data>
+      <data key="d4">21.893958166832643,35.44089834576493</data>
+    </node>
+    <node id="8956">
+      <data key="d0">15.14125746897864</data>
+      <data key="d1">36.56151140973505</data>
+      <data key="d2">14.388394619860001</data>
+      <data key="d3">density</data>
+      <data key="d4">15.14125746897864,36.56151140973505</data>
+    </node>
+    <node id="8959">
+      <data key="d0">3.501594193797724</data>
+      <data key="d1">40.718791757171374</data>
+      <data key="d2">11.410798594465</data>
+      <data key="d3">density</data>
+      <data key="d4">3.501594193797724,40.718791757171374</data>
+    </node>
+    <node id="8965">
+      <data key="d0">18.651386024624106</data>
+      <data key="d1">39.43268555322454</data>
+      <data key="d2">7.813291027389999</data>
+      <data key="d3">density</data>
+      <data key="d4">18.651386024624106,39.43268555322454</data>
+    </node>
+    <node id="8983">
+      <data key="d0">11.711701026970742</data>
+      <data key="d1">38.192347612904356</data>
+      <data key="d2">21.817803980884</data>
+      <data key="d3">density</data>
+      <data key="d4">11.711701026970742,38.192347612904356</data>
+    </node>
+    <node id="9016">
+      <data key="d0">32.75120702726409</data>
+      <data key="d1">32.48949675199236</data>
+      <data key="d2">13.879683658040001</data>
+      <data key="d3">density</data>
+      <data key="d4">32.75120702726409,32.48949675199236</data>
+    </node>
+    <node id="834">
+      <data key="d0">26.32204484059592</data>
+      <data key="d1">40.09236339303305</data>
+      <data key="d2">827.4647766994901</data>
+      <data key="d3">density</data>
+      <data key="d4">26.32204484059592,40.09236339303305</data>
+    </node>
+    <node id="9041">
+      <data key="d0">8.05657377430737</data>
+      <data key="d1">38.8300544485104</data>
+      <data key="d2">8.80766755558</data>
+      <data key="d3">density</data>
+      <data key="d4">8.05657377430737,38.8300544485104</data>
+    </node>
+    <node id="9053">
+      <data key="d0">17.400451523109894</data>
+      <data key="d1">41.198984969494454</data>
+      <data key="d2">3.2318114607</data>
+      <data key="d3">density</data>
+      <data key="d4">17.400451523109894,41.198984969494454</data>
+    </node>
+    <node id="9059">
+      <data key="d0">17.805773846146415</data>
+      <data key="d1">41.153762181266636</data>
+      <data key="d2">14.585785922420001</data>
+      <data key="d3">density</data>
+      <data key="d4">17.805773846146415,41.153762181266636</data>
+    </node>
+    <node id="9062">
+      <data key="d0">19.29301546361875</data>
+      <data key="d1">35.95756144352056</data>
+      <data key="d2">10.830479851229999</data>
+      <data key="d3">density</data>
+      <data key="d4">19.29301546361875,35.95756144352056</data>
+    </node>
+    <node id="9103">
+      <data key="d0">28.79190102313598</data>
+      <data key="d1">33.887663072747706</data>
+      <data key="d2">60.87476422723</data>
+      <data key="d3">density</data>
+      <data key="d4">28.79190102313598,33.887663072747706</data>
+    </node>
+    <node id="9106">
+      <data key="d0">16.02944274566269</data>
+      <data key="d1">37.620626468165895</data>
+      <data key="d2">7.97535687132</data>
+      <data key="d3">density</data>
+      <data key="d4">16.02944274566269,37.620626468165895</data>
+    </node>
+    <node id="9113">
+      <data key="d0">11.537421501170474</data>
+      <data key="d1">38.16143034509646</data>
+      <data key="d2">18.7472401879</data>
+      <data key="d3">density</data>
+      <data key="d4">11.537421501170474,38.16143034509646</data>
+    </node>
+    <node id="922">
+      <data key="d0">18.263825746926315</data>
+      <data key="d1">35.692320334562126</data>
+      <data key="d2">28.188345915613002</data>
+      <data key="d3">density</data>
+      <data key="d4">18.263825746926315,35.692320334562126</data>
+    </node>
+    <node id="9134">
+      <data key="d0">8.565463158128019</data>
+      <data key="d1">38.518458176195324</data>
+      <data key="d2">18.671383840929998</data>
+      <data key="d3">density</data>
+      <data key="d4">8.565463158128019,38.518458176195324</data>
+    </node>
+    <node id="9160">
+      <data key="d0">16.183788757423425</data>
+      <data key="d1">37.56826929942212</data>
+      <data key="d2">7.668026929129999</data>
+      <data key="d3">density</data>
+      <data key="d4">16.183788757423425,37.56826929942212</data>
+    </node>
+    <node id="973">
+      <data key="d0">31.55200065742822</data>
+      <data key="d1">31.802799520158665</data>
+      <data key="d2">45.741327668900006</data>
+      <data key="d3">density</data>
+      <data key="d4">31.55200065742822,31.802799520158665</data>
+    </node>
+    <node id="1006">
+      <data key="d0">29.362625919303976</data>
+      <data key="d1">32.334517958629796</data>
+      <data key="d2">6.6458669836</data>
+      <data key="d3">density</data>
+      <data key="d4">29.362625919303976,32.334517958629796</data>
+    </node>
+    <node id="port_1">
+      <data key="d5">33.65</data>
+      <data key="d6">34.916666666666664</data>
+      <data key="d3">port</data>
+      <data key="d7">Larnaca</data>
+      <data key="d8">Cyprus</data>
+      <data key="d4">33.65,34.916666666666664</data>
+    </node>
+    <node id="9243">
+      <data key="d0">15.703757467884063</data>
+      <data key="d1">35.69845434816497</data>
+      <data key="d2">12.68892258811</data>
+      <data key="d3">density</data>
+      <data key="d4">15.703757467884063,35.69845434816497</data>
+    </node>
+    <node id="1061">
+      <data key="d0">17.710787672703507</data>
+      <data key="d1">41.145724648743396</data>
+      <data key="d2">7.0534033466</data>
+      <data key="d3">density</data>
+      <data key="d4">17.710787672703507,41.145724648743396</data>
+    </node>
+    <node id="9261">
+      <data key="d0">1.3335106203945832</data>
+      <data key="d1">39.65053610345645</data>
+      <data key="d2">16.9848629299</data>
+      <data key="d3">density</data>
+      <data key="d4">1.3335106203945832,39.65053610345645</data>
+    </node>
+    <node id="9266">
+      <data key="d0">11.408856719249039</data>
+      <data key="d1">37.325126626834084</data>
+      <data key="d2">392.23669182183994</data>
+      <data key="d3">density</data>
+      <data key="d4">11.408856719249039,37.325126626834084</data>
+    </node>
+    <node id="9272">
+      <data key="d0">3.8732841943992926</data>
+      <data key="d1">37.351178359028104</data>
+      <data key="d2">80.80611309362</data>
+      <data key="d3">density</data>
+      <data key="d4">3.8732841943992926,37.351178359028104</data>
+    </node>
+    <node id="9286">
+      <data key="d0">4.120299581267988</data>
+      <data key="d1">37.55884206448321</data>
+      <data key="d2">48.36845374744</data>
+      <data key="d3">density</data>
+      <data key="d4">4.120299581267988,37.55884206448321</data>
+    </node>
+    <node id="9337">
+      <data key="d0">11.895446825177377</data>
+      <data key="d1">38.37568120483114</data>
+      <data key="d2">9.8656203378</data>
+      <data key="d3">density</data>
+      <data key="d4">11.895446825177377,38.37568120483114</data>
+    </node>
+    <node id="9381">
+      <data key="d0">29.272049077750328</data>
+      <data key="d1">34.434660915537336</data>
+      <data key="d2">7.1257276765999995</data>
+      <data key="d3">density</data>
+      <data key="d4">29.272049077750328,34.434660915537336</data>
+    </node>
+    <node id="9383">
+      <data key="d0">12.675549925038485</data>
+      <data key="d1">40.49888614152539</data>
+      <data key="d2">5.295934535440001</data>
+      <data key="d3">density</data>
+      <data key="d4">12.675549925038485,40.49888614152539</data>
+    </node>
+    <node id="1194">
+      <data key="d0">26.16549867101716</data>
+      <data key="d1">33.112589669807214</data>
+      <data key="d2">7.438296397339999</data>
+      <data key="d3">density</data>
+      <data key="d4">26.16549867101716,33.112589669807214</data>
+    </node>
+    <node id="1196">
+      <data key="d0">15.54660464574437</data>
+      <data key="d1">37.167150783459796</data>
+      <data key="d2">97.82597776339998</data>
+      <data key="d3">density</data>
+      <data key="d4">15.54660464574437,37.167150783459796</data>
+    </node>
+    <node id="1201">
+      <data key="d0">30.114573802152695</data>
+      <data key="d1">33.464965641186566</data>
+      <data key="d2">105.56206992220001</data>
+      <data key="d3">density</data>
+      <data key="d4">30.114573802152695,33.464965641186566</data>
+    </node>
+    <node id="9401">
+      <data key="d0">9.20838805197804</data>
+      <data key="d1">38.49507550340399</data>
+      <data key="d2">7.642622402800001</data>
+      <data key="d3">density</data>
+      <data key="d4">9.20838805197804,38.49507550340399</data>
+    </node>
+    <node id="9422">
+      <data key="d0">33.48967969593886</data>
+      <data key="d1">32.6396361287202</data>
+      <data key="d2">11.620555269429998</data>
+      <data key="d3">density</data>
+      <data key="d4">33.48967969593886,32.6396361287202</data>
+    </node>
+    <node id="1231">
+      <data key="d0">34.61909806568614</data>
+      <data key="d1">43.47593844356652</data>
+      <data key="d2">53.81446603335001</data>
+      <data key="d3">density</data>
+      <data key="d4">34.61909806568614,43.47593844356652</data>
+    </node>
+    <node id="9433">
+      <data key="d0">20.827357463214327</data>
+      <data key="d1">35.91657475033093</data>
+      <data key="d2">10.12620687455</data>
+      <data key="d3">density</data>
+      <data key="d4">20.827357463214327,35.91657475033093</data>
+    </node>
+    <node id="9448">
+      <data key="d0">13.66568139093192</data>
+      <data key="d1">44.63725718140014</data>
+      <data key="d2">68.67270605465</data>
+      <data key="d3">density</data>
+      <data key="d4">13.66568139093192,44.63725718140014</data>
+    </node>
+    <node id="9480">
+      <data key="d0">10.555914904301572</data>
+      <data key="d1">38.561404732965066</data>
+      <data key="d2">4.820587360099999</data>
+      <data key="d3">density</data>
+      <data key="d4">10.555914904301572,38.561404732965066</data>
+    </node>
+    <node id="9506">
+      <data key="d0">18.333306318931474</data>
+      <data key="d1">39.52013133966194</data>
+      <data key="d2">7.303691503112999</data>
+      <data key="d3">density</data>
+      <data key="d4">18.333306318931474,39.52013133966194</data>
+    </node>
+    <node id="9526">
+      <data key="d0">33.75743697647692</data>
+      <data key="d1">34.40503018481498</data>
+      <data key="d2">2.8138049887400003</data>
+      <data key="d3">density</data>
+      <data key="d4">33.75743697647692,34.40503018481498</data>
+    </node>
+    <node id="1343">
+      <data key="d0">3.1830163558637214</data>
+      <data key="d1">37.34211996161694</data>
+      <data key="d2">74.546727791885</data>
+      <data key="d3">density</data>
+      <data key="d4">3.1830163558637214,37.34211996161694</data>
+    </node>
+    <node id="9551">
+      <data key="d0">17.60219626446551</data>
+      <data key="d1">41.426736102273075</data>
+      <data key="d2">34.649679356887</data>
+      <data key="d3">density</data>
+      <data key="d4">17.60219626446551,41.426736102273075</data>
+    </node>
+    <node id="9585">
+      <data key="d0">10.63306025160395</data>
+      <data key="d1">38.094474656463966</data>
+      <data key="d2">17.47509377062</data>
+      <data key="d3">density</data>
+      <data key="d4">10.63306025160395,38.094474656463966</data>
+    </node>
+    <node id="9584">
+      <data key="d0">23.842386389497378</data>
+      <data key="d1">37.28731026502366</data>
+      <data key="d2">111.99528491806</data>
+      <data key="d3">density</data>
+      <data key="d4">23.842386389497378,37.28731026502366</data>
+    </node>
+    <node id="9599">
+      <data key="d0">18.195990480145266</data>
+      <data key="d1">39.505859450306346</data>
+      <data key="d2">5.627611571399999</data>
+      <data key="d3">density</data>
+      <data key="d4">18.195990480145266,39.505859450306346</data>
+    </node>
+    <node id="9615">
+      <data key="d0">15.839882653384423</data>
+      <data key="d1">37.764017991247684</data>
+      <data key="d2">8.3511659643</data>
+      <data key="d3">density</data>
+      <data key="d4">15.839882653384423,37.764017991247684</data>
+    </node>
+    <node id="9623">
+      <data key="d0">10.641570564505528</data>
+      <data key="d1">41.85511206006873</data>
+      <data key="d2">99.32782688989</data>
+      <data key="d3">density</data>
+      <data key="d4">10.641570564505528,41.85511206006873</data>
+    </node>
+    <node id="9629">
+      <data key="d0">2.097779920027184</data>
+      <data key="d1">37.82905754712365</data>
+      <data key="d2">3.16441972095</data>
+      <data key="d3">density</data>
+      <data key="d4">2.097779920027184,37.82905754712365</data>
+    </node>
+    <node id="9634">
+      <data key="d0">19.079963777282078</data>
+      <data key="d1">39.66279945619178</data>
+      <data key="d2">7.619733426909999</data>
+      <data key="d3">density</data>
+      <data key="d4">19.079963777282078,39.66279945619178</data>
+    </node>
+    <node id="9660">
+      <data key="d0">1.123257247141436</data>
+      <data key="d1">39.75229103557797</data>
+      <data key="d2">3.98635822284</data>
+      <data key="d3">density</data>
+      <data key="d4">1.123257247141436,39.75229103557797</data>
+    </node>
+    <node id="9664">
+      <data key="d0">32.318676129622666</data>
+      <data key="d1">31.68679775974841</data>
+      <data key="d2">40.79198068397</data>
+      <data key="d3">density</data>
+      <data key="d4">32.318676129622666,31.68679775974841</data>
+    </node>
+    <node id="9675">
+      <data key="d0">10.495992578017207</data>
+      <data key="d1">38.1298806589548</data>
+      <data key="d2">12.237958461740002</data>
+      <data key="d3">density</data>
+      <data key="d4">10.495992578017207,38.1298806589548</data>
+    </node>
+    <node id="port_6">
+      <data key="d5">15.889999999999999</data>
+      <data key="d6">38.443999999999996</data>
+      <data key="d3">port</data>
+      <data key="d7">Gioia Tauro</data>
+      <data key="d8">Italy</data>
+      <data key="d4">15.889999999999999,38.443999999999996</data>
+    </node>
+    <node id="9697">
+      <data key="d0">28.555671471950852</data>
+      <data key="d1">34.708359803943765</data>
+      <data key="d2">6.9453061147</data>
+      <data key="d3">density</data>
+      <data key="d4">28.555671471950852,34.708359803943765</data>
+    </node>
+    <node id="9731">
+      <data key="d0">15.62477190027206</data>
+      <data key="d1">37.9173101625525</data>
+      <data key="d2">19.614259450840002</data>
+      <data key="d3">density</data>
+      <data key="d4">15.62477190027206,37.9173101625525</data>
+    </node>
+    <node id="1539">
+      <data key="d0">12.412434817627283</data>
+      <data key="d1">39.013786398407014</data>
+      <data key="d2">4.60796344448</data>
+      <data key="d3">density</data>
+      <data key="d4">12.412434817627283,39.013786398407014</data>
+    </node>
+    <node id="9736">
+      <data key="d0">18.300949649956525</data>
+      <data key="d1">40.815227412162834</data>
+      <data key="d2">26.49920857494</data>
+      <data key="d3">density</data>
+      <data key="d4">18.300949649956525,40.815227412162834</data>
+    </node>
+    <node id="9789">
+      <data key="d0">29.310250865962928</data>
+      <data key="d1">34.901762045409015</data>
+      <data key="d2">7.00579329942</data>
+      <data key="d3">density</data>
+      <data key="d4">29.310250865962928,34.901762045409015</data>
+    </node>
+    <node id="9799">
+      <data key="d0">14.701446127783322</data>
+      <data key="d1">36.15015046366485</data>
+      <data key="d2">169.52799363433397</data>
+      <data key="d3">density</data>
+      <data key="d4">14.701446127783322,36.15015046366485</data>
+    </node>
+    <node id="port_12">
+      <data key="d5">15.283333333333333</data>
+      <data key="d6">37.05</data>
+      <data key="d3">port</data>
+      <data key="d7">Siracusa</data>
+      <data key="d8">Italy</data>
+      <data key="d4">15.283333333333333,37.05</data>
+    </node>
+    <node id="9822">
+      <data key="d0">11.483309731422251</data>
+      <data key="d1">37.92732460912166</data>
+      <data key="d2">34.88560192072501</data>
+      <data key="d3">density</data>
+      <data key="d4">11.483309731422251,37.92732460912166</data>
+    </node>
+    <node id="9829">
+      <data key="d0">15.724117182933401</data>
+      <data key="d1">37.0845514491585</data>
+      <data key="d2">13.050697878310002</data>
+      <data key="d3">density</data>
+      <data key="d4">15.724117182933401,37.0845514491585</data>
+    </node>
+    <node id="9831">
+      <data key="d0">23.614208497820375</data>
+      <data key="d1">35.053104222057144</data>
+      <data key="d2">8.6588378199</data>
+      <data key="d3">density</data>
+      <data key="d4">23.614208497820375,35.053104222057144</data>
+    </node>
+    <node id="9843">
+      <data key="d0">28.525084943797424</data>
+      <data key="d1">33.07699682246181</data>
+      <data key="d2">28.779349712269997</data>
+      <data key="d3">density</data>
+      <data key="d4">28.525084943797424,33.07699682246181</data>
+    </node>
+    <node id="1652">
+      <data key="d0">3.2572234509229916</data>
+      <data key="d1">41.40358477568064</data>
+      <data key="d2">11.144722760496</data>
+      <data key="d3">density</data>
+      <data key="d4">3.2572234509229916,41.40358477568064</data>
+    </node>
+    <node id="9848">
+      <data key="d0">20.49105648572468</data>
+      <data key="d1">36.628525716851726</data>
+      <data key="d2">7.30020015651</data>
+      <data key="d3">density</data>
+      <data key="d4">20.49105648572468,36.628525716851726</data>
+    </node>
+    <node id="1662">
+      <data key="d0">26.075643129026577</data>
+      <data key="d1">39.76225506501639</data>
+      <data key="d2">149.40339308689997</data>
+      <data key="d3">density</data>
+      <data key="d4">26.075643129026577,39.76225506501639</data>
+    </node>
+    <node id="9894">
+      <data key="d0">32.69282190607452</data>
+      <data key="d1">34.46978361805695</data>
+      <data key="d2">6.253682427</data>
+      <data key="d3">density</data>
+      <data key="d4">32.69282190607452,34.46978361805695</data>
+    </node>
+    <node id="9906">
+      <data key="d0">15.665776639254801</data>
+      <data key="d1">37.214048586873794</data>
+      <data key="d2">108.0889026628</data>
+      <data key="d3">density</data>
+      <data key="d4">15.665776639254801,37.214048586873794</data>
+    </node>
+    <node id="1745">
+      <data key="d0">17.421080235204485</data>
+      <data key="d1">38.944180675836556</data>
+      <data key="d2">8.739217803999999</data>
+      <data key="d3">density</data>
+      <data key="d4">17.421080235204485,38.944180675836556</data>
+    </node>
+    <node id="1746">
+      <data key="d0">28.00481804145454</data>
+      <data key="d1">35.426612526666524</data>
+      <data key="d2">66.597490337677</data>
+      <data key="d3">density</data>
+      <data key="d4">28.00481804145454,35.426612526666524</data>
+    </node>
+    <node id="1750">
+      <data key="d0">29.140307506020573</data>
+      <data key="d1">41.28812387459258</data>
+      <data key="d2">700.3033228462999</data>
+      <data key="d3">density</data>
+      <data key="d4">29.140307506020573,41.28812387459258</data>
+    </node>
+    <node id="9984">
+      <data key="d0">1.9305846032274057</data>
+      <data key="d1">38.1603979757362</data>
+      <data key="d2">5.593726909400001</data>
+      <data key="d3">density</data>
+      <data key="d4">1.9305846032274057,38.1603979757362</data>
+    </node>
+    <node id="1804">
+      <data key="d0">9.73721327111929</data>
+      <data key="d1">42.66722943623552</data>
+      <data key="d2">3.84821261712</data>
+      <data key="d3">density</data>
+      <data key="d4">9.73721327111929,42.66722943623552</data>
+    </node>
+    <node id="port_32">
+      <data key="d5">14.433333333333334</data>
+      <data key="d6">45.333333333333336</data>
+      <data key="d3">port</data>
+      <data key="d7">Rijeka Luka</data>
+      <data key="d8">Croatia</data>
+      <data key="d4">14.433333333333334,45.333333333333336</data>
+    </node>
+    <node id="1873">
+      <data key="d0">1.3950854746502368</data>
+      <data key="d1">39.589867405713825</data>
+      <data key="d2">12.03475220913</data>
+      <data key="d3">density</data>
+      <data key="d4">1.3950854746502368,39.589867405713825</data>
+    </node>
+    <node id="1885">
+      <data key="d0">13.135692551297106</data>
+      <data key="d1">36.50992624064479</data>
+      <data key="d2">7.890840611698001</data>
+      <data key="d3">density</data>
+      <data key="d4">13.135692551297106,36.50992624064479</data>
+    </node>
+    <node id="1998">
+      <data key="d0">29.576759500332624</data>
+      <data key="d1">43.74443126464998</data>
+      <data key="d2">18.179486775704998</data>
+      <data key="d3">density</data>
+      <data key="d4">29.576759500332624,43.74443126464998</data>
+    </node>
+    <node id="2049">
+      <data key="d0">25.661588766014088</data>
+      <data key="d1">33.31499731099706</data>
+      <data key="d2">23.666837719399997</data>
+      <data key="d3">density</data>
+      <data key="d4">25.661588766014088,33.31499731099706</data>
+    </node>
+    <node id="2169">
+      <data key="d0">13.860125025172763</data>
+      <data key="d1">44.77768374882818</data>
+      <data key="d2">5.0028931645</data>
+      <data key="d3">density</data>
+      <data key="d4">13.860125025172763,44.77768374882818</data>
+    </node>
+    <node id="port_30">
+      <data key="d5">19.45</data>
+      <data key="d6">41.31666666666667</data>
+      <data key="d3">port</data>
+      <data key="d7">Durres</data>
+      <data key="d8">Albania</data>
+      <data key="d4">19.45,41.31666666666667</data>
+    </node>
+    <node id="2200">
+      <data key="d0">17.22878940458342</data>
+      <data key="d1">35.782521882532855</data>
+      <data key="d2">131.054464796243</data>
+      <data key="d3">density</data>
+      <data key="d4">17.22878940458342,35.782521882532855</data>
+    </node>
+    <node id="port_40">
+      <data key="d5">10.25</data>
+      <data key="d6">36.8</data>
+      <data key="d3">port</data>
+      <data key="d7">Tunis</data>
+      <data key="d8">Tunisia</data>
+      <data key="d4">10.25,36.8</data>
+    </node>
+    <node id="2308">
+      <data key="d0">11.891125990616143</data>
+      <data key="d1">38.179761288145045</data>
+      <data key="d2">23.24995434405</data>
+      <data key="d3">density</data>
+      <data key="d4">11.891125990616143,38.179761288145045</data>
+    </node>
+    <node id="2315">
+      <data key="d0">34.98490022986537</data>
+      <data key="d1">33.7289488467378</data>
+      <data key="d2">5.398033593187301</data>
+      <data key="d3">density</data>
+      <data key="d4">34.98490022986537,33.7289488467378</data>
+    </node>
+    <node id="2324">
+      <data key="d0">13.22807147372712</data>
+      <data key="d1">45.246221453040285</data>
+      <data key="d2">98.18342215822702</data>
+      <data key="d3">density</data>
+      <data key="d4">13.22807147372712,45.246221453040285</data>
+    </node>
+    <node id="2367">
+      <data key="d0">17.620508566235568</data>
+      <data key="d1">41.2995697469692</data>
+      <data key="d2">24.01801868693</data>
+      <data key="d3">density</data>
+      <data key="d4">17.620508566235568,41.2995697469692</data>
+    </node>
+    <node id="2375">
+      <data key="d0">17.10656952249392</data>
+      <data key="d1">35.25022029466225</data>
+      <data key="d2">7.2178563536</data>
+      <data key="d3">density</data>
+      <data key="d4">17.10656952249392,35.25022029466225</data>
+    </node>
+    <node id="2395">
+      <data key="d0">26.233980966505598</data>
+      <data key="d1">32.81109955786821</data>
+      <data key="d2">8.5914815748</data>
+      <data key="d3">density</data>
+      <data key="d4">26.233980966505598,32.81109955786821</data>
+    </node>
+    <node id="port_5">
+      <data key="d5">8.921999999999999</data>
+      <data key="d6">44.397999999999996</data>
+      <data key="d3">port</data>
+      <data key="d7">Genova</data>
+      <data key="d8">Italy</data>
+      <data key="d4">8.921999999999999,44.397999999999996</data>
+    </node>
+    <node id="2455">
+      <data key="d0">6.266770774130969</data>
+      <data key="d1">41.41250556214957</data>
+      <data key="d2">6.4109387986</data>
+      <data key="d3">density</data>
+      <data key="d4">6.266770774130969,41.41250556214957</data>
+    </node>
+    <node id="2479">
+      <data key="d0">9.823164767880114</data>
+      <data key="d1">37.54115055211865</data>
+      <data key="d2">275.2796074323</data>
+      <data key="d3">density</data>
+      <data key="d4">9.823164767880114,37.54115055211865</data>
+    </node>
+    <node id="2554">
+      <data key="d0">9.648914528555858</data>
+      <data key="d1">42.89986805715006</data>
+      <data key="d2">5.6583101789</data>
+      <data key="d3">density</data>
+      <data key="d4">9.648914528555858,42.89986805715006</data>
+    </node>
+    <node id="2610">
+      <data key="d0">3.6263012717864824</data>
+      <data key="d1">37.307256071354864</data>
+      <data key="d2">157.80659592956005</data>
+      <data key="d3">density</data>
+      <data key="d4">3.6263012717864824,37.307256071354864</data>
+    </node>
+    <node id="port_41">
+      <data key="d5">23.65</data>
+      <data key="d6">37.93333333333333</data>
+      <data key="d3">port</data>
+      <data key="d7">Piraievs</data>
+      <data key="d8">Greece</data>
+      <data key="d4">23.65,37.93333333333333</data>
+    </node>
+    <node id="2661">
+      <data key="d0">0.3552728910658148</data>
+      <data key="d1">36.65586774983423</data>
+      <data key="d2">219.0054517034</data>
+      <data key="d3">density</data>
+      <data key="d4">0.3552728910658148,36.65586774983423</data>
+    </node>
+    <node id="port_38">
+      <data key="d5">2.1666666666666665</data>
+      <data key="d6">41.35</data>
+      <data key="d3">port</data>
+      <data key="d7">Barcelona</data>
+      <data key="d8">Spain</data>
+      <data key="d4">2.1666666666666665,41.35</data>
+    </node>
+    <node id="port_10">
+      <data key="d5">14.275</data>
+      <data key="d6">40.833000000000006</data>
+      <data key="d3">port</data>
+      <data key="d7">Napoli</data>
+      <data key="d8">Italy</data>
+      <data key="d4">14.275,40.833000000000006</data>
+    </node>
+    <node id="2689">
+      <data key="d0">7.953063160463032</data>
+      <data key="d1">43.02399126945934</data>
+      <data key="d2">8.57651556714</data>
+      <data key="d3">density</data>
+      <data key="d4">7.953063160463032,43.02399126945934</data>
+    </node>
+    <node id="2693">
+      <data key="d0">5.429997289455726</data>
+      <data key="d1">41.91816123486317</data>
+      <data key="d2">5.865292719699999</data>
+      <data key="d3">density</data>
+      <data key="d4">5.429997289455726,41.91816123486317</data>
+    </node>
+    <node id="2775">
+      <data key="d0">25.756019509059062</data>
+      <data key="d1">38.539254823367266</data>
+      <data key="d2">55.15423085612401</data>
+      <data key="d3">density</data>
+      <data key="d4">25.756019509059062,38.539254823367266</data>
+    </node>
+    <node id="2799">
+      <data key="d0">28.99514645243964</data>
+      <data key="d1">32.49753285417611</data>
+      <data key="d2">19.4106833522</data>
+      <data key="d3">density</data>
+      <data key="d4">28.99514645243964,32.49753285417611</data>
+    </node>
+    <node id="2849">
+      <data key="d0">22.750088040192047</data>
+      <data key="d1">35.178525911933676</data>
+      <data key="d2">12.07237608936</data>
+      <data key="d3">density</data>
+      <data key="d4">22.750088040192047,35.178525911933676</data>
+    </node>
+    <node id="port_4">
+      <data key="d5">11.771</data>
+      <data key="d6">42.102000000000004</data>
+      <data key="d3">port</data>
+      <data key="d7">Civitavecchia</data>
+      <data key="d8">Italy</data>
+      <data key="d4">11.771,42.102000000000004</data>
+    </node>
+    <node id="2896">
+      <data key="d0">34.42899943256228</data>
+      <data key="d1">43.40827971685848</data>
+      <data key="d2">50.100873565949996</data>
+      <data key="d3">density</data>
+      <data key="d4">34.42899943256228,43.40827971685848</data>
+    </node>
+    <node id="2933">
+      <data key="d0">27.054005011553027</data>
+      <data key="d1">35.23816355819986</data>
+      <data key="d2">8.1382694684</data>
+      <data key="d3">density</data>
+      <data key="d4">27.054005011553027,35.23816355819986</data>
+    </node>
+    <node id="port_31">
+      <data key="d5">17.6</data>
+      <data key="d6">42.916666666666664</data>
+      <data key="d3">port</data>
+      <data key="d7">Neum</data>
+      <data key="d8">Bosnia And Herzegovina</data>
+      <data key="d4">17.6,42.916666666666664</data>
+    </node>
+    <node id="port_27">
+      <data key="d5">35.0</data>
+      <data key="d6">32.81666666666667</data>
+      <data key="d3">port</data>
+      <data key="d7">Haifa</data>
+      <data key="d8">Israel</data>
+      <data key="d4">35.0,32.81666666666667</data>
+    </node>
+    <node id="3088">
+      <data key="d0">9.888520173350269</data>
+      <data key="d1">37.63189621053892</data>
+      <data key="d2">231.39426777461006</data>
+      <data key="d3">density</data>
+      <data key="d4">9.888520173350269,37.63189621053892</data>
+    </node>
+    <node id="3113">
+      <data key="d0">32.492389303026144</data>
+      <data key="d1">31.88985695277377</data>
+      <data key="d2">15.842434478193999</data>
+      <data key="d3">density</data>
+      <data key="d4">32.492389303026144,31.88985695277377</data>
+    </node>
+    <node id="3116">
+      <data key="d0">4.037156043270852</data>
+      <data key="d1">39.189554446363836</data>
+      <data key="d2">6.5605282347</data>
+      <data key="d3">density</data>
+      <data key="d4">4.037156043270852,39.189554446363836</data>
+    </node>
+    <node id="3179">
+      <data key="d0">15.839437433864058</data>
+      <data key="d1">35.59206736835789</data>
+      <data key="d2">9.845456145044</data>
+      <data key="d3">density</data>
+      <data key="d4">15.839437433864058,35.59206736835789</data>
+    </node>
+    <node id="3207">
+      <data key="d0">15.349275571139406</data>
+      <data key="d1">36.743381158712914</data>
+      <data key="d2">10.0640416359</data>
+      <data key="d3">density</data>
+      <data key="d4">15.349275571139406,36.743381158712914</data>
+    </node>
+    <node id="port_35">
+      <data key="d5">-0.6333333333333333</data>
+      <data key="d6">35.7</data>
+      <data key="d3">port</data>
+      <data key="d7">Oran</data>
+      <data key="d8">Algeria</data>
+      <data key="d4">-0.6333333333333333,35.7</data>
+    </node>
+    <node id="3262">
+      <data key="d0">27.88398881848745</data>
+      <data key="d1">34.475173061677005</data>
+      <data key="d2">43.40144433305</data>
+      <data key="d3">density</data>
+      <data key="d4">27.88398881848745,34.475173061677005</data>
+    </node>
+    <node id="3263">
+      <data key="d0">0.9435364930313598</data>
+      <data key="d1">39.92008240144861</data>
+      <data key="d2">12.54115477337</data>
+      <data key="d3">density</data>
+      <data key="d4">0.9435364930313598,39.92008240144861</data>
+    </node>
+    <node id="3299">
+      <data key="d0">18.192003365451374</data>
+      <data key="d1">40.84036392656158</data>
+      <data key="d2">15.72886372474</data>
+      <data key="d3">density</data>
+      <data key="d4">18.192003365451374,40.84036392656158</data>
+    </node>
+    <node id="3310">
+      <data key="d0">28.35071269123857</data>
+      <data key="d1">35.25919827456836</data>
+      <data key="d2">10.5047948198</data>
+      <data key="d3">density</data>
+      <data key="d4">28.35071269123857,35.25919827456836</data>
+    </node>
+    <node id="port_2">
+      <data key="d5">28.65</data>
+      <data key="d6">44.166666666666664</data>
+      <data key="d3">port</data>
+      <data key="d7">Constanta</data>
+      <data key="d8">Romania</data>
+      <data key="d4">28.65,44.166666666666664</data>
+    </node>
+    <node id="3407">
+      <data key="d0">9.784101898769183</data>
+      <data key="d1">37.649172872650524</data>
+      <data key="d2">260.635310585469</data>
+      <data key="d3">density</data>
+      <data key="d4">9.784101898769183,37.649172872650524</data>
+    </node>
+    <node id="port_17">
+      <data key="d5">27.133333333333333</data>
+      <data key="d6">38.43333333333333</data>
+      <data key="d3">port</data>
+      <data key="d7">Izmir</data>
+      <data key="d8">Türkiye</data>
+      <data key="d4">27.133333333333333,38.43333333333333</data>
+    </node>
+    <node id="3454">
+      <data key="d0">17.190048328102733</data>
+      <data key="d1">35.23167685195569</data>
+      <data key="d2">7.2215114723500005</data>
+      <data key="d3">density</data>
+      <data key="d4">17.190048328102733,35.23167685195569</data>
+    </node>
+    <node id="3516">
+      <data key="d0">8.369736230662154</data>
+      <data key="d1">43.670261408368006</data>
+      <data key="d2">12.151525780499998</data>
+      <data key="d3">density</data>
+      <data key="d4">8.369736230662154,43.670261408368006</data>
+    </node>
+    <node id="3613">
+      <data key="d0">22.30114227566617</data>
+      <data key="d1">36.31123712999378</data>
+      <data key="d2">92.2089736203</data>
+      <data key="d3">density</data>
+      <data key="d4">22.30114227566617,36.31123712999378</data>
+    </node>
+    <node id="3634">
+      <data key="d0">21.696741138659053</data>
+      <data key="d1">36.52917251030893</data>
+      <data key="d2">17.4096636253496</data>
+      <data key="d3">density</data>
+      <data key="d4">21.696741138659053,36.52917251030893</data>
+    </node>
+    <node id="3635">
+      <data key="d0">5.065990182576169</data>
+      <data key="d1">39.9624072277911</data>
+      <data key="d2">7.145406939190001</data>
+      <data key="d3">density</data>
+      <data key="d4">5.065990182576169,39.9624072277911</data>
+    </node>
+    <node id="3639">
+      <data key="d0">15.082586363139427</data>
+      <data key="d1">34.15305320894138</data>
+      <data key="d2">4.1008841985640005</data>
+      <data key="d3">density</data>
+      <data key="d4">15.082586363139427,34.15305320894138</data>
+    </node>
+    <node id="3652">
+      <data key="d0">17.652673992486793</data>
+      <data key="d1">41.052677600875</data>
+      <data key="d2">2.6375326087999995</data>
+      <data key="d3">density</data>
+      <data key="d4">17.652673992486793,41.052677600875</data>
+    </node>
+    <node id="3677">
+      <data key="d0">16.293062797627098</data>
+      <data key="d1">37.629244885273785</data>
+      <data key="d2">16.63377667996</data>
+      <data key="d3">density</data>
+      <data key="d4">16.293062797627098,37.629244885273785</data>
+    </node>
+    <node id="3734">
+      <data key="d0">20.99882455048152</data>
+      <data key="d1">35.906311894980895</data>
+      <data key="d2">9.45084953891</data>
+      <data key="d3">density</data>
+      <data key="d4">20.99882455048152,35.906311894980895</data>
+    </node>
+    <node id="3739">
+      <data key="d0">18.64214379660863</data>
+      <data key="d1">40.11168934048053</data>
+      <data key="d2">6.190584331600001</data>
+      <data key="d3">density</data>
+      <data key="d4">18.64214379660863,40.11168934048053</data>
+    </node>
+    <node id="3743">
+      <data key="d0">18.72560643893022</data>
+      <data key="d1">40.03750295182378</data>
+      <data key="d2">11.775971651012998</data>
+      <data key="d3">density</data>
+      <data key="d4">18.72560643893022,40.03750295182378</data>
+    </node>
+    <node id="3806">
+      <data key="d0">18.2719029011827</data>
+      <data key="d1">41.007567738975304</data>
+      <data key="d2">33.00876215699</data>
+      <data key="d3">density</data>
+      <data key="d4">18.2719029011827,41.007567738975304</data>
+    </node>
+    <node id="3809">
+      <data key="d0">26.17811647164868</data>
+      <data key="d1">36.99653628044287</data>
+      <data key="d2">205.532691318756</data>
+      <data key="d3">density</data>
+      <data key="d4">26.17811647164868,36.99653628044287</data>
+    </node>
+    <node id="3823">
+      <data key="d0">10.342548679450758</data>
+      <data key="d1">37.83225765776043</data>
+      <data key="d2">24.833997062675</data>
+      <data key="d3">density</data>
+      <data key="d4">10.342548679450758,37.83225765776043</data>
+    </node>
+    <node id="3852">
+      <data key="d0">29.36119537162547</data>
+      <data key="d1">41.53930300216372</data>
+      <data key="d2">833.44215534497</data>
+      <data key="d3">density</data>
+      <data key="d4">29.36119537162547,41.53930300216372</data>
+    </node>
+    <node id="3884">
+      <data key="d0">-1.782361447016911</data>
+      <data key="d1">36.624200762397344</data>
+      <data key="d2">111.42633949645</data>
+      <data key="d3">density</data>
+      <data key="d4">-1.782361447016911,36.624200762397344</data>
+    </node>
+    <node id="3885">
+      <data key="d0">31.89945269234324</data>
+      <data key="d1">33.15150111582336</data>
+      <data key="d2">1.5777962778000003</data>
+      <data key="d3">density</data>
+      <data key="d4">31.89945269234324,33.15150111582336</data>
+    </node>
+    <node id="3890">
+      <data key="d0">32.09224603144014</data>
+      <data key="d1">31.444775367210738</data>
+      <data key="d2">1.6616350694</data>
+      <data key="d3">density</data>
+      <data key="d4">32.09224603144014,31.444775367210738</data>
+    </node>
+    <node id="3898">
+      <data key="d0">16.539453458268397</data>
+      <data key="d1">42.075295016672186</data>
+      <data key="d2">76.50048550771501</data>
+      <data key="d3">density</data>
+      <data key="d4">16.539453458268397,42.075295016672186</data>
+    </node>
+    <node id="3935">
+      <data key="d0">23.668628885327372</data>
+      <data key="d1">37.06872618397278</data>
+      <data key="d2">111.36356675785999</data>
+      <data key="d3">density</data>
+      <data key="d4">23.668628885327372,37.06872618397278</data>
+    </node>
+    <node id="4048">
+      <data key="d0">17.025412828031378</data>
+      <data key="d1">38.50861923241817</data>
+      <data key="d2">6.92890830057</data>
+      <data key="d3">density</data>
+      <data key="d4">17.025412828031378,38.50861923241817</data>
+    </node>
+    <node id="4214">
+      <data key="d0">11.774029802141314</data>
+      <data key="d1">38.44572239548252</data>
+      <data key="d2">12.1616169369</data>
+      <data key="d3">density</data>
+      <data key="d4">11.774029802141314,38.44572239548252</data>
+    </node>
+    <node id="port_7">
+      <data key="d5">9.833333333333334</data>
+      <data key="d6">44.1</data>
+      <data key="d3">port</data>
+      <data key="d7">La Spezia</data>
+      <data key="d8">Italy</data>
+      <data key="d4">9.833333333333334,44.1</data>
+    </node>
+    <node id="4288">
+      <data key="d0">2.7134612008181094</data>
+      <data key="d1">41.02492915230962</data>
+      <data key="d2">67.07463737613</data>
+      <data key="d3">density</data>
+      <data key="d4">2.7134612008181094,41.02492915230962</data>
+    </node>
+    <node id="4298">
+      <data key="d0">13.430909443049392</data>
+      <data key="d1">44.90629800632642</data>
+      <data key="d2">61.49416850256499</data>
+      <data key="d3">density</data>
+      <data key="d4">13.430909443049392,44.90629800632642</data>
+    </node>
+    <node id="4305">
+      <data key="d0">18.010459784019883</data>
+      <data key="d1">41.04961825101666</data>
+      <data key="d2">18.81090065356</data>
+      <data key="d3">density</data>
+      <data key="d4">18.010459784019883,41.04961825101666</data>
+    </node>
+    <node id="port_33">
+      <data key="d5">16.433333333333334</data>
+      <data key="d6">43.5</data>
+      <data key="d3">port</data>
+      <data key="d7">Split</data>
+      <data key="d8">Croatia</data>
+      <data key="d4">16.433333333333334,43.5</data>
+    </node>
+    <node id="4425">
+      <data key="d0">2.7646174801331935</data>
+      <data key="d1">37.260078921055246</data>
+      <data key="d2">93.85538895250001</data>
+      <data key="d3">density</data>
+      <data key="d4">2.7646174801331935,37.260078921055246</data>
+    </node>
+    <node id="4435">
+      <data key="d0">18.263685586233873</data>
+      <data key="d1">40.908086605468895</data>
+      <data key="d2">17.6820671609</data>
+      <data key="d3">density</data>
+      <data key="d4">18.263685586233873,40.908086605468895</data>
+    </node>
+    <node id="4464">
+      <data key="d0">18.596975078182158</data>
+      <data key="d1">39.521063217958165</data>
+      <data key="d2">8.517255092</data>
+      <data key="d3">density</data>
+      <data key="d4">18.596975078182158,39.521063217958165</data>
+    </node>
+    <node id="4489">
+      <data key="d0">34.633613640900535</data>
+      <data key="d1">33.88996459969464</data>
+      <data key="d2">5.1310759117</data>
+      <data key="d3">density</data>
+      <data key="d4">34.633613640900535,33.88996459969464</data>
+    </node>
+    <node id="4494">
+      <data key="d0">2.615619336918414</data>
+      <data key="d1">41.088760871808006</data>
+      <data key="d2">135.39526044998001</data>
+      <data key="d3">density</data>
+      <data key="d4">2.615619336918414,41.088760871808006</data>
+    </node>
+    <node id="4537">
+      <data key="d0">14.544252764184703</data>
+      <data key="d1">43.73667461717907</data>
+      <data key="d2">62.45785620404999</data>
+      <data key="d3">density</data>
+      <data key="d4">14.544252764184703,43.73667461717907</data>
+    </node>
+    <node id="4627">
+      <data key="d0">34.55741416654386</data>
+      <data key="d1">33.526380547278926</data>
+      <data key="d2">6.12200169031</data>
+      <data key="d3">density</data>
+      <data key="d4">34.55741416654386,33.526380547278926</data>
+    </node>
+    <node id="4643">
+      <data key="d0">17.032230210031763</data>
+      <data key="d1">41.82906508698148</data>
+      <data key="d2">24.928240686280002</data>
+      <data key="d3">density</data>
+      <data key="d4">17.032230210031763,41.82906508698148</data>
+    </node>
+    <node id="4644">
+      <data key="d0">17.33236225071211</data>
+      <data key="d1">37.461387078415456</data>
+      <data key="d2">6.3578387322</data>
+      <data key="d3">density</data>
+      <data key="d4">17.33236225071211,37.461387078415456</data>
+    </node>
+    <node id="port_36">
+      <data key="d5">13.183333333333334</data>
+      <data key="d6">32.9</data>
+      <data key="d3">port</data>
+      <data key="d7">Mina Tarabulus (Tripoli)</data>
+      <data key="d8">Libya</data>
+      <data key="d4">13.183333333333334,32.9</data>
+    </node>
+    <node id="4683">
+      <data key="d0">19.268415773404534</data>
+      <data key="d1">41.171333004899736</data>
+      <data key="d2">76.26953151899</data>
+      <data key="d3">density</data>
+      <data key="d4">19.268415773404534,41.171333004899736</data>
+    </node>
+    <node id="4714">
+      <data key="d0">11.501445800140639</data>
+      <data key="d1">38.53929912706522</data>
+      <data key="d2">7.05756583144</data>
+      <data key="d3">density</data>
+      <data key="d4">11.501445800140639,38.53929912706522</data>
+    </node>
+    <node id="4727">
+      <data key="d0">14.022407295454865</data>
+      <data key="d1">44.251444294981354</data>
+      <data key="d2">486.86809506489004</data>
+      <data key="d3">density</data>
+      <data key="d4">14.022407295454865,44.251444294981354</data>
+    </node>
+    <node id="4749">
+      <data key="d0">29.885017963159374</data>
+      <data key="d1">45.083834347367954</data>
+      <data key="d2">52.91944016869999</data>
+      <data key="d3">density</data>
+      <data key="d4">29.885017963159374,45.083834347367954</data>
+    </node>
+    <node id="4808">
+      <data key="d0">15.384392054114347</data>
+      <data key="d1">38.57095048309907</data>
+      <data key="d2">6.899878533154</data>
+      <data key="d3">density</data>
+      <data key="d4">15.384392054114347,38.57095048309907</data>
+    </node>
+    <node id="4821">
+      <data key="d0">28.272678958387154</data>
+      <data key="d1">31.63074840058203</data>
+      <data key="d2">3.8524733255999997</data>
+      <data key="d3">density</data>
+      <data key="d4">28.272678958387154,31.63074840058203</data>
+    </node>
+    <node id="4899">
+      <data key="d0">35.13138009514137</data>
+      <data key="d1">42.831889397661314</data>
+      <data key="d2">8.862021852677</data>
+      <data key="d3">density</data>
+      <data key="d4">35.13138009514137,42.831889397661314</data>
+    </node>
+    <node id="port_22">
+      <data key="d5">30.733333333333334</data>
+      <data key="d6">46.483333333333334</data>
+      <data key="d3">port</data>
+      <data key="d7">Odesa</data>
+      <data key="d8">Ukraine</data>
+      <data key="d4">30.733333333333334,46.483333333333334</data>
+    </node>
+    <node id="4927">
+      <data key="d0">27.09956166353275</data>
+      <data key="d1">40.54371683195635</data>
+      <data key="d2">5261.720582168099</data>
+      <data key="d3">density</data>
+      <data key="d4">27.09956166353275,40.54371683195635</data>
+    </node>
+    <node id="4933">
+      <data key="d0">10.366476151377414</data>
+      <data key="d1">41.32813617415499</data>
+      <data key="d2">1.8016221051700003</data>
+      <data key="d3">density</data>
+      <data key="d4">10.366476151377414,41.32813617415499</data>
+    </node>
+    <node id="4949">
+      <data key="d0">5.550110210497622</data>
+      <data key="d1">42.40944692813073</data>
+      <data key="d2">21.992959718006002</data>
+      <data key="d3">density</data>
+      <data key="d4">5.550110210497622,42.40944692813073</data>
+    </node>
+    <node id="port_23">
+      <data key="d5">33.53333333333333</data>
+      <data key="d6">44.61666666666667</data>
+      <data key="d3">port</data>
+      <data key="d7">Sevastopol</data>
+      <data key="d8">Ukraine</data>
+      <data key="d4">33.53333333333333,44.61666666666667</data>
+    </node>
+    <node id="5026">
+      <data key="d0">17.426126359925117</data>
+      <data key="d1">41.41173004965914</data>
+      <data key="d2">27.7821561255545</data>
+      <data key="d3">density</data>
+      <data key="d4">17.426126359925117,41.41173004965914</data>
+    </node>
+    <node id="5027">
+      <data key="d0">1.8802939135398902</data>
+      <data key="d1">40.88625366130567</data>
+      <data key="d2">19.395851969900008</data>
+      <data key="d3">density</data>
+      <data key="d4">1.8802939135398902,40.88625366130567</data>
+    </node>
+    <node id="5074">
+      <data key="d0">14.071648026035678</data>
+      <data key="d1">44.639306802915236</data>
+      <data key="d2">89.52882837757</data>
+      <data key="d3">density</data>
+      <data key="d4">14.071648026035678,44.639306802915236</data>
+    </node>
+    <node id="5133">
+      <data key="d0">30.007886104936034</data>
+      <data key="d1">33.454538132443346</data>
+      <data key="d2">92.425436168586</data>
+      <data key="d3">density</data>
+      <data key="d4">30.007886104936034,33.454538132443346</data>
+    </node>
+    <node id="5149">
+      <data key="d0">0.9028576758560227</data>
+      <data key="d1">36.962857196460426</data>
+      <data key="d2">143.09240589118</data>
+      <data key="d3">density</data>
+      <data key="d4">0.9028576758560227,36.962857196460426</data>
+    </node>
+    <node id="5172">
+      <data key="d0">13.468882417360001</data>
+      <data key="d1">39.99996285630523</data>
+      <data key="d2">11.751843181214</data>
+      <data key="d3">density</data>
+      <data key="d4">13.468882417360001,39.99996285630523</data>
+    </node>
+    <node id="5275">
+      <data key="d0">30.35983045426886</data>
+      <data key="d1">32.12759185662762</data>
+      <data key="d2">7.046422891</data>
+      <data key="d3">density</data>
+      <data key="d4">30.35983045426886,32.12759185662762</data>
+    </node>
+    <node id="5293">
+      <data key="d0">24.958809680345077</data>
+      <data key="d1">38.19675655686967</data>
+      <data key="d2">12.706374488069999</data>
+      <data key="d3">density</data>
+      <data key="d4">24.958809680345077,38.19675655686967</data>
+    </node>
+    <node id="5375">
+      <data key="d0">1.3256363043033172</data>
+      <data key="d1">40.099268688401594</data>
+      <data key="d2">11.193269626420001</data>
+      <data key="d3">density</data>
+      <data key="d4">1.3256363043033172,40.099268688401594</data>
+    </node>
+    <node id="5448">
+      <data key="d0">14.325552074335361</data>
+      <data key="d1">36.2480801792736</data>
+      <data key="d2">105.33473430161</data>
+      <data key="d3">density</data>
+      <data key="d4">14.325552074335361,36.2480801792736</data>
+    </node>
+    <node id="5454">
+      <data key="d0">7.304277497436158</data>
+      <data key="d1">42.88987682052945</data>
+      <data key="d2">4.598372685479999</data>
+      <data key="d3">density</data>
+      <data key="d4">7.304277497436158,42.88987682052945</data>
+    </node>
+    <node id="choke_0">
+      <data key="d5">26.670913795551606</data>
+      <data key="d6">40.385990414396176</data>
+      <data key="d3">choke_point</data>
+      <data key="d9">Dardanelles</data>
+      <data key="d4">26.670913795551606,40.385990414396176</data>
+    </node>
+    <node id="5465">
+      <data key="d0">31.061297597984595</data>
+      <data key="d1">32.3525574863548</data>
+      <data key="d2">131.874421326776</data>
+      <data key="d3">density</data>
+      <data key="d4">31.061297597984595,32.3525574863548</data>
+    </node>
+    <node id="5500">
+      <data key="d0">11.850411970941387</data>
+      <data key="d1">37.77554705875361</data>
+      <data key="d2">18.865552237297003</data>
+      <data key="d3">density</data>
+      <data key="d4">11.850411970941387,37.77554705875361</data>
+    </node>
+    <node id="5533">
+      <data key="d0">33.90038560008251</data>
+      <data key="d1">34.377360793140454</data>
+      <data key="d2">3.26268881683</data>
+      <data key="d3">density</data>
+      <data key="d4">33.90038560008251,34.377360793140454</data>
+    </node>
+    <node id="5645">
+      <data key="d0">29.068897758034186</data>
+      <data key="d1">32.448906962654796</data>
+      <data key="d2">12.937808450870003</data>
+      <data key="d3">density</data>
+      <data key="d4">29.068897758034186,32.448906962654796</data>
+    </node>
+    <node id="port_24">
+      <data key="d5">29.833333333333332</data>
+      <data key="d6">31.166666666666668</data>
+      <data key="d3">port</data>
+      <data key="d7">Al Iskandariyh (Alexandria)</data>
+      <data key="d8">Egypt</data>
+      <data key="d4">29.833333333333332,31.166666666666668</data>
+    </node>
+    <node id="5652">
+      <data key="d0">28.854500590871098</data>
+      <data key="d1">34.07975872128536</data>
+      <data key="d2">3.1924507548</data>
+      <data key="d3">density</data>
+      <data key="d4">28.854500590871098,34.07975872128536</data>
+    </node>
+    <node id="port_9">
+      <data key="d5">15.566666666666666</data>
+      <data key="d6">38.2</data>
+      <data key="d3">port</data>
+      <data key="d7">Messina</data>
+      <data key="d8">Italy</data>
+      <data key="d4">15.566666666666666,38.2</data>
+    </node>
+    <node id="5677">
+      <data key="d0">13.137880589089297</data>
+      <data key="d1">45.11802529842672</data>
+      <data key="d2">539.14610753052</data>
+      <data key="d3">density</data>
+      <data key="d4">13.137880589089297,45.11802529842672</data>
+    </node>
+    <node id="5725">
+      <data key="d0">0.45572437244997094</data>
+      <data key="d1">38.44645526720573</data>
+      <data key="d2">14.190221917699999</data>
+      <data key="d3">density</data>
+      <data key="d4">0.45572437244997094,38.44645526720573</data>
+    </node>
+    <node id="5789">
+      <data key="d0">32.91305921364825</data>
+      <data key="d1">32.91055017235551</data>
+      <data key="d2">4.616235251250001</data>
+      <data key="d3">density</data>
+      <data key="d4">32.91305921364825,32.91055017235551</data>
+    </node>
+    <node id="5804">
+      <data key="d0">31.685198704760328</data>
+      <data key="d1">42.50334388739972</data>
+      <data key="d2">13.475221452455</data>
+      <data key="d3">density</data>
+      <data key="d4">31.685198704760328,42.50334388739972</data>
+    </node>
+    <node id="5859">
+      <data key="d0">29.218467530829976</data>
+      <data key="d1">43.848996222965205</data>
+      <data key="d2">8.29668192095</data>
+      <data key="d3">density</data>
+      <data key="d4">29.218467530829976,43.848996222965205</data>
+    </node>
+    <node id="5879">
+      <data key="d0">17.95637415922387</data>
+      <data key="d1">41.357731443497</data>
+      <data key="d2">2.647137767171</data>
+      <data key="d3">density</data>
+      <data key="d4">17.95637415922387,41.357731443497</data>
+    </node>
+    <node id="5903">
+      <data key="d0">1.2653176767899597</data>
+      <data key="d1">36.97761468795711</data>
+      <data key="d2">157.883565447195</data>
+      <data key="d3">density</data>
+      <data key="d4">1.2653176767899597,36.97761468795711</data>
+    </node>
+    <node id="5971">
+      <data key="d0">0.8201559231641353</data>
+      <data key="d1">39.11368928062021</data>
+      <data key="d2">8.317056239100001</data>
+      <data key="d3">density</data>
+      <data key="d4">0.8201559231641353,39.11368928062021</data>
+    </node>
+    <node id="5989">
+      <data key="d0">0.8951470442344195</data>
+      <data key="d1">39.166406041270015</data>
+      <data key="d2">17.00526144188</data>
+      <data key="d3">density</data>
+      <data key="d4">0.8951470442344195,39.166406041270015</data>
+    </node>
+    <node id="port_34">
+      <data key="d5">3.066666666666667</data>
+      <data key="d6">36.766666666666666</data>
+      <data key="d3">port</data>
+      <data key="d7">Alger</data>
+      <data key="d8">Algeria</data>
+      <data key="d4">3.066666666666667,36.766666666666666</data>
+    </node>
+    <node id="6063">
+      <data key="d0">22.634299908582804</data>
+      <data key="d1">36.177558806956924</data>
+      <data key="d2">163.6282553913</data>
+      <data key="d3">density</data>
+      <data key="d4">22.634299908582804,36.177558806956924</data>
+    </node>
+    <node id="6108">
+      <data key="d0">15.887710519692051</data>
+      <data key="d1">37.18527449636076</data>
+      <data key="d2">7.020143163369999</data>
+      <data key="d3">density</data>
+      <data key="d4">15.887710519692051,37.18527449636076</data>
+    </node>
+    <node id="6209">
+      <data key="d0">-0.06828440857926957</data>
+      <data key="d1">37.41223232449918</data>
+      <data key="d2">9.8584967128</data>
+      <data key="d3">density</data>
+      <data key="d4">-0.06828440857926957,37.41223232449918</data>
+    </node>
+    <node id="6225">
+      <data key="d0">17.035205022808757</data>
+      <data key="d1">37.50588615490935</data>
+      <data key="d2">4.6656720841</data>
+      <data key="d3">density</data>
+      <data key="d4">17.035205022808757,37.50588615490935</data>
+    </node>
+    <node id="port_26">
+      <data key="d5">31.75</data>
+      <data key="d6">31.483333333333334</data>
+      <data key="d3">port</data>
+      <data key="d7">Damietta</data>
+      <data key="d8">Egypt</data>
+      <data key="d4">31.75,31.483333333333334</data>
+    </node>
+    <node id="6256">
+      <data key="d0">17.3801370964052</data>
+      <data key="d1">41.32387865654902</data>
+      <data key="d2">3.5008349020000007</data>
+      <data key="d3">density</data>
+      <data key="d4">17.3801370964052,41.32387865654902</data>
+    </node>
+    <node id="6314">
+      <data key="d0">29.00350282335683</data>
+      <data key="d1">33.76561982374576</data>
+      <data key="d2">64.09359986378</data>
+      <data key="d3">density</data>
+      <data key="d4">29.00350282335683,33.76561982374576</data>
+    </node>
+    <node id="port_16">
+      <data key="d5">28.966666666666665</data>
+      <data key="d6">41.016666666666666</data>
+      <data key="d3">port</data>
+      <data key="d7">Istanbul</data>
+      <data key="d8">Türkiye</data>
+      <data key="d4">28.966666666666665,41.016666666666666</data>
+    </node>
+    <node id="6368">
+      <data key="d0">18.372977779137653</data>
+      <data key="d1">41.061686823912865</data>
+      <data key="d2">6.43848801605</data>
+      <data key="d3">density</data>
+      <data key="d4">18.372977779137653,41.061686823912865</data>
+    </node>
+    <node id="6386">
+      <data key="d0">26.314208534098153</data>
+      <data key="d1">34.80381122089111</data>
+      <data key="d2">3.3836119606</data>
+      <data key="d3">density</data>
+      <data key="d4">26.314208534098153,34.80381122089111</data>
+    </node>
+    <node id="6388">
+      <data key="d0">11.650582461984966</data>
+      <data key="d1">38.52213241992763</data>
+      <data key="d2">7.04576751406</data>
+      <data key="d3">density</data>
+      <data key="d4">11.650582461984966,38.52213241992763</data>
+    </node>
+    <node id="6437">
+      <data key="d0">10.79461283590871</data>
+      <data key="d1">37.51343190775038</data>
+      <data key="d2">360.9281816706</data>
+      <data key="d3">density</data>
+      <data key="d4">10.79461283590871,37.51343190775038</data>
+    </node>
+    <node id="6477">
+      <data key="d0">18.609898155200288</data>
+      <data key="d1">40.20943932769587</data>
+      <data key="d2">4.2694933829999995</data>
+      <data key="d3">density</data>
+      <data key="d4">18.609898155200288,40.20943932769587</data>
+    </node>
+    <node id="6526">
+      <data key="d0">-2.113177510467063</data>
+      <data key="d1">36.46388609658272</data>
+      <data key="d2">109.21665748655002</data>
+      <data key="d3">density</data>
+      <data key="d4">-2.113177510467063,36.46388609658272</data>
+    </node>
+    <node id="port_37">
+      <data key="d5">5.916666666666667</data>
+      <data key="d6">43.1</data>
+      <data key="d3">port</data>
+      <data key="d7">Toulon</data>
+      <data key="d8">France</data>
+      <data key="d4">5.916666666666667,43.1</data>
+    </node>
+    <node id="port_25">
+      <data key="d5">32.3</data>
+      <data key="d6">31.266666666666666</data>
+      <data key="d3">port</data>
+      <data key="d7">Bur Sa'id</data>
+      <data key="d8">Egypt</data>
+      <data key="d4">32.3,31.266666666666666</data>
+    </node>
+    <node id="6619">
+      <data key="d0">25.58199371293811</data>
+      <data key="d1">35.91865095358517</data>
+      <data key="d2">29.167109316804996</data>
+      <data key="d3">density</data>
+      <data key="d4">25.58199371293811,35.91865095358517</data>
+    </node>
+    <node id="6627">
+      <data key="d0">19.059260475451353</data>
+      <data key="d1">34.5373628856212</data>
+      <data key="d2">12.52798120376</data>
+      <data key="d3">density</data>
+      <data key="d4">19.059260475451353,34.5373628856212</data>
+    </node>
+    <node id="6657">
+      <data key="d0">9.885573637696076</data>
+      <data key="d1">37.50482029118338</data>
+      <data key="d2">78.42987971571</data>
+      <data key="d3">density</data>
+      <data key="d4">9.885573637696076,37.50482029118338</data>
+    </node>
+    <node id="port_8">
+      <data key="d5">10.29</data>
+      <data key="d6">43.542</data>
+      <data key="d3">port</data>
+      <data key="d7">Livorno</data>
+      <data key="d8">Italy</data>
+      <data key="d4">10.29,43.542</data>
+    </node>
+    <node id="6681">
+      <data key="d0">30.892061839859373</data>
+      <data key="d1">32.26216789384436</data>
+      <data key="d2">111.24418006626001</data>
+      <data key="d3">density</data>
+      <data key="d4">30.892061839859373,32.26216789384436</data>
+    </node>
+    <node id="6717">
+      <data key="d0">17.215111123637822</data>
+      <data key="d1">41.55175902431463</data>
+      <data key="d2">23.50222037316</data>
+      <data key="d3">density</data>
+      <data key="d4">17.215111123637822,41.55175902431463</data>
+    </node>
+    <node id="6722">
+      <data key="d0">28.557825617094185</data>
+      <data key="d1">34.38851707272352</data>
+      <data key="d2">1.940851418</data>
+      <data key="d3">density</data>
+      <data key="d4">28.557825617094185,34.38851707272352</data>
+    </node>
+    <node id="6723">
+      <data key="d0">23.325858091595688</data>
+      <data key="d1">33.24920220346673</data>
+      <data key="d2">7.377914706130001</data>
+      <data key="d3">density</data>
+      <data key="d4">23.325858091595688,33.24920220346673</data>
+    </node>
+    <node id="6730">
+      <data key="d0">8.253852636787983</data>
+      <data key="d1">43.09068777709537</data>
+      <data key="d2">5.3190258254</data>
+      <data key="d3">density</data>
+      <data key="d4">8.253852636787983,43.09068777709537</data>
+    </node>
+    <node id="6731">
+      <data key="d0">34.55385382417456</data>
+      <data key="d1">43.370141977214004</data>
+      <data key="d2">69.08895594427001</data>
+      <data key="d3">density</data>
+      <data key="d4">34.55385382417456,43.370141977214004</data>
+    </node>
+    <node id="6757">
+      <data key="d0">8.872676976988581</data>
+      <data key="d1">43.859897199856455</data>
+      <data key="d2">4.279193640500001</data>
+      <data key="d3">density</data>
+      <data key="d4">8.872676976988581,43.859897199856455</data>
+    </node>
+    <node id="6829">
+      <data key="d0">11.194238084794431</data>
+      <data key="d1">38.122602013960716</data>
+      <data key="d2">15.329955504241001</data>
+      <data key="d3">density</data>
+      <data key="d4">11.194238084794431,38.122602013960716</data>
+    </node>
+    <node id="6836">
+      <data key="d0">13.03596818346054</data>
+      <data key="d1">37.266548889708986</data>
+      <data key="d2">5.315366389249999</data>
+      <data key="d3">density</data>
+      <data key="d4">13.03596818346054,37.266548889708986</data>
+    </node>
+    <node id="6899">
+      <data key="d0">11.50785620432134</data>
+      <data key="d1">38.75289940783998</data>
+      <data key="d2">2.3417412059</data>
+      <data key="d3">density</data>
+      <data key="d4">11.50785620432134,38.75289940783998</data>
+    </node>
+    <node id="port_28">
+      <data key="d5">19.083333333333332</data>
+      <data key="d6">42.083333333333336</data>
+      <data key="d3">port</data>
+      <data key="d7">Bar</data>
+      <data key="d8">Montenegro</data>
+      <data key="d4">19.083333333333332,42.083333333333336</data>
+    </node>
+    <node id="port_15">
+      <data key="d5">14.516666666666667</data>
+      <data key="d6">35.9</data>
+      <data key="d3">port</data>
+      <data key="d7">Valletta Harbors</data>
+      <data key="d8">Malta</data>
+      <data key="d4">14.516666666666667,35.9</data>
+    </node>
+    <node id="7016">
+      <data key="d0">10.368033509644205</data>
+      <data key="d1">37.610605105145346</data>
+      <data key="d2">460.41734511299</data>
+      <data key="d3">density</data>
+      <data key="d4">10.368033509644205,37.610605105145346</data>
+    </node>
+    <node id="7059">
+      <data key="d0">3.4794554612369004</data>
+      <data key="d1">41.51855183928692</data>
+      <data key="d2">21.11548576312</data>
+      <data key="d3">density</data>
+      <data key="d4">3.4794554612369004,41.51855183928692</data>
+    </node>
+    <node id="port_29">
+      <data key="d5">37.78333333333333</data>
+      <data key="d6">44.71666666666667</data>
+      <data key="d3">port</data>
+      <data key="d7">Novorossiysk</data>
+      <data key="d8">Russian Federation</data>
+      <data key="d4">37.78333333333333,44.71666666666667</data>
+    </node>
+    <node id="7087">
+      <data key="d0">-0.26570514216096863</data>
+      <data key="d1">36.67342315237985</data>
+      <data key="d2">289.98153776012</data>
+      <data key="d3">density</data>
+      <data key="d4">-0.26570514216096863,36.67342315237985</data>
+    </node>
+    <node id="7120">
+      <data key="d0">13.586261107353497</data>
+      <data key="d1">44.81138073060685</data>
+      <data key="d2">42.8725872987</data>
+      <data key="d3">density</data>
+      <data key="d4">13.586261107353497,44.81138073060685</data>
+    </node>
+    <node id="7129">
+      <data key="d0">26.440741568327205</data>
+      <data key="d1">32.67042084372775</data>
+      <data key="d2">6.7707848567</data>
+      <data key="d3">density</data>
+      <data key="d4">26.440741568327205,32.67042084372775</data>
+    </node>
+    <node id="7155">
+      <data key="d0">30.739939394249355</data>
+      <data key="d1">33.35142116077037</data>
+      <data key="d2">11.45503281847</data>
+      <data key="d3">density</data>
+      <data key="d4">30.739939394249355,33.35142116077037</data>
+    </node>
+    <node id="7193">
+      <data key="d0">29.72155664944555</data>
+      <data key="d1">44.44179460854945</data>
+      <data key="d2">11.68660609374</data>
+      <data key="d3">density</data>
+      <data key="d4">29.72155664944555,44.44179460854945</data>
+    </node>
+    <node id="7195">
+      <data key="d0">29.571045079424074</data>
+      <data key="d1">33.39860057716432</data>
+      <data key="d2">33.2830504736405</data>
+      <data key="d3">density</data>
+      <data key="d4">29.571045079424074,33.39860057716432</data>
+    </node>
+    <node id="7200">
+      <data key="d0">13.660158121341663</data>
+      <data key="d1">36.98720528469801</data>
+      <data key="d2">7.159977841320002</data>
+      <data key="d3">density</data>
+      <data key="d4">13.660158121341663,36.98720528469801</data>
+    </node>
+    <node id="7228">
+      <data key="d0">33.20870147316142</data>
+      <data key="d1">32.8389752315927</data>
+      <data key="d2">7.5084615489</data>
+      <data key="d3">density</data>
+      <data key="d4">33.20870147316142,32.8389752315927</data>
+    </node>
+    <node id="7274">
+      <data key="d0">18.632766028801054</data>
+      <data key="d1">39.76559375139255</data>
+      <data key="d2">7.341088824399999</data>
+      <data key="d3">density</data>
+      <data key="d4">18.632766028801054,39.76559375139255</data>
+    </node>
+    <node id="7276">
+      <data key="d0">17.761397296067543</data>
+      <data key="d1">40.98067075586379</data>
+      <data key="d2">2.2836243456199994</data>
+      <data key="d3">density</data>
+      <data key="d4">17.761397296067543,40.98067075586379</data>
+    </node>
+    <node id="7308">
+      <data key="d0">11.004928692543112</data>
+      <data key="d1">37.41978080311226</data>
+      <data key="d2">427.8009956673</data>
+      <data key="d3">density</data>
+      <data key="d4">11.004928692543112,37.41978080311226</data>
+    </node>
+    <node id="7371">
+      <data key="d0">19.330093884429193</data>
+      <data key="d1">39.24760293148877</data>
+      <data key="d2">8.413343931590001</data>
+      <data key="d3">density</data>
+      <data key="d4">19.330093884429193,39.24760293148877</data>
+    </node>
+    <node id="7391">
+      <data key="d0">28.39845716847594</data>
+      <data key="d1">34.04119939834982</data>
+      <data key="d2">13.025051404655</data>
+      <data key="d3">density</data>
+      <data key="d4">28.39845716847594,34.04119939834982</data>
+    </node>
+    <node id="7394">
+      <data key="d0">34.54741577699257</data>
+      <data key="d1">42.838658565016935</data>
+      <data key="d2">7.712038800999999</data>
+      <data key="d3">density</data>
+      <data key="d4">34.54741577699257,42.838658565016935</data>
+    </node>
+    <node id="7456">
+      <data key="d0">27.619105491453976</data>
+      <data key="d1">34.88225512644909</data>
+      <data key="d2">8.18848403984</data>
+      <data key="d3">density</data>
+      <data key="d4">27.619105491453976,34.88225512644909</data>
+    </node>
+    <node id="7460">
+      <data key="d0">18.86123850058257</data>
+      <data key="d1">34.51926023909792</data>
+      <data key="d2">7.95596273034</data>
+      <data key="d3">density</data>
+      <data key="d4">18.86123850058257,34.51926023909792</data>
+    </node>
+    <node id="7478">
+      <data key="d0">24.08201142175805</data>
+      <data key="d1">37.586098680631515</data>
+      <data key="d2">38.94776900480401</data>
+      <data key="d3">density</data>
+      <data key="d4">24.08201142175805,37.586098680631515</data>
+    </node>
+    <node id="7516">
+      <data key="d0">18.37051480132569</data>
+      <data key="d1">40.65092592640291</data>
+      <data key="d2">10.42174682847</data>
+      <data key="d3">density</data>
+      <data key="d4">18.37051480132569,40.65092592640291</data>
+    </node>
+    <node id="7532">
+      <data key="d0">29.910231711928063</data>
+      <data key="d1">33.47541929598339</data>
+      <data key="d2">12.62681056277</data>
+      <data key="d3">density</data>
+      <data key="d4">29.910231711928063,33.47541929598339</data>
+    </node>
+    <node id="7543">
+      <data key="d0">10.074316973676273</data>
+      <data key="d1">37.63804659990607</data>
+      <data key="d2">160.83478203964</data>
+      <data key="d3">density</data>
+      <data key="d4">10.074316973676273,37.63804659990607</data>
+    </node>
+    <node id="7593">
+      <data key="d0">14.425144808347023</data>
+      <data key="d1">36.25147309294379</data>
+      <data key="d2">126.44804687668001</data>
+      <data key="d3">density</data>
+      <data key="d4">14.425144808347023,36.25147309294379</data>
+    </node>
+    <node id="7611">
+      <data key="d0">32.56360438603188</data>
+      <data key="d1">42.79193145816724</data>
+      <data key="d2">15.970408443260002</data>
+      <data key="d3">density</data>
+      <data key="d4">32.56360438603188,42.79193145816724</data>
+    </node>
+    <node id="port_11">
+      <data key="d5">12.433333333333334</data>
+      <data key="d6">45.416666666666664</data>
+      <data key="d3">port</data>
+      <data key="d7">Porto Di Lido-Venezia</data>
+      <data key="d8">Italy</data>
+      <data key="d4">12.433333333333334,45.416666666666664</data>
+    </node>
+    <node id="7634">
+      <data key="d0">25.696120366005278</data>
+      <data key="d1">39.449780618546654</data>
+      <data key="d2">111.11058274748</data>
+      <data key="d3">density</data>
+      <data key="d4">25.696120366005278,39.449780618546654</data>
+    </node>
+    <node id="7650">
+      <data key="d0">17.23482259885754</data>
+      <data key="d1">41.6364752062876</data>
+      <data key="d2">51.437145872660004</data>
+      <data key="d3">density</data>
+      <data key="d4">17.23482259885754,41.6364752062876</data>
+    </node>
+    <node id="port_0">
+      <data key="d5">-5.516666666666667</data>
+      <data key="d6">35.9</data>
+      <data key="d3">port</data>
+      <data key="d7">Tangier-Mediterranean</data>
+      <data key="d8">Morocco</data>
+      <data key="d4">-5.516666666666667,35.9</data>
+    </node>
+    <node id="7710">
+      <data key="d0">16.025658413878475</data>
+      <data key="d1">37.7517630444355</data>
+      <data key="d2">14.8891286787</data>
+      <data key="d3">density</data>
+      <data key="d4">16.025658413878475,37.7517630444355</data>
+    </node>
+    <node id="7713">
+      <data key="d0">11.460005408561518</data>
+      <data key="d1">41.318889616111264</data>
+      <data key="d2">2.699965000486</data>
+      <data key="d3">density</data>
+      <data key="d4">11.460005408561518,41.318889616111264</data>
+    </node>
+    <node id="port_18">
+      <data key="d5">36.35</data>
+      <data key="d6">41.3</data>
+      <data key="d3">port</data>
+      <data key="d7">Samsun</data>
+      <data key="d8">Türkiye</data>
+      <data key="d4">36.35,41.3</data>
+    </node>
+    <node id="7728">
+      <data key="d0">17.747020617383285</data>
+      <data key="d1">41.3590213008344</data>
+      <data key="d2">19.9273171285</data>
+      <data key="d3">density</data>
+      <data key="d4">17.747020617383285,41.3590213008344</data>
+    </node>
+    <node id="7746">
+      <data key="d0">30.168863826460502</data>
+      <data key="d1">31.871856528401</data>
+      <data key="d2">6.770271274524999</data>
+      <data key="d3">density</data>
+      <data key="d4">30.168863826460502,31.871856528401</data>
+    </node>
+    <node id="7785">
+      <data key="d0">18.911348872252525</data>
+      <data key="d1">40.43862198168902</data>
+      <data key="d2">21.194787875535003</data>
+      <data key="d3">density</data>
+      <data key="d4">18.911348872252525,40.43862198168902</data>
+    </node>
+    <node id="7809">
+      <data key="d0">9.985547022421786</data>
+      <data key="d1">42.30414723683866</data>
+      <data key="d2">3.4302016121799994</data>
+      <data key="d3">density</data>
+      <data key="d4">9.985547022421786,42.30414723683866</data>
+    </node>
+    <node id="7848">
+      <data key="d0">6.429853472668393</data>
+      <data key="d1">42.90917126139296</data>
+      <data key="d2">1.1357809139999997</data>
+      <data key="d3">density</data>
+      <data key="d4">6.429853472668393,42.90917126139296</data>
+    </node>
+    <node id="7850">
+      <data key="d0">30.483573017002378</data>
+      <data key="d1">32.10204995923801</data>
+      <data key="d2">9.58570872367</data>
+      <data key="d3">density</data>
+      <data key="d4">30.483573017002378,32.10204995923801</data>
+    </node>
+    <node id="7905">
+      <data key="d0">14.284036772418776</data>
+      <data key="d1">35.744729864202164</data>
+      <data key="d2">11.100039570769999</data>
+      <data key="d3">density</data>
+      <data key="d4">14.284036772418776,35.744729864202164</data>
+    </node>
+    <node id="port_20">
+      <data key="d5">35.35</data>
+      <data key="d6">33.5</data>
+      <data key="d3">port</data>
+      <data key="d7">Sayda</data>
+      <data key="d8">Lebanon</data>
+      <data key="d4">35.35,33.5</data>
+    </node>
+    <node id="7985">
+      <data key="d0">24.43738546082152</data>
+      <data key="d1">33.464098607076465</data>
+      <data key="d2">8.9115578513</data>
+      <data key="d3">density</data>
+      <data key="d4">24.43738546082152,33.464098607076465</data>
+    </node>
+    <node id="7998">
+      <data key="d0">24.542397021913096</data>
+      <data key="d1">33.426642800101384</data>
+      <data key="d2">7.9629601758</data>
+      <data key="d3">density</data>
+      <data key="d4">24.542397021913096,33.426642800101384</data>
+    </node>
+    <node id="8000">
+      <data key="d0">29.06317737489244</data>
+      <data key="d1">34.79650660657138</data>
+      <data key="d2">4.3515836633100005</data>
+      <data key="d3">density</data>
+      <data key="d4">29.06317737489244,34.79650660657138</data>
+    </node>
+    <node id="8014">
+      <data key="d0">13.64655238882333</data>
+      <data key="d1">45.028643841726435</data>
+      <data key="d2">6.759878520999998</data>
+      <data key="d3">density</data>
+      <data key="d4">13.64655238882333,45.028643841726435</data>
+    </node>
+    <node id="8068">
+      <data key="d0">34.72302376310214</data>
+      <data key="d1">33.61528772479464</data>
+      <data key="d2">9.644874478399998</data>
+      <data key="d3">density</data>
+      <data key="d4">34.72302376310214,33.61528772479464</data>
+    </node>
+    <node id="port_19">
+      <data key="d5">13.733333333333333</data>
+      <data key="d6">45.55</data>
+      <data key="d3">port</data>
+      <data key="d7">Koper</data>
+      <data key="d8">Slovenia</data>
+      <data key="d4">13.733333333333333,45.55</data>
+    </node>
+    <node id="8117">
+      <data key="d0">29.0828203037073</data>
+      <data key="d1">33.185542728800556</data>
+      <data key="d2">24.23623986179</data>
+      <data key="d3">density</data>
+      <data key="d4">29.0828203037073,33.185542728800556</data>
+    </node>
+    <node id="8131">
+      <data key="d0">15.870938347646778</data>
+      <data key="d1">35.6611903383807</data>
+      <data key="d2">11.2458370667</data>
+      <data key="d3">density</data>
+      <data key="d4">15.870938347646778,35.6611903383807</data>
+    </node>
+    <node id="8149">
+      <data key="d0">23.49643429098831</data>
+      <data key="d1">35.09245389755381</data>
+      <data key="d2">11.878918883379997</data>
+      <data key="d3">density</data>
+      <data key="d4">23.49643429098831,35.09245389755381</data>
+    </node>
+    <node id="port_3">
+      <data key="d5">17.983333333333334</data>
+      <data key="d6">40.65</data>
+      <data key="d3">port</data>
+      <data key="d7">Brindisi</data>
+      <data key="d8">Italy</data>
+      <data key="d4">17.983333333333334,40.65</data>
+    </node>
+    <node id="8184">
+      <data key="d0">3.328006025097771</data>
+      <data key="d1">38.43103053922034</data>
+      <data key="d2">2.9821703096199994</data>
+      <data key="d3">density</data>
+      <data key="d4">3.328006025097771,38.43103053922034</data>
+    </node>
+    <edge source="24" target="2554">
+      <data key="d10">0.2667815046105173</data>
+      <data key="d11">density</data>
+      <data key="d12">28.355450763390746</data>
+    </edge>
+    <edge source="24" target="port_7">
+      <data key="d10">1.0049618346285567</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">109.36224362546238</data>
+    </edge>
+    <edge source="24" target="8232">
+      <data key="d10">0.4804945803748702</data>
+      <data key="d11">contracted</data>
+      <data key="d12">46.574362432625136</data>
+    </edge>
+    <edge source="8221" target="8513">
+      <data key="d10">0.15266378544508424</data>
+      <data key="d11">density</data>
+      <data key="d12">14.398727388905673</data>
+    </edge>
+    <edge source="8221" target="8233">
+      <data key="d10">0.2946206756392686</data>
+      <data key="d11">contracted</data>
+      <data key="d12">22.77273970124558</data>
+    </edge>
+    <edge source="8221" target="9381">
+      <data key="d10">0.8559640017140183</data>
+      <data key="d11">contracted</data>
+      <data key="d12">77.63430088108751</data>
+    </edge>
+    <edge source="8232" target="port_8">
+      <data key="d10">1.1155405124190207</data>
+      <data key="d11">contracted</data>
+      <data key="d12">88.91188084114444</data>
+    </edge>
+    <edge source="8232" target="port_5">
+      <data key="d10">0.9866729693934995</data>
+      <data key="d11">contracted</data>
+      <data key="d12">104.64573598695466</data>
+    </edge>
+    <edge source="8233" target="8000">
+      <data key="d10">0.2702961083148674</data>
+      <data key="d11">contracted</data>
+      <data key="d12">23.82524559062928</data>
+    </edge>
+    <edge source="8233" target="8809">
+      <data key="d10">0.31215165676434925</data>
+      <data key="d11">contracted</data>
+      <data key="d12">32.41093771223967</data>
+    </edge>
+    <edge source="port_39" target="3263">
+      <data key="d10">1.2321678028088878</data>
+      <data key="d11">contracted</data>
+      <data key="d12">133.4684449196211</data>
+    </edge>
+    <edge source="port_39" target="5027">
+      <data key="d10">0.6894861067286463</data>
+      <data key="d11">contracted</data>
+      <data key="d12">59.27223921954694</data>
+    </edge>
+    <edge source="67" target="port_6">
+      <data key="d10">0.8069248383172942</data>
+      <data key="d11">contracted</data>
+      <data key="d12">70.79225472470189</data>
+    </edge>
+    <edge source="67" target="2308">
+      <data key="d10">3.245290029344593</data>
+      <data key="d11">contracted</data>
+      <data key="d12">279.9391356643624</data>
+    </edge>
+    <edge source="67" target="port_9">
+      <data key="d10">0.4914527319470463</data>
+      <data key="d11">contracted</data>
+      <data key="d12">43.781780283153445</data>
+    </edge>
+    <edge source="8265" target="5465">
+      <data key="d10">0.13039053861682387</data>
+      <data key="d11">density</data>
+      <data key="d12">14.149740577270085</data>
+    </edge>
+    <edge source="8265" target="6681">
+      <data key="d10">0.22574764903777436</data>
+      <data key="d11">contracted</data>
+      <data key="d12">21.162254891237723</data>
+    </edge>
+    <edge source="8265" target="973">
+      <data key="d10">0.6677243196477516</data>
+      <data key="d11">contracted</data>
+      <data key="d12">63.20625874743243</data>
+    </edge>
+    <edge source="8313" target="2689">
+      <data key="d10">0.2154451278575963</data>
+      <data key="d11">density</data>
+      <data key="d12">23.788658086051186</data>
+    </edge>
+    <edge source="8313" target="6730">
+      <data key="d10">0.3010602849645588</data>
+      <data key="d11">density</data>
+      <data key="d12">26.809258543432406</data>
+    </edge>
+    <edge source="8313" target="5454">
+      <data key="d10">0.7691069532793395</data>
+      <data key="d11">contracted</data>
+      <data key="d12">67.74111841956181</data>
+    </edge>
+    <edge source="8313" target="3516">
+      <data key="d10">0.5776300232330258</data>
+      <data key="d11">contracted</data>
+      <data key="d12">57.1639238650514</data>
+    </edge>
+    <edge source="8354" target="9551">
+      <data key="d10">0.08075292935255172</data>
+      <data key="d11">density</data>
+      <data key="d12">7.474239161503921</data>
+    </edge>
+    <edge source="8354" target="7728">
+      <data key="d10">0.08069883057261674</data>
+      <data key="d11">density</data>
+      <data key="d12">6.954577182975525</data>
+    </edge>
+    <edge source="8354" target="9059">
+      <data key="d10">0.26889457118062243</data>
+      <data key="d11">contracted</data>
+      <data key="d12">27.87253276185326</data>
+    </edge>
+    <edge source="8357" target="3262">
+      <data key="d10">0.17548070865727572</data>
+      <data key="d11">contracted</data>
+      <data key="d12">15.418297936341647</data>
+    </edge>
+    <edge source="8357" target="7391">
+      <data key="d10">0.5882236036100219</data>
+      <data key="d11">contracted</data>
+      <data key="d12">57.7631207219322</data>
+    </edge>
+    <edge source="8357" target="6722">
+      <data key="d10">0.5581417381345233</data>
+      <data key="d11">contracted</data>
+      <data key="d12">47.35431505050246</data>
+    </edge>
+    <edge source="191" target="port_33">
+      <data key="d10">2.1671704397637357</data>
+      <data key="d11">contracted</data>
+      <data key="d12">169.25386892434406</data>
+    </edge>
+    <edge source="191" target="4537">
+      <data key="d10">0.33415014493027395</data>
+      <data key="d11">contracted</data>
+      <data key="d12">34.46860272515268</data>
+    </edge>
+    <edge source="191" target="8704">
+      <data key="d10">0.36885200388623285</data>
+      <data key="d11">contracted</data>
+      <data key="d12">34.00669519353674</data>
+    </edge>
+    <edge source="8395" target="9016">
+      <data key="d10">0.14188962525830645</data>
+      <data key="d11">density</data>
+      <data key="d12">13.48138272598204</data>
+    </edge>
+    <edge source="8395" target="9422">
+      <data key="d10">0.7261455320579127</data>
+      <data key="d11">contracted</data>
+      <data key="d12">57.74340592735191</data>
+    </edge>
+    <edge source="8395" target="7228">
+      <data key="d10">0.4727099279849457</data>
+      <data key="d11">contracted</data>
+      <data key="d12">45.948353404437896</data>
+    </edge>
+    <edge source="8434" target="5465">
+      <data key="d10">0.37992253845261925</data>
+      <data key="d11">contracted</data>
+      <data key="d12">37.431635063781385</data>
+    </edge>
+    <edge source="8434" target="3885">
+      <data key="d10">0.8872755873053482</data>
+      <data key="d11">contracted</data>
+      <data key="d12">82.10329116882654</data>
+    </edge>
+    <edge source="8434" target="9016">
+      <data key="d10">1.4788614877413442</data>
+      <data key="d11">contracted</data>
+      <data key="d12">128.933040327962</data>
+    </edge>
+    <edge source="263" target="4494">
+      <data key="d10">0.11607418545879188</data>
+      <data key="d11">density</data>
+      <data key="d12">10.004633970305365</data>
+    </edge>
+    <edge source="263" target="port_38">
+      <data key="d10">0.4591794891802253</data>
+      <data key="d11">contracted</data>
+      <data key="d12">43.11163922567458</data>
+    </edge>
+    <edge source="263" target="5027">
+      <data key="d10">0.6993291798089248</data>
+      <data key="d11">contracted</data>
+      <data key="d12">55.696030480740966</data>
+    </edge>
+    <edge source="port_14" target="8014">
+      <data key="d10">0.6302515490736788</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">69.63797009357125</data>
+    </edge>
+    <edge source="port_14" target="2324">
+      <data key="d10">0.6573398134952817</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">60.483059938260446</data>
+    </edge>
+    <edge source="port_14" target="port_19">
+      <data key="d10">0.23374930364140745</data>
+      <data key="d11">contracted</data>
+      <data key="d12">11.273838980220857</data>
+    </edge>
+    <edge source="8461" target="1998">
+      <data key="d10">0.10286819708268208</data>
+      <data key="d11">density</data>
+      <data key="d12">10.031640438069521</data>
+    </edge>
+    <edge source="8461" target="5804">
+      <data key="d10">2.701154788450575</data>
+      <data key="d11">contracted</data>
+      <data key="d12">220.6272974514323</data>
+    </edge>
+    <edge source="8461" target="7193">
+      <data key="d10">0.6575577570703675</data>
+      <data key="d11">contracted</data>
+      <data key="d12">69.55925781039358</data>
+    </edge>
+    <edge source="port_13" target="9053">
+      <data key="d10">0.7592568141107753</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">83.1580141435352</data>
+    </edge>
+    <edge source="port_13" target="3652">
+      <data key="d10">0.7404880542491256</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">75.49570469243886</data>
+    </edge>
+    <edge source="port_13" target="9599">
+      <data key="d10">1.4780763626304325</data>
+      <data key="d11">contracted</data>
+      <data key="d12">136.4332285813122</data>
+    </edge>
+    <edge source="port_13" target="1745">
+      <data key="d10">1.5564775082197595</data>
+      <data key="d11">contracted</data>
+      <data key="d12">170.34567341299513</data>
+    </edge>
+    <edge source="277" target="7611">
+      <data key="d10">0.21167985509584952</data>
+      <data key="d11">contracted</data>
+      <data key="d12">19.043129768638487</data>
+    </edge>
+    <edge source="277" target="6731">
+      <data key="d10">2.049076621496552</data>
+      <data key="d11">contracted</data>
+      <data key="d12">156.17699005874024</data>
+    </edge>
+    <edge source="277" target="port_23">
+      <data key="d10">2.0367563216320077</data>
+      <data key="d11">contracted</data>
+      <data key="d12">200.5852118465336</data>
+    </edge>
+    <edge source="304" target="8864">
+      <data key="d10">0.7990451885046895</data>
+      <data key="d11">contracted</data>
+      <data key="d12">73.30456694610432</data>
+    </edge>
+    <edge source="304" target="8131">
+      <data key="d10">0.7440316804971974</data>
+      <data key="d11">contracted</data>
+      <data key="d12">68.54159804705517</data>
+    </edge>
+    <edge source="304" target="2200">
+      <data key="d10">1.0864934783965834</data>
+      <data key="d11">contracted</data>
+      <data key="d12">90.35222555203701</data>
+    </edge>
+    <edge source="304" target="8956">
+      <data key="d10">1.3440830455497934</data>
+      <data key="d11">contracted</data>
+      <data key="d12">116.1507262352476</data>
+    </edge>
+    <edge source="8505" target="port_8">
+      <data key="d10">0.9498155911220407</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">81.98903892499987</data>
+    </edge>
+    <edge source="8505" target="2554">
+      <data key="d10">0.37213452810823905</data>
+      <data key="d11">contracted</data>
+      <data key="d12">35.027109642838084</data>
+    </edge>
+    <edge source="8505" target="6730">
+      <data key="d10">1.1715551932538497</data>
+      <data key="d11">contracted</data>
+      <data key="d12">94.83109883399317</data>
+    </edge>
+    <edge source="8513" target="9697">
+      <data key="d10">0.21201623472332778</data>
+      <data key="d11">contracted</data>
+      <data key="d12">21.695342579176568</data>
+    </edge>
+    <edge source="8513" target="7456">
+      <data key="d10">0.8657085069899051</data>
+      <data key="d11">contracted</data>
+      <data key="d12">72.44234034641511</data>
+    </edge>
+    <edge source="8513" target="3310">
+      <data key="d10">0.40741392699062884</data>
+      <data key="d11">contracted</data>
+      <data key="d12">44.27326496583636</data>
+    </edge>
+    <edge source="8537" target="8956">
+      <data key="d10">0.2153767054121425</data>
+      <data key="d11">contracted</data>
+      <data key="d12">18.29066380529742</data>
+    </edge>
+    <edge source="8537" target="9799">
+      <data key="d10">0.5150735948565514</data>
+      <data key="d11">contracted</data>
+      <data key="d12">48.78061929494737</data>
+    </edge>
+    <edge source="8537" target="7200">
+      <data key="d10">1.4309168566779271</data>
+      <data key="d11">contracted</data>
+      <data key="d12">123.92318170362608</data>
+    </edge>
+    <edge source="8552" target="3635">
+      <data key="d10">0.12845601990000213</data>
+      <data key="d11">density</data>
+      <data key="d12">14.266341528668017</data>
+    </edge>
+    <edge source="8552" target="2693">
+      <data key="d10">1.9633351200816795</data>
+      <data key="d11">contracted</data>
+      <data key="d12">205.38924717305142</data>
+    </edge>
+    <edge source="8552" target="2455">
+      <data key="d10">1.8899749145571387</data>
+      <data key="d11">contracted</data>
+      <data key="d12">177.96648780670168</data>
+    </edge>
+    <edge source="port_21" target="4749">
+      <data key="d10">1.43675203543644</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">147.7070778317771</data>
+    </edge>
+    <edge source="port_21" target="port_22">
+      <data key="d10">0.43346836767637376</data>
+      <data key="d11">contracted</data>
+      <data key="d12">21.364105683166716</data>
+    </edge>
+    <edge source="8574" target="3823">
+      <data key="d10">0.15576030602212604</data>
+      <data key="d11">density</data>
+      <data key="d12">15.60894996064474</data>
+    </edge>
+    <edge source="8574" target="9585">
+      <data key="d10">0.24525150456457387</data>
+      <data key="d11">contracted</data>
+      <data key="d12">23.138715342365256</data>
+    </edge>
+    <edge source="8574" target="9675">
+      <data key="d10">0.2179369697573486</data>
+      <data key="d11">contracted</data>
+      <data key="d12">21.168422506742406</data>
+    </edge>
+    <edge source="8595" target="6723">
+      <data key="d10">0.5987476777770987</data>
+      <data key="d11">contracted</data>
+      <data key="d12">54.63851219718713</data>
+    </edge>
+    <edge source="8595" target="508">
+      <data key="d10">2.027625296578355</data>
+      <data key="d11">contracted</data>
+      <data key="d12">170.33104012831976</data>
+    </edge>
+    <edge source="8595" target="4821">
+      <data key="d10">5.055390124794074</data>
+      <data key="d11">contracted</data>
+      <data key="d12">443.3913338466987</data>
+    </edge>
+    <edge source="8598" target="2610">
+      <data key="d10">0.24648698253003276</data>
+      <data key="d11">contracted</data>
+      <data key="d12">22.13213720395345</data>
+    </edge>
+    <edge source="8598" target="1343">
+      <data key="d10">0.2283770870694743</data>
+      <data key="d11">contracted</data>
+      <data key="d12">19.99816767298157</data>
+    </edge>
+    <edge source="8598" target="9286">
+      <data key="d10">0.7768739744069081</data>
+      <data key="d11">contracted</data>
+      <data key="d12">66.17842135658891</data>
+    </edge>
+    <edge source="438" target="1006">
+      <data key="d10">0.4603205370435206</data>
+      <data key="d11">contracted</data>
+      <data key="d12">48.7016607600275</data>
+    </edge>
+    <edge source="438" target="port_24">
+      <data key="d10">1.0011675851894466</data>
+      <data key="d11">contracted</data>
+      <data key="d12">98.10059593612357</data>
+    </edge>
+    <edge source="438" target="5645">
+      <data key="d10">0.6710477602392555</data>
+      <data key="d11">contracted</data>
+      <data key="d12">63.319209195092164</data>
+    </edge>
+    <edge source="8645" target="port_37">
+      <data key="d10">0.5649330317882035</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">47.17044006094703</data>
+    </edge>
+    <edge source="8645" target="7848">
+      <data key="d10">1.0903022434700675</data>
+      <data key="d11">contracted</data>
+      <data key="d12">86.45894659208953</data>
+    </edge>
+    <edge source="8645" target="7059">
+      <data key="d10">2.6250285108144</data>
+      <data key="d11">contracted</data>
+      <data key="d12">223.22161407282888</data>
+    </edge>
+    <edge source="8664" target="3739">
+      <data key="d10">0.1238509306467651</data>
+      <data key="d11">density</data>
+      <data key="d12">13.739378740079259</data>
+    </edge>
+    <edge source="8664" target="3743">
+      <data key="d10">0.08567492582999077</data>
+      <data key="d11">density</data>
+      <data key="d12">8.092712663217641</data>
+    </edge>
+    <edge source="8664" target="7274">
+      <data key="d10">0.22408283746291058</data>
+      <data key="d11">contracted</data>
+      <data key="d12">24.864893444551708</data>
+    </edge>
+    <edge source="508" target="2395">
+      <data key="d10">0.5738266115181041</data>
+      <data key="d11">contracted</data>
+      <data key="d12">53.17026070672983</data>
+    </edge>
+    <edge source="508" target="7998">
+      <data key="d10">1.3774989487395493</data>
+      <data key="d11">contracted</data>
+      <data key="d12">124.1554998204549</data>
+    </edge>
+    <edge source="8704" target="4727">
+      <data key="d10">0.14522851641850062</data>
+      <data key="d11">density</data>
+      <data key="d12">11.591408055317162</data>
+    </edge>
+    <edge source="8704" target="5074">
+      <data key="d10">0.44340791416005987</data>
+      <data key="d11">contracted</data>
+      <data key="d12">42.71098154828878</data>
+    </edge>
+    <edge source="8735" target="4643">
+      <data key="d10">0.10183556595032063</data>
+      <data key="d11">density</data>
+      <data key="d12">10.865200391084606</data>
+    </edge>
+    <edge source="8735" target="6717">
+      <data key="d10">0.2506039999963281</data>
+      <data key="d11">contracted</data>
+      <data key="d12">23.62735494631466</data>
+    </edge>
+    <edge source="8735" target="7650">
+      <data key="d10">0.19548933258739215</data>
+      <data key="d11">contracted</data>
+      <data key="d12">17.31798353108315</data>
+    </edge>
+    <edge source="8788" target="7016">
+      <data key="d10">0.1849601526155727</data>
+      <data key="d11">density</data>
+      <data key="d12">16.356675860079868</data>
+    </edge>
+    <edge source="8788" target="7543">
+      <data key="d10">0.12013384787992946</data>
+      <data key="d11">density</data>
+      <data key="d12">11.079928120086764</data>
+    </edge>
+    <edge source="8788" target="6657">
+      <data key="d10">0.31536316520646923</data>
+      <data key="d11">contracted</data>
+      <data key="d12">27.970958478695817</data>
+    </edge>
+    <edge source="8809" target="3310">
+      <data key="d10">0.3948250502876868</data>
+      <data key="d11">contracted</data>
+      <data key="d12">37.338426423333374</data>
+    </edge>
+    <edge source="8809" target="9789">
+      <data key="d10">0.730722991893288</data>
+      <data key="d11">contracted</data>
+      <data key="d12">59.9134098147313</data>
+    </edge>
+    <edge source="8815" target="9266">
+      <data key="d10">0.1078967495906207</data>
+      <data key="d11">density</data>
+      <data key="d12">10.946972039881292</data>
+    </edge>
+    <edge source="8815" target="658">
+      <data key="d10">0.5194702703976037</data>
+      <data key="d11">contracted</data>
+      <data key="d12">47.55192987116065</data>
+    </edge>
+    <edge source="8815" target="6836">
+      <data key="d10">1.6469652563732968</data>
+      <data key="d11">contracted</data>
+      <data key="d12">138.2772353591756</data>
+    </edge>
+    <edge source="636" target="9526">
+      <data key="d10">1.0717234989600346</data>
+      <data key="d11">contracted</data>
+      <data key="d12">106.85770339893672</data>
+    </edge>
+    <edge source="636" target="5789">
+      <data key="d10">0.822320695563882</data>
+      <data key="d11">contracted</data>
+      <data key="d12">89.84805091496978</data>
+    </edge>
+    <edge source="636" target="3885">
+      <data key="d10">1.3613582408451075</data>
+      <data key="d11">contracted</data>
+      <data key="d12">115.77484150894351</data>
+    </edge>
+    <edge source="8829" target="9906">
+      <data key="d10">0.1524253054213666</data>
+      <data key="d11">density</data>
+      <data key="d12">14.372103612034135</data>
+    </edge>
+    <edge source="8829" target="6108">
+      <data key="d10">0.09878513326476683</data>
+      <data key="d11">density</data>
+      <data key="d12">9.24827959050483</data>
+    </edge>
+    <edge source="8829" target="9829">
+      <data key="d10">0.09406843845850736</data>
+      <data key="d11">density</data>
+      <data key="d12">9.156728310065253</data>
+    </edge>
+    <edge source="641" target="port_6">
+      <data key="d10">0.5467374664763108</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">56.598810958865506</data>
+    </edge>
+    <edge source="641" target="port_9">
+      <data key="d10">0.19743958283083515</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">21.954218173077066</data>
+    </edge>
+    <edge source="641" target="9731">
+      <data key="d10">0.1027445964535705</data>
+      <data key="d11">density</data>
+      <data key="d12">10.73026717978939</data>
+    </edge>
+    <edge source="641" target="port_12">
+      <data key="d10">1.0643131236964154</data>
+      <data key="d11">contracted</data>
+      <data key="d12">108.8423821767455</data>
+    </edge>
+    <edge source="8840" target="2775">
+      <data key="d10">0.2732519064705903</data>
+      <data key="d11">contracted</data>
+      <data key="d12">28.472526974444943</data>
+    </edge>
+    <edge source="8840" target="5293">
+      <data key="d10">0.915562703759182</data>
+      <data key="d11">contracted</data>
+      <data key="d12">72.73567620576428</data>
+    </edge>
+    <edge source="8840" target="3809">
+      <data key="d10">1.502396134132867</data>
+      <data key="d11">contracted</data>
+      <data key="d12">147.3170553552025</data>
+    </edge>
+    <edge source="651" target="5879">
+      <data key="d10">0.07710531465798087</data>
+      <data key="d11">density</data>
+      <data key="d12">7.020448560454892</data>
+    </edge>
+    <edge source="651" target="9059">
+      <data key="d10">0.18572983494413206</data>
+      <data key="d11">contracted</data>
+      <data key="d12">19.719398845543232</data>
+    </edge>
+    <edge source="651" target="7728">
+      <data key="d10">0.15158580849770387</data>
+      <data key="d11">contracted</data>
+      <data key="d12">12.666820675915305</data>
+    </edge>
+    <edge source="8850" target="6526">
+      <data key="d10">1.5131340474834145</data>
+      <data key="d11">contracted</data>
+      <data key="d12">128.86449546266627</data>
+    </edge>
+    <edge source="8850" target="port_35">
+      <data key="d10">3.2163305601245273</data>
+      <data key="d11">contracted</data>
+      <data key="d12">257.24390299995946</data>
+    </edge>
+    <edge source="8850" target="port_0">
+      <data key="d10">2.2865787496790198</data>
+      <data key="d11">contracted</data>
+      <data key="d12">186.21201284290203</data>
+    </edge>
+    <edge source="8852" target="port_28">
+      <data key="d10">1.2725220860759736</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">135.93799755641237</data>
+    </edge>
+    <edge source="8852" target="port_30">
+      <data key="d10">0.9800709457352742</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">86.88005177154096</data>
+    </edge>
+    <edge source="8852" target="9736">
+      <data key="d10">0.283362812034038</data>
+      <data key="d11">contracted</data>
+      <data key="d12">24.423978572092476</data>
+    </edge>
+    <edge source="8852" target="6477">
+      <data key="d10">0.8263334542908203</data>
+      <data key="d11">contracted</data>
+      <data key="d12">80.03534785966339</data>
+    </edge>
+    <edge source="658" target="9822">
+      <data key="d10">0.1775587656168081</data>
+      <data key="d11">density</data>
+      <data key="d12">17.293160081424265</data>
+    </edge>
+    <edge source="658" target="5500">
+      <data key="d10">0.2676595540560456</data>
+      <data key="d11">contracted</data>
+      <data key="d12">20.531498719939943</data>
+    </edge>
+    <edge source="8864" target="4644">
+      <data key="d10">1.0405550801730363</data>
+      <data key="d11">contracted</data>
+      <data key="d12">97.50646160317089</data>
+    </edge>
+    <edge source="8864" target="9062">
+      <data key="d10">3.002176252168522</data>
+      <data key="d11">contracted</data>
+      <data key="d12">244.62942482582335</data>
+    </edge>
+    <edge source="8864" target="9829">
+      <data key="d10">1.1397600046448724</data>
+      <data key="d11">contracted</data>
+      <data key="d12">98.22023314444748</data>
+    </edge>
+    <edge source="8868" target="7785">
+      <data key="d10">0.07884043288897942</data>
+      <data key="d11">density</data>
+      <data key="d12">8.652745584374426</data>
+    </edge>
+    <edge source="8868" target="port_30">
+      <data key="d10">0.9768340988610332</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">100.72521702767355</data>
+    </edge>
+    <edge source="8868" target="4683">
+      <data key="d10">0.8073435457440157</data>
+      <data key="d11">contracted</data>
+      <data key="d12">79.55823708981004</data>
+    </edge>
+    <edge source="8868" target="3743">
+      <data key="d10">0.5638393218629172</data>
+      <data key="d11">contracted</data>
+      <data key="d12">54.93695231211145</data>
+    </edge>
+    <edge source="8951" target="2849">
+      <data key="d10">1.0399006188840405</data>
+      <data key="d11">contracted</data>
+      <data key="d12">82.98198431018989</data>
+    </edge>
+    <edge source="8951" target="3734">
+      <data key="d10">1.0179902857323155</data>
+      <data key="d11">contracted</data>
+      <data key="d12">95.99967054275017</data>
+    </edge>
+    <edge source="8951" target="7985">
+      <data key="d10">3.5340631779535387</data>
+      <data key="d11">contracted</data>
+      <data key="d12">320.44817507581115</data>
+    </edge>
+    <edge source="8956" target="3207">
+      <data key="d10">0.2857769484746336</data>
+      <data key="d11">contracted</data>
+      <data key="d12">27.446861848829872</data>
+    </edge>
+    <edge source="8959" target="2693">
+      <data key="d10">2.380433038109024</data>
+      <data key="d11">contracted</data>
+      <data key="d12">209.0880137463582</data>
+    </edge>
+    <edge source="8959" target="4288">
+      <data key="d10">0.8846691780580016</data>
+      <data key="d11">contracted</data>
+      <data key="d12">74.49984861207766</data>
+    </edge>
+    <edge source="8959" target="3635">
+      <data key="d10">1.762287728622797</data>
+      <data key="d11">contracted</data>
+      <data key="d12">157.01055132219113</data>
+    </edge>
+    <edge source="8965" target="4464">
+      <data key="d10">0.10378421226987271</data>
+      <data key="d11">density</data>
+      <data key="d12">10.880358986040953</data>
+    </edge>
+    <edge source="8965" target="7371">
+      <data key="d10">0.8172816251461542</data>
+      <data key="d11">contracted</data>
+      <data key="d12">61.889160448328425</data>
+    </edge>
+    <edge source="8965" target="4644">
+      <data key="d10">2.502235519505062</data>
+      <data key="d11">contracted</data>
+      <data key="d12">247.4645844275097</data>
+    </edge>
+    <edge source="8983" target="9113">
+      <data key="d10">0.17700065130352252</data>
+      <data key="d11">density</data>
+      <data key="d12">15.6170419199226</data>
+    </edge>
+    <edge source="8983" target="9337">
+      <data key="d10">0.2595644896502013</data>
+      <data key="d11">density</data>
+      <data key="d12">25.93817206988377</data>
+    </edge>
+    <edge source="8983" target="2308">
+      <data key="d10">0.1798658754464011</data>
+      <data key="d11">density</data>
+      <data key="d12">15.744073071153181</data>
+    </edge>
+    <edge source="9016" target="5789">
+      <data key="d10">0.46132902700346823</data>
+      <data key="d11">contracted</data>
+      <data key="d12">49.207533107831786</data>
+    </edge>
+    <edge source="9016" target="3113">
+      <data key="d10">0.7002795369330682</data>
+      <data key="d11">contracted</data>
+      <data key="d12">70.9858412556728</data>
+    </edge>
+    <edge source="834" target="choke_0">
+      <data key="d10">0.4559894465954824</data>
+      <data key="d11">choke_point_connection</data>
+      <data key="d12">44.07832403901046</data>
+    </edge>
+    <edge source="834" target="1662">
+      <data key="d10">0.45683541938507327</data>
+      <data key="d11">contracted</data>
+      <data key="d12">42.294337920775426</data>
+    </edge>
+    <edge source="834" target="4927">
+      <data key="d10">0.910570684769338</data>
+      <data key="d11">contracted</data>
+      <data key="d12">82.85016402810413</data>
+    </edge>
+    <edge source="9041" target="9134">
+      <data key="d10">0.6004769569047862</data>
+      <data key="d11">contracted</data>
+      <data key="d12">56.143478526722404</data>
+    </edge>
+    <edge source="9041" target="2455">
+      <data key="d10">3.5418048691363655</data>
+      <data key="d11">contracted</data>
+      <data key="d12">324.9698447554872</data>
+    </edge>
+    <edge source="9041" target="3635">
+      <data key="d10">3.3414917024251394</data>
+      <data key="d11">contracted</data>
+      <data key="d12">286.1440459061609</data>
+    </edge>
+    <edge source="9053" target="6256">
+      <data key="d10">0.12653501095911876</data>
+      <data key="d11">density</data>
+      <data key="d12">13.990965096973667</data>
+    </edge>
+    <edge source="9053" target="3652">
+      <data key="d10">0.2936495208582602</data>
+      <data key="d11">contracted</data>
+      <data key="d12">26.664135124071308</data>
+    </edge>
+    <edge source="9059" target="1061">
+      <data key="d10">0.09532562653551473</data>
+      <data key="d11">density</data>
+      <data key="d12">8.00314983892239</data>
+    </edge>
+    <edge source="9059" target="4305">
+      <data key="d10">0.2340950108682167</data>
+      <data key="d11">contracted</data>
+      <data key="d12">20.694167601029662</data>
+    </edge>
+    <edge source="9062" target="922">
+      <data key="d10">1.1183266271614976</data>
+      <data key="d11">contracted</data>
+      <data key="d12">97.36346781812067</data>
+    </edge>
+    <edge source="9062" target="9433">
+      <data key="d10">1.6039126269401267</data>
+      <data key="d11">contracted</data>
+      <data key="d12">138.21103287407584</data>
+    </edge>
+    <edge source="9103" target="5652">
+      <data key="d10">0.20203822427383536</data>
+      <data key="d11">density</data>
+      <data key="d12">22.12614321714953</data>
+    </edge>
+    <edge source="9103" target="6314">
+      <data key="d10">0.2537877687099822</data>
+      <data key="d11">contracted</data>
+      <data key="d12">23.795246445283606</data>
+    </edge>
+    <edge source="9103" target="7391">
+      <data key="d10">0.4271803907173138</data>
+      <data key="d11">contracted</data>
+      <data key="d12">40.10044601215956</data>
+    </edge>
+    <edge source="9106" target="9160">
+      <data key="d10">0.16298455284262253</data>
+      <data key="d11">density</data>
+      <data key="d12">14.792497720999656</data>
+    </edge>
+    <edge source="9106" target="7710">
+      <data key="d10">0.13119116892065077</data>
+      <data key="d11">density</data>
+      <data key="d12">14.58552398217345</data>
+    </edge>
+    <edge source="9106" target="9615">
+      <data key="d10">0.23886667753615626</data>
+      <data key="d11">contracted</data>
+      <data key="d12">23.07423869160019</data>
+    </edge>
+    <edge source="9106" target="9906">
+      <data key="d10">0.5753198169075509</data>
+      <data key="d11">contracted</data>
+      <data key="d12">55.45607253036268</data>
+    </edge>
+    <edge source="9113" target="9822">
+      <data key="d10">0.2402781289289306</data>
+      <data key="d11">density</data>
+      <data key="d12">26.45913899989362</data>
+    </edge>
+    <edge source="9113" target="4714">
+      <data key="d10">0.3802844009627754</data>
+      <data key="d11">contracted</data>
+      <data key="d12">42.134044732480454</data>
+    </edge>
+    <edge source="9113" target="6829">
+      <data key="d10">0.38237053999697007</data>
+      <data key="d11">contracted</data>
+      <data key="d12">30.321311082782174</data>
+    </edge>
+    <edge source="922" target="2200">
+      <data key="d10">1.1125738893986394</data>
+      <data key="d11">contracted</data>
+      <data key="d12">93.95588463656239</data>
+    </edge>
+    <edge source="922" target="3454">
+      <data key="d10">1.2320840335297751</data>
+      <data key="d11">contracted</data>
+      <data key="d12">109.91358742255719</data>
+    </edge>
+    <edge source="9134" target="9401">
+      <data key="d10">0.7091730210062251</data>
+      <data key="d11">contracted</data>
+      <data key="d12">56.003662533377835</data>
+    </edge>
+    <edge source="9134" target="9286">
+      <data key="d10">5.024850073424831</data>
+      <data key="d11">contracted</data>
+      <data key="d12">403.60304252174103</data>
+    </edge>
+    <edge source="9134" target="3407">
+      <data key="d10">1.6150581033699694</data>
+      <data key="d11">contracted</data>
+      <data key="d12">143.93889282870404</data>
+    </edge>
+    <edge source="9160" target="3677">
+      <data key="d10">0.12513527852842934</data>
+      <data key="d11">density</data>
+      <data key="d12">11.77500879670458</data>
+    </edge>
+    <edge source="9160" target="6108">
+      <data key="d10">0.4863290103631193</data>
+      <data key="d11">contracted</data>
+      <data key="d12">49.98108873947057</data>
+    </edge>
+    <edge source="973" target="port_26">
+      <data key="d10">0.40219631278911816</data>
+      <data key="d11">contracted</data>
+      <data key="d12">40.16462949971523</data>
+    </edge>
+    <edge source="973" target="7850">
+      <data key="d10">1.203585538161031</data>
+      <data key="d11">contracted</data>
+      <data key="d12">106.15296287579785</data>
+    </edge>
+    <edge source="1006" target="8117">
+      <data key="d10">0.9915653519738256</data>
+      <data key="d11">contracted</data>
+      <data key="d12">98.17998066750322</data>
+    </edge>
+    <edge source="1006" target="5645">
+      <data key="d10">0.33361660673616744</data>
+      <data key="d11">contracted</data>
+      <data key="d12">30.370973103444395</data>
+    </edge>
+    <edge source="1006" target="5275">
+      <data key="d10">1.1141135671727347</data>
+      <data key="d11">contracted</data>
+      <data key="d12">96.57780487774129</data>
+    </edge>
+    <edge source="port_1" target="9526">
+      <data key="d10">0.5227949822598414</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">57.73373989793705</data>
+    </edge>
+    <edge source="port_1" target="5533">
+      <data key="d10">0.6326830675759934</data>
+      <data key="d11">contracted</data>
+      <data key="d12">64.19326186627973</data>
+    </edge>
+    <edge source="port_1" target="9894">
+      <data key="d10">1.0735065521401905</data>
+      <data key="d11">contracted</data>
+      <data key="d12">100.63388897531831</data>
+    </edge>
+    <edge source="9243" target="8131">
+      <data key="d10">0.1839593159050089</data>
+      <data key="d11">contracted</data>
+      <data key="d12">15.658369653821612</data>
+    </edge>
+    <edge source="9243" target="3179">
+      <data key="d10">0.18267294002925777</data>
+      <data key="d11">contracted</data>
+      <data key="d12">17.036876586347375</data>
+    </edge>
+    <edge source="9243" target="9799">
+      <data key="d10">1.1577198694282296</data>
+      <data key="d11">contracted</data>
+      <data key="d12">103.28651097477946</data>
+    </edge>
+    <edge source="9243" target="port_15">
+      <data key="d10">1.3260789319450126</data>
+      <data key="d11">contracted</data>
+      <data key="d12">109.37992647187963</data>
+    </edge>
+    <edge source="1061" target="3652">
+      <data key="d10">0.10970393313529829</data>
+      <data key="d11">density</data>
+      <data key="d12">11.435016987453729</data>
+    </edge>
+    <edge source="1061" target="7276">
+      <data key="d10">0.1847007471554986</data>
+      <data key="d11">contracted</data>
+      <data key="d12">18.837250083147868</data>
+    </edge>
+    <edge source="1061" target="2367">
+      <data key="d10">0.17882051742157842</data>
+      <data key="d11">contracted</data>
+      <data key="d12">18.69901824243463</data>
+    </edge>
+    <edge source="9261" target="1873">
+      <data key="d10">0.0864416193878349</data>
+      <data key="d11">density</data>
+      <data key="d12">8.562971706647316</data>
+    </edge>
+    <edge source="9261" target="9660">
+      <data key="d10">0.23713322658263264</data>
+      <data key="d11">contracted</data>
+      <data key="d12">21.25019781499012</data>
+    </edge>
+    <edge source="9261" target="5375">
+      <data key="d10">0.5862979687875797</data>
+      <data key="d11">contracted</data>
+      <data key="d12">49.901311278755195</data>
+    </edge>
+    <edge source="9266" target="7308">
+      <data key="d10">0.4177203739141002</data>
+      <data key="d11">contracted</data>
+      <data key="d12">37.21342455476794</data>
+    </edge>
+    <edge source="9266" target="port_36">
+      <data key="d10">5.390731810584507</data>
+      <data key="d11">contracted</data>
+      <data key="d12">517.8165860887699</data>
+    </edge>
+    <edge source="9266" target="1885">
+      <data key="d10">1.9916602446684943</data>
+      <data key="d11">contracted</data>
+      <data key="d12">178.27596585551314</data>
+    </edge>
+    <edge source="9272" target="9286">
+      <data key="d10">0.3398118435853864</data>
+      <data key="d11">contracted</data>
+      <data key="d12">31.75871456779485</data>
+    </edge>
+    <edge source="9272" target="2610">
+      <data key="d10">0.26294146834667376</data>
+      <data key="d11">contracted</data>
+      <data key="d12">22.37726137589091</data>
+    </edge>
+    <edge source="9272" target="2479">
+      <data key="d10">6.412864671264867</data>
+      <data key="d11">contracted</data>
+      <data key="d12">525.5947140974731</data>
+    </edge>
+    <edge source="9337" target="4214">
+      <data key="d10">0.1401708310270111</data>
+      <data key="d11">density</data>
+      <data key="d12">13.13668863211121</data>
+    </edge>
+    <edge source="9337" target="2308">
+      <data key="d10">0.19596755692101592</data>
+      <data key="d11">density</data>
+      <data key="d12">21.78856541220285</data>
+    </edge>
+    <edge source="9337" target="1539">
+      <data key="d10">0.9704359954780339</data>
+      <data key="d11">contracted</data>
+      <data key="d12">83.94940372953377</data>
+    </edge>
+    <edge source="9381" target="8000">
+      <data key="d10">0.4203103826653418</data>
+      <data key="d11">contracted</data>
+      <data key="d12">44.54475559851572</data>
+    </edge>
+    <edge source="9381" target="7155">
+      <data key="d10">1.8864496465193246</data>
+      <data key="d11">contracted</data>
+      <data key="d12">181.2831810842866</data>
+    </edge>
+    <edge source="9383" target="port_10">
+      <data key="d10">1.75117149067154</data>
+      <data key="d11">contracted</data>
+      <data key="d12">139.92349278963948</data>
+    </edge>
+    <edge source="9383" target="5172">
+      <data key="d10">0.9384036765276293</data>
+      <data key="d11">contracted</data>
+      <data key="d12">87.24003430799</data>
+    </edge>
+    <edge source="9383" target="7713">
+      <data key="d10">1.4664097645143386</data>
+      <data key="d11">contracted</data>
+      <data key="d12">136.92169722793673</data>
+    </edge>
+    <edge source="1194" target="2395">
+      <data key="d10">0.3091749610352821</data>
+      <data key="d11">contracted</data>
+      <data key="d12">34.12756834562948</data>
+    </edge>
+    <edge source="1194" target="2049">
+      <data key="d10">0.5652596964827776</data>
+      <data key="d11">contracted</data>
+      <data key="d12">52.001197855391965</data>
+    </edge>
+    <edge source="1194" target="9843">
+      <data key="d10">2.519541837980275</data>
+      <data key="d11">contracted</data>
+      <data key="d12">219.83963792128796</data>
+    </edge>
+    <edge source="1196" target="9906">
+      <data key="d10">0.12806782578894746</data>
+      <data key="d11">density</data>
+      <data key="d12">11.774184145291814</data>
+    </edge>
+    <edge source="1196" target="port_12">
+      <data key="d10">0.28815983412660856</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">26.73452122361891</data>
+    </edge>
+    <edge source="1196" target="9829">
+      <data key="d10">0.22223788310912151</data>
+      <data key="d11">contracted</data>
+      <data key="d12">18.22178309344997</data>
+    </edge>
+    <edge source="1201" target="5133">
+      <data key="d10">0.10719607117792952</data>
+      <data key="d11">density</data>
+      <data key="d12">9.964780941731254</data>
+    </edge>
+    <edge source="1201" target="7155">
+      <data key="d10">0.659671876246624</data>
+      <data key="d11">contracted</data>
+      <data key="d12">59.404821386280645</data>
+    </edge>
+    <edge source="1201" target="5465">
+      <data key="d10">1.608102339653268</data>
+      <data key="d11">contracted</data>
+      <data key="d12">152.02119472423578</data>
+    </edge>
+    <edge source="9401" target="9675">
+      <data key="d10">1.423880500473596</data>
+      <data key="d11">contracted</data>
+      <data key="d12">119.45371661732388</data>
+    </edge>
+    <edge source="9401" target="9480">
+      <data key="d10">1.456838213617571</data>
+      <data key="d11">contracted</data>
+      <data key="d12">117.44931000860981</data>
+    </edge>
+    <edge source="9422" target="port_27">
+      <data key="d10">1.553410583781512</data>
+      <data key="d11">contracted</data>
+      <data key="d12">142.64217322543382</data>
+    </edge>
+    <edge source="9422" target="7228">
+      <data key="d10">0.34933262798774867</data>
+      <data key="d11">contracted</data>
+      <data key="d12">34.37946218732559</data>
+    </edge>
+    <edge source="1231" target="6731">
+      <data key="d10">0.12429683561177307</data>
+      <data key="d11">density</data>
+      <data key="d12">12.890171814814053</data>
+    </edge>
+    <edge source="1231" target="2896">
+      <data key="d10">0.24941076027522147</data>
+      <data key="d11">contracted</data>
+      <data key="d12">17.092413767152348</data>
+    </edge>
+    <edge source="1231" target="port_29">
+      <data key="d10">3.5255602766987333</data>
+      <data key="d11">contracted</data>
+      <data key="d12">287.8657597799445</data>
+    </edge>
+    <edge source="9433" target="3734">
+      <data key="d10">0.18456867809778796</data>
+      <data key="d11">contracted</data>
+      <data key="d12">15.484346491108477</data>
+    </edge>
+    <edge source="9433" target="9848">
+      <data key="d10">0.8291594163908453</data>
+      <data key="d11">contracted</data>
+      <data key="d12">84.71148955911806</data>
+    </edge>
+    <edge source="9448" target="7120">
+      <data key="d10">0.1913807509443399</data>
+      <data key="d11">density</data>
+      <data key="d12">20.352966989500857</data>
+    </edge>
+    <edge source="9448" target="4298">
+      <data key="d10">0.3576983223592479</data>
+      <data key="d11">contracted</data>
+      <data key="d12">35.1912572185753</data>
+    </edge>
+    <edge source="9448" target="4727">
+      <data key="d10">0.5516564442663211</data>
+      <data key="d11">contracted</data>
+      <data key="d12">51.404204487396875</data>
+    </edge>
+    <edge source="9480" target="9675">
+      <data key="d10">0.542706686268841</data>
+      <data key="d11">contracted</data>
+      <data key="d12">48.26700401914886</data>
+    </edge>
+    <edge source="9480" target="4933">
+      <data key="d10">2.9503521609042913</data>
+      <data key="d11">contracted</data>
+      <data key="d12">308.0698252127371</data>
+    </edge>
+    <edge source="9480" target="4714">
+      <data key="d10">0.9961269757965323</data>
+      <data key="d11">contracted</data>
+      <data key="d12">82.26086183960622</data>
+    </edge>
+    <edge source="9506" target="9599">
+      <data key="d10">0.13805551929328289</data>
+      <data key="d11">density</data>
+      <data key="d12">11.886014081320573</data>
+    </edge>
+    <edge source="9506" target="4464">
+      <data key="d10">0.263728799429792</data>
+      <data key="d11">contracted</data>
+      <data key="d12">22.616498098364396</data>
+    </edge>
+    <edge source="9506" target="7274">
+      <data key="d10">0.41501765166223725</data>
+      <data key="d11">contracted</data>
+      <data key="d12">37.449002511111345</data>
+    </edge>
+    <edge source="9526" target="5533">
+      <data key="d10">0.14560186889724785</data>
+      <data key="d11">density</data>
+      <data key="d12">13.472699755672412</data>
+    </edge>
+    <edge source="9526" target="9894">
+      <data key="d10">1.1272295148047387</data>
+      <data key="d11">contracted</data>
+      <data key="d12">97.89776304987934</data>
+    </edge>
+    <edge source="1343" target="port_34">
+      <data key="d10">0.6386655683350984</data>
+      <data key="d11">contracted</data>
+      <data key="d12">64.81512606773529</data>
+    </edge>
+    <edge source="1343" target="4425">
+      <data key="d10">0.4375459367238837</data>
+      <data key="d11">contracted</data>
+      <data key="d12">38.11568131184323</data>
+    </edge>
+    <edge source="1343" target="8184">
+      <data key="d10">1.1376860647177065</data>
+      <data key="d11">contracted</data>
+      <data key="d12">121.74800189223484</data>
+    </edge>
+    <edge source="9551" target="2367">
+      <data key="d10">0.12847810053619957</data>
+      <data key="d11">density</data>
+      <data key="d12">14.22260070205842</data>
+    </edge>
+    <edge source="9551" target="7650">
+      <data key="d10">0.42923123870318586</data>
+      <data key="d11">contracted</data>
+      <data key="d12">38.45831332598035</data>
+    </edge>
+    <edge source="9585" target="9675">
+      <data key="d10">0.14156670567214186</data>
+      <data key="d11">density</data>
+      <data key="d12">12.621582598414903</data>
+    </edge>
+    <edge source="9585" target="6829">
+      <data key="d10">0.5885399249756507</data>
+      <data key="d11">contracted</data>
+      <data key="d12">49.19854577022585</data>
+    </edge>
+    <edge source="9584" target="3935">
+      <data key="d10">0.29328127424153605</data>
+      <data key="d11">contracted</data>
+      <data key="d12">28.770382754641755</data>
+    </edge>
+    <edge source="9584" target="port_41">
+      <data key="d10">0.6781362393134477</data>
+      <data key="d11">contracted</data>
+      <data key="d12">73.80632028870309</data>
+    </edge>
+    <edge source="9584" target="7478">
+      <data key="d10">0.44022978528271495</data>
+      <data key="d11">contracted</data>
+      <data key="d12">39.38817470131323</data>
+    </edge>
+    <edge source="9584" target="6619">
+      <data key="d10">2.4616457609555025</data>
+      <data key="d11">contracted</data>
+      <data key="d12">217.42045505862163</data>
+    </edge>
+    <edge source="9599" target="1745">
+      <data key="d10">0.9744621962979845</data>
+      <data key="d11">contracted</data>
+      <data key="d12">91.41213633110311</data>
+    </edge>
+    <edge source="9615" target="7710">
+      <data key="d10">0.1861795287041854</data>
+      <data key="d11">density</data>
+      <data key="d12">16.388535821287608</data>
+    </edge>
+    <edge source="9615" target="9731">
+      <data key="d10">0.2642210761535057</data>
+      <data key="d11">contracted</data>
+      <data key="d12">25.443163374253086</data>
+    </edge>
+    <edge source="9623" target="4933">
+      <data key="d10">0.6860385896471926</data>
+      <data key="d11">contracted</data>
+      <data key="d12">62.90451620144736</data>
+    </edge>
+    <edge source="9623" target="7809">
+      <data key="d10">0.7965691351602959</data>
+      <data key="d11">contracted</data>
+      <data key="d12">73.65004596506661</data>
+    </edge>
+    <edge source="9623" target="7713">
+      <data key="d10">0.9914785965157504</data>
+      <data key="d11">contracted</data>
+      <data key="d12">90.48881597905019</data>
+    </edge>
+    <edge source="9623" target="port_4">
+      <data key="d10">1.1894032883435055</data>
+      <data key="d11">contracted</data>
+      <data key="d12">97.31231707722058</data>
+    </edge>
+    <edge source="9629" target="9984">
+      <data key="d10">0.38137938724709125</data>
+      <data key="d11">contracted</data>
+      <data key="d12">39.649582884132485</data>
+    </edge>
+    <edge source="9629" target="8184">
+      <data key="d10">1.437052086490686</data>
+      <data key="d11">contracted</data>
+      <data key="d12">126.72297723384857</data>
+    </edge>
+    <edge source="9629" target="4425">
+      <data key="d10">1.0388378084011922</data>
+      <data key="d11">contracted</data>
+      <data key="d12">86.36603504494548</data>
+    </edge>
+    <edge source="9629" target="5149">
+      <data key="d10">1.5929821195579232</data>
+      <data key="d11">contracted</data>
+      <data key="d12">142.89489240529508</data>
+    </edge>
+    <edge source="9634" target="3743">
+      <data key="d10">0.6201071493946186</data>
+      <data key="d11">contracted</data>
+      <data key="d12">51.488420498856755</data>
+    </edge>
+    <edge source="9634" target="7785">
+      <data key="d10">0.8289878172745597</data>
+      <data key="d11">contracted</data>
+      <data key="d12">87.45316587111536</data>
+    </edge>
+    <edge source="9634" target="7371">
+      <data key="d10">0.5086753022714782</data>
+      <data key="d11">contracted</data>
+      <data key="d12">50.917949300901235</data>
+    </edge>
+    <edge source="9660" target="3263">
+      <data key="d10">0.25407874190979557</data>
+      <data key="d11">contracted</data>
+      <data key="d12">24.157451723906238</data>
+    </edge>
+    <edge source="9660" target="5989">
+      <data key="d10">0.7579526735494421</data>
+      <data key="d11">contracted</data>
+      <data key="d12">68.02713141614669</data>
+    </edge>
+    <edge source="9660" target="5375">
+      <data key="d10">0.42988794196361607</data>
+      <data key="d11">contracted</data>
+      <data key="d12">42.265806031390746</data>
+    </edge>
+    <edge source="9664" target="port_25">
+      <data key="d10">0.42080148687929464</data>
+      <data key="d11">contracted</data>
+      <data key="d12">46.75000680934655</data>
+    </edge>
+    <edge source="9664" target="3890">
+      <data key="d10">0.3360144405618863</data>
+      <data key="d11">contracted</data>
+      <data key="d12">34.415808671092485</data>
+    </edge>
+    <edge source="9664" target="3113">
+      <data key="d10">0.28423961145433263</data>
+      <data key="d11">contracted</data>
+      <data key="d12">27.917531171571564</data>
+    </edge>
+    <edge source="port_6" target="4808">
+      <data key="d10">0.5213020430631327</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">46.20362890395856</data>
+    </edge>
+    <edge source="port_6" target="port_9">
+      <data key="d10">0.42403426058637866</data>
+      <data key="d11">contracted</data>
+      <data key="d12">39.13726587675293</data>
+    </edge>
+    <edge source="9697" target="6722">
+      <data key="d10">0.3461897950454055</data>
+      <data key="d11">contracted</data>
+      <data key="d12">35.56543623400014</data>
+    </edge>
+    <edge source="9697" target="5133">
+      <data key="d10">2.0543887409435944</data>
+      <data key="d11">contracted</data>
+      <data key="d12">193.19135042011627</data>
+    </edge>
+    <edge source="9731" target="port_9">
+      <data key="d10">0.2885996576027612</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">31.84267764192364</data>
+    </edge>
+    <edge source="1539" target="5172">
+      <data key="d10">1.4561298952107906</data>
+      <data key="d11">contracted</data>
+      <data key="d12">142.2632531935202</data>
+    </edge>
+    <edge source="1539" target="4214">
+      <data key="d10">0.8729688200239057</data>
+      <data key="d11">contracted</data>
+      <data key="d12">84.00311187785752</data>
+    </edge>
+    <edge source="9736" target="3299">
+      <data key="d10">0.11180848475672919</data>
+      <data key="d11">density</data>
+      <data key="d12">9.58326362820894</data>
+    </edge>
+    <edge source="9736" target="4435">
+      <data key="d10">0.10005718478239542</data>
+      <data key="d11">density</data>
+      <data key="d12">10.790539319974576</data>
+    </edge>
+    <edge source="9736" target="7516">
+      <data key="d10">0.18043554552440458</data>
+      <data key="d11">contracted</data>
+      <data key="d12">19.186744522081415</data>
+    </edge>
+    <edge source="9789" target="8000">
+      <data key="d10">0.2789548462597161</data>
+      <data key="d11">contracted</data>
+      <data key="d12">25.403009813492474</data>
+    </edge>
+    <edge source="9789" target="9894">
+      <data key="d10">3.631000934710502</data>
+      <data key="d11">contracted</data>
+      <data key="d12">312.973512407036</data>
+    </edge>
+    <edge source="9799" target="port_15">
+      <data key="d10">0.3209341261905888</data>
+      <data key="d11">contracted</data>
+      <data key="d12">32.40108742069</data>
+    </edge>
+    <edge source="9799" target="7593">
+      <data key="d10">0.3059345619751027</data>
+      <data key="d11">contracted</data>
+      <data key="d12">27.232137167669364</data>
+    </edge>
+    <edge source="port_12" target="3207">
+      <data key="d10">0.33610161049463727</data>
+      <data key="d11">contracted</data>
+      <data key="d12">34.595046262531234</data>
+    </edge>
+    <edge source="9822" target="6437">
+      <data key="d10">0.8368427585395577</data>
+      <data key="d11">contracted</data>
+      <data key="d12">76.07466933467731</data>
+    </edge>
+    <edge source="9822" target="6829">
+      <data key="d10">0.3887588675627035</data>
+      <data key="d11">contracted</data>
+      <data key="d12">33.35602208218112</data>
+    </edge>
+    <edge source="9829" target="3207">
+      <data key="d10">0.5434873108923399</data>
+      <data key="d11">contracted</data>
+      <data key="d12">50.49480950416001</data>
+    </edge>
+    <edge source="9831" target="8149">
+      <data key="d10">0.12417391334984398</data>
+      <data key="d11">density</data>
+      <data key="d12">11.576696536950411</data>
+    </edge>
+    <edge source="9831" target="6386">
+      <data key="d10">2.898776348684213</data>
+      <data key="d11">contracted</data>
+      <data key="d12">247.69388115624216</data>
+    </edge>
+    <edge source="9831" target="2049">
+      <data key="d10">2.971706761639166</data>
+      <data key="d11">contracted</data>
+      <data key="d12">269.8375461729972</data>
+    </edge>
+    <edge source="9843" target="8117">
+      <data key="d10">0.600579901071596</data>
+      <data key="d11">contracted</data>
+      <data key="d12">53.31860028767346</data>
+    </edge>
+    <edge source="9843" target="2799">
+      <data key="d10">0.8269524397334762</data>
+      <data key="d11">contracted</data>
+      <data key="d12">77.99023859483225</data>
+    </edge>
+    <edge source="9843" target="7391">
+      <data key="d10">1.0799581753832075</data>
+      <data key="d11">contracted</data>
+      <data key="d12">107.85453176737583</data>
+    </edge>
+    <edge source="1652" target="4288">
+      <data key="d10">0.7216996754087344</data>
+      <data key="d11">contracted</data>
+      <data key="d12">61.98016578860123</data>
+    </edge>
+    <edge source="1652" target="7059">
+      <data key="d10">0.2508600113486679</data>
+      <data key="d11">contracted</data>
+      <data key="d12">22.502513255553033</data>
+    </edge>
+    <edge source="1652" target="4494">
+      <data key="d10">0.7275968705583802</data>
+      <data key="d11">contracted</data>
+      <data key="d12">64.0537034069759</data>
+    </edge>
+    <edge source="9848" target="4644">
+      <data key="d10">3.2845373607470076</data>
+      <data key="d11">contracted</data>
+      <data key="d12">295.22165408572124</data>
+    </edge>
+    <edge source="9848" target="3634">
+      <data key="d10">1.3420990773835233</data>
+      <data key="d11">contracted</data>
+      <data key="d12">108.22464477587171</data>
+    </edge>
+    <edge source="1662" target="port_17">
+      <data key="d10">1.9342794231287204</data>
+      <data key="d11">contracted</data>
+      <data key="d12">173.68197261375116</data>
+    </edge>
+    <edge source="1662" target="7634">
+      <data key="d10">0.5172602208699836</data>
+      <data key="d11">contracted</data>
+      <data key="d12">47.585502059424336</data>
+    </edge>
+    <edge source="1745" target="4048">
+      <data key="d10">0.5958610871105458</data>
+      <data key="d11">contracted</data>
+      <data key="d12">59.361188403608246</data>
+    </edge>
+    <edge source="1746" target="2933">
+      <data key="d10">1.0029498120768272</data>
+      <data key="d11">contracted</data>
+      <data key="d12">88.76057979446264</data>
+    </edge>
+    <edge source="1746" target="3809">
+      <data key="d10">2.5528478699955564</data>
+      <data key="d11">contracted</data>
+      <data key="d12">239.43080650385053</data>
+    </edge>
+    <edge source="1746" target="3310">
+      <data key="d10">0.39321510725096315</data>
+      <data key="d11">contracted</data>
+      <data key="d12">36.48053378947468</data>
+    </edge>
+    <edge source="1750" target="3852">
+      <data key="d10">0.3412314006428864</data>
+      <data key="d11">contracted</data>
+      <data key="d12">33.45702277568464</data>
+    </edge>
+    <edge source="1750" target="7394">
+      <data key="d10">6.140519020156194</data>
+      <data key="d11">contracted</data>
+      <data key="d12">478.39254741899146</data>
+    </edge>
+    <edge source="1750" target="port_16">
+      <data key="d10">0.32365212086812783</data>
+      <data key="d11">contracted</data>
+      <data key="d12">33.50329977716698</data>
+    </edge>
+    <edge source="9984" target="1873">
+      <data key="d10">1.6952810730418661</data>
+      <data key="d11">contracted</data>
+      <data key="d12">165.57057990010182</data>
+    </edge>
+    <edge source="9984" target="3116">
+      <data key="d10">2.4202772726768975</data>
+      <data key="d11">contracted</data>
+      <data key="d12">215.7171653656557</data>
+    </edge>
+    <edge source="9984" target="6209">
+      <data key="d10">2.210052711799122</data>
+      <data key="d11">contracted</data>
+      <data key="d12">194.35390132272045</data>
+    </edge>
+    <edge source="1804" target="port_8">
+      <data key="d10">1.0347930744141356</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">107.1228665545953</data>
+    </edge>
+    <edge source="1804" target="2554">
+      <data key="d10">0.24883206360776747</data>
+      <data key="d11">density</data>
+      <data key="d12">26.853137212661746</data>
+    </edge>
+    <edge source="1804" target="7809">
+      <data key="d10">0.4413404781179897</data>
+      <data key="d11">contracted</data>
+      <data key="d12">45.21764193868164</data>
+    </edge>
+    <edge source="port_32" target="5074">
+      <data key="d10">0.7826168196756219</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">82.24733894093968</data>
+    </edge>
+    <edge source="port_32" target="2169">
+      <data key="d10">0.8241274641936788</data>
+      <data key="d11">contracted</data>
+      <data key="d12">76.45055008722221</data>
+    </edge>
+    <edge source="1873" target="5989">
+      <data key="d10">0.6811255180968636</data>
+      <data key="d11">contracted</data>
+      <data key="d12">63.74613937155204</data>
+    </edge>
+    <edge source="1873" target="4288">
+      <data key="d10">2.077217066325847</data>
+      <data key="d11">contracted</data>
+      <data key="d12">194.82900027592927</data>
+    </edge>
+    <edge source="1885" target="5448">
+      <data key="d10">1.3329070742499098</data>
+      <data key="d11">contracted</data>
+      <data key="d12">110.42796230799496</data>
+    </edge>
+    <edge source="1885" target="7905">
+      <data key="d10">1.506431814797071</data>
+      <data key="d11">contracted</data>
+      <data key="d12">133.70189506260974</data>
+    </edge>
+    <edge source="1998" target="5859">
+      <data key="d10">0.4113487579975833</data>
+      <data key="d11">contracted</data>
+      <data key="d12">31.018289678941706</data>
+    </edge>
+    <edge source="1998" target="3852">
+      <data key="d10">2.3574084072849537</data>
+      <data key="d11">contracted</data>
+      <data key="d12">245.83193861162522</data>
+    </edge>
+    <edge source="2049" target="7998">
+      <data key="d10">1.217863621625164</data>
+      <data key="d11">contracted</data>
+      <data key="d12">104.66867969810423</data>
+    </edge>
+    <edge source="2169" target="8014">
+      <data key="d10">0.32994269885539523</data>
+      <data key="d11">contracted</data>
+      <data key="d12">32.5830614140009</data>
+    </edge>
+    <edge source="2169" target="7120">
+      <data key="d10">0.27673237081925256</data>
+      <data key="d11">contracted</data>
+      <data key="d12">21.932513318287402</data>
+    </edge>
+    <edge source="2169" target="5074">
+      <data key="d10">0.266217071238634</data>
+      <data key="d11">contracted</data>
+      <data key="d12">22.719369546355825</data>
+    </edge>
+    <edge source="port_30" target="7785">
+      <data key="d10">1.0301007262598794</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">107.62540265813941</data>
+    </edge>
+    <edge source="port_30" target="4683">
+      <data key="d10">0.23258268334263119</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">22.173166602962507</data>
+    </edge>
+    <edge source="port_30" target="6368">
+      <data key="d10">1.1116894930417938</data>
+      <data key="d11">contracted</data>
+      <data key="d12">94.47745212969471</data>
+    </edge>
+    <edge source="2200" target="8131">
+      <data key="d10">1.4635615270337161</data>
+      <data key="d11">contracted</data>
+      <data key="d12">123.31893340147614</data>
+    </edge>
+    <edge source="port_40" target="6657">
+      <data key="d10">0.7934596501435325</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">84.76637377504245</data>
+    </edge>
+    <edge source="port_40" target="6437">
+      <data key="d10">0.9022015888620434</data>
+      <data key="d11">contracted</data>
+      <data key="d12">92.8578514570285</data>
+    </edge>
+    <edge source="port_40" target="7308">
+      <data key="d10">0.9805805767300133</data>
+      <data key="d11">contracted</data>
+      <data key="d12">96.077136248138</data>
+    </edge>
+    <edge source="port_40" target="7016">
+      <data key="d10">0.8489002459762981</data>
+      <data key="d11">contracted</data>
+      <data key="d12">90.73929997101646</data>
+    </edge>
+    <edge source="2308" target="5500">
+      <data key="d10">0.43822283274734264</data>
+      <data key="d11">contracted</data>
+      <data key="d12">45.088011602138586</data>
+    </edge>
+    <edge source="2315" target="port_20">
+      <data key="d10">0.43094711575195815</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">42.32169514670022</data>
+    </edge>
+    <edge source="2315" target="8068">
+      <data key="d10">0.28547878114803743</data>
+      <data key="d11">density</data>
+      <data key="d12">27.33147399762018</data>
+    </edge>
+    <edge source="2315" target="4489">
+      <data key="d10">0.40437633451568944</data>
+      <data key="d11">contracted</data>
+      <data key="d12">37.066563944982015</data>
+    </edge>
+    <edge source="2324" target="5677">
+      <data key="d10">0.1567438985398068</data>
+      <data key="d11">density</data>
+      <data key="d12">15.911208556299403</data>
+    </edge>
+    <edge source="2324" target="port_19">
+      <data key="d10">0.5895514840670683</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">51.93538514276951</data>
+    </edge>
+    <edge source="2367" target="5026">
+      <data key="d10">0.22452216831374455</data>
+      <data key="d11">contracted</data>
+      <data key="d12">20.463782116956995</data>
+    </edge>
+    <edge source="2375" target="3454">
+      <data key="d10">0.08551356765616439</data>
+      <data key="d11">density</data>
+      <data key="d12">7.856654445773727</data>
+    </edge>
+    <edge source="2375" target="3639">
+      <data key="d10">2.716022962595453</data>
+      <data key="d11">contracted</data>
+      <data key="d12">221.61797087365832</data>
+    </edge>
+    <edge source="2375" target="3179">
+      <data key="d10">1.402375620483895</data>
+      <data key="d11">contracted</data>
+      <data key="d12">120.94753160285171</data>
+    </edge>
+    <edge source="2395" target="7129">
+      <data key="d10">0.2523864715835322</data>
+      <data key="d11">contracted</data>
+      <data key="d12">24.872831238662968</data>
+    </edge>
+    <edge source="port_5" target="6757">
+      <data key="d10">0.5403585699526793</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">59.96365657820663</data>
+    </edge>
+    <edge source="port_5" target="3516">
+      <data key="d10">1.011128402496672</data>
+      <data key="d11">contracted</data>
+      <data key="d12">92.18005465109395</data>
+    </edge>
+    <edge source="2455" target="2689">
+      <data key="d10">2.4201079409006967</data>
+      <data key="d11">contracted</data>
+      <data key="d12">226.68799812845546</data>
+    </edge>
+    <edge source="2455" target="4949">
+      <data key="d10">1.3001316411085764</data>
+      <data key="d11">contracted</data>
+      <data key="d12">125.71930885978732</data>
+    </edge>
+    <edge source="2479" target="3088">
+      <data key="d10">0.11183069143261315</data>
+      <data key="d11">density</data>
+      <data key="d12">11.618116696583405</data>
+    </edge>
+    <edge source="2479" target="3407">
+      <data key="d10">0.11486831363029756</data>
+      <data key="d11">density</data>
+      <data key="d12">12.494862983029371</data>
+    </edge>
+    <edge source="2479" target="6657">
+      <data key="d10">0.07221325980269007</data>
+      <data key="d11">density</data>
+      <data key="d12">6.827263920845475</data>
+    </edge>
+    <edge source="2610" target="port_34">
+      <data key="d10">0.8404232978593577</data>
+      <data key="d11">contracted</data>
+      <data key="d12">77.9790503624734</data>
+    </edge>
+    <edge source="port_41" target="7478">
+      <data key="d10">0.6432919978652386</data>
+      <data key="d11">contracted</data>
+      <data key="d12">54.15794350127064</data>
+    </edge>
+    <edge source="port_41" target="3935">
+      <data key="d10">0.9150241829947917</data>
+      <data key="d11">contracted</data>
+      <data key="d12">96.15397209299434</data>
+    </edge>
+    <edge source="2661" target="7087">
+      <data key="d10">0.6572562733866238</data>
+      <data key="d11">contracted</data>
+      <data key="d12">55.422036971362374</data>
+    </edge>
+    <edge source="2661" target="5149">
+      <data key="d10">0.6611542290876871</data>
+      <data key="d11">contracted</data>
+      <data key="d12">59.51247841959142</data>
+    </edge>
+    <edge source="2661" target="port_35">
+      <data key="d10">1.4533946440282148</data>
+      <data key="d11">contracted</data>
+      <data key="d12">138.45570108695415</data>
+    </edge>
+    <edge source="port_38" target="7059">
+      <data key="d10">1.4056889883887869</data>
+      <data key="d11">contracted</data>
+      <data key="d12">111.03210986012492</data>
+    </edge>
+    <edge source="port_38" target="5027">
+      <data key="d10">0.5533765548503125</data>
+      <data key="d11">contracted</data>
+      <data key="d12">56.87310526983702</data>
+    </edge>
+    <edge source="port_10" target="5172">
+      <data key="d10">1.1592137161958116</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">115.05332610300162</data>
+    </edge>
+    <edge source="port_10" target="4808">
+      <data key="d10">2.667843825246109</data>
+      <data key="d11">contracted</data>
+      <data key="d12">268.8320158088194</data>
+    </edge>
+    <edge source="2689" target="6730">
+      <data key="d10">0.33371878244389075</data>
+      <data key="d11">contracted</data>
+      <data key="d12">25.538732754802012</data>
+    </edge>
+    <edge source="2693" target="4949">
+      <data key="d10">0.5153719017248319</data>
+      <data key="d11">contracted</data>
+      <data key="d12">55.518237180604125</data>
+    </edge>
+    <edge source="2693" target="5454">
+      <data key="d10">2.1757590013137404</data>
+      <data key="d11">contracted</data>
+      <data key="d12">188.02806459671973</data>
+    </edge>
+    <edge source="2775" target="7634">
+      <data key="d10">0.995065911520092</data>
+      <data key="d11">contracted</data>
+      <data key="d12">101.37808989292438</data>
+    </edge>
+    <edge source="2775" target="port_17">
+      <data key="d10">1.4740261562336066</data>
+      <data key="d11">contracted</data>
+      <data key="d12">120.45551283960401</data>
+    </edge>
+    <edge source="2799" target="5645">
+      <data key="d10">0.0883387367078695</data>
+      <data key="d11">density</data>
+      <data key="d12">8.780719200494753</data>
+    </edge>
+    <edge source="2799" target="7129">
+      <data key="d10">2.7552114153401215</data>
+      <data key="d11">contracted</data>
+      <data key="d12">240.09524682461077</data>
+    </edge>
+    <edge source="2849" target="8149">
+      <data key="d10">0.780955150597545</data>
+      <data key="d11">contracted</data>
+      <data key="d12">68.53994128402721</data>
+    </edge>
+    <edge source="2849" target="6627">
+      <data key="d10">4.067759990904998</data>
+      <data key="d11">contracted</data>
+      <data key="d12">344.20471629374026</data>
+    </edge>
+    <edge source="port_4" target="7713">
+      <data key="d10">0.9188467046167653</data>
+      <data key="d11">contracted</data>
+      <data key="d12">90.82376177205118</data>
+    </edge>
+    <edge source="2896" target="6731">
+      <data key="d10">0.13054924852354666</data>
+      <data key="d11">density</data>
+      <data key="d12">10.943984654619797</data>
+    </edge>
+    <edge source="2896" target="port_23">
+      <data key="d10">1.550542604012738</data>
+      <data key="d11">contracted</data>
+      <data key="d12">152.262739182156</data>
+    </edge>
+    <edge source="2933" target="7456">
+      <data key="d10">0.6848880240400987</data>
+      <data key="d11">contracted</data>
+      <data key="d12">64.89750314086633</data>
+    </edge>
+    <edge source="2933" target="6619">
+      <data key="d10">1.6952210782144612</data>
+      <data key="d11">contracted</data>
+      <data key="d12">153.12315343595756</data>
+    </edge>
+    <edge source="port_31" target="7650">
+      <data key="d10">1.3656525550948417</data>
+      <data key="d11">contracted</data>
+      <data key="d12">145.48639553182522</data>
+    </edge>
+    <edge source="port_31" target="port_33">
+      <data key="d10">1.3220774405913187</data>
+      <data key="d11">contracted</data>
+      <data key="d12">114.66206588192557</data>
+    </edge>
+    <edge source="port_27" target="port_20">
+      <data key="d10">0.7692387793670568</data>
+      <data key="d11">contracted</data>
+      <data key="d12">82.67363582519077</data>
+    </edge>
+    <edge source="port_27" target="4627">
+      <data key="d10">1.1144876576596947</data>
+      <data key="d11">contracted</data>
+      <data key="d12">89.02058569462508</data>
+    </edge>
+    <edge source="port_27" target="3113">
+      <data key="d10">2.8123681900405186</data>
+      <data key="d11">contracted</data>
+      <data key="d12">257.0966277767749</data>
+    </edge>
+    <edge source="3088" target="3407">
+      <data key="d10">0.10583789075850672</data>
+      <data key="d11">density</data>
+      <data key="d12">9.392645536313482</data>
+    </edge>
+    <edge source="3088" target="7543">
+      <data key="d10">0.18938637393411117</data>
+      <data key="d11">contracted</data>
+      <data key="d12">16.3750236438184</data>
+    </edge>
+    <edge source="3116" target="3635">
+      <data key="d10">1.3528259037780153</data>
+      <data key="d11">contracted</data>
+      <data key="d12">123.12661483128653</data>
+    </edge>
+    <edge source="3116" target="8184">
+      <data key="d10">1.1025432315116113</data>
+      <data key="d11">contracted</data>
+      <data key="d12">104.35139046027236</data>
+    </edge>
+    <edge source="3179" target="8131">
+      <data key="d10">0.07596244173221882</data>
+      <data key="d11">density</data>
+      <data key="d12">8.196503245564815</data>
+    </edge>
+    <edge source="3179" target="3639">
+      <data key="d10">1.8127687622540698</data>
+      <data key="d11">contracted</data>
+      <data key="d12">174.2703981610274</data>
+    </edge>
+    <edge source="port_35" target="7087">
+      <data key="d10">1.0984330590929932</data>
+      <data key="d11">contracted</data>
+      <data key="d12">113.15605983035356</data>
+    </edge>
+    <edge source="3262" target="6386">
+      <data key="d10">1.7240211427583154</data>
+      <data key="d11">contracted</data>
+      <data key="d12">148.18592669741636</data>
+    </edge>
+    <edge source="3262" target="7456">
+      <data key="d10">0.5025517672892547</data>
+      <data key="d11">contracted</data>
+      <data key="d12">51.33840289278807</data>
+    </edge>
+    <edge source="3263" target="5971">
+      <data key="d10">0.9034563986267217</data>
+      <data key="d11">contracted</data>
+      <data key="d12">90.28923336991753</data>
+    </edge>
+    <edge source="3299" target="port_3">
+      <data key="d10">0.2824563804202103</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">27.51520585540458</data>
+    </edge>
+    <edge source="3299" target="4435">
+      <data key="d10">0.09861390375953255</data>
+      <data key="d11">density</data>
+      <data key="d12">9.64532259196679</data>
+    </edge>
+    <edge source="port_2" target="5859">
+      <data key="d10">0.6529643370473688</data>
+      <data key="d11">contracted</data>
+      <data key="d12">57.57328457175651</data>
+    </edge>
+    <edge source="port_2" target="port_16">
+      <data key="d10">3.68104504942039</data>
+      <data key="d11">contracted</data>
+      <data key="d12">351.2211139377574</data>
+    </edge>
+    <edge source="3454" target="7460">
+      <data key="d10">1.9882644401169214</data>
+      <data key="d11">contracted</data>
+      <data key="d12">171.80182301025894</data>
+    </edge>
+    <edge source="3516" target="6757">
+      <data key="d10">0.5379690486437656</data>
+      <data key="d11">contracted</data>
+      <data key="d12">45.56086610385222</data>
+    </edge>
+    <edge source="3613" target="3734">
+      <data key="d10">1.5105941289347742</data>
+      <data key="d11">contracted</data>
+      <data key="d12">125.35662376996721</data>
+    </edge>
+    <edge source="3613" target="6063">
+      <data key="d10">0.364565393054856</data>
+      <data key="d11">contracted</data>
+      <data key="d12">33.37058905769764</data>
+    </edge>
+    <edge source="3613" target="3634">
+      <data key="d10">0.6933170899539619</data>
+      <data key="d11">contracted</data>
+      <data key="d12">59.26103177710405</data>
+    </edge>
+    <edge source="3613" target="3935">
+      <data key="d10">1.845760493371713</data>
+      <data key="d11">contracted</data>
+      <data key="d12">148.1927280874387</data>
+    </edge>
+    <edge source="3634" target="7371">
+      <data key="d10">3.8072772197899147</data>
+      <data key="d11">contracted</data>
+      <data key="d12">366.7145480510406</data>
+    </edge>
+    <edge source="3639" target="port_36">
+      <data key="d10">2.472834415324301</data>
+      <data key="d11">contracted</data>
+      <data key="d12">224.5091252468793</data>
+    </edge>
+    <edge source="3652" target="7276">
+      <data key="d10">0.13040606761182597</data>
+      <data key="d11">density</data>
+      <data key="d12">12.137332095415086</data>
+    </edge>
+    <edge source="3677" target="4048">
+      <data key="d10">1.1937704533584246</data>
+      <data key="d11">contracted</data>
+      <data key="d12">116.92381921478304</data>
+    </edge>
+    <edge source="3677" target="6225">
+      <data key="d10">0.7770785728346838</data>
+      <data key="d11">contracted</data>
+      <data key="d12">66.83275078115622</data>
+    </edge>
+    <edge source="3739" target="6477">
+      <data key="d10">0.10293124593841241</data>
+      <data key="d11">density</data>
+      <data key="d12">11.209395766174367</data>
+    </edge>
+    <edge source="3739" target="3743">
+      <data key="d10">0.11166751060730337</data>
+      <data key="d11">density</data>
+      <data key="d12">10.884903443131913</data>
+    </edge>
+    <edge source="3806" target="4435">
+      <data key="d10">0.09981993883332167</data>
+      <data key="d11">density</data>
+      <data key="d12">11.083298753656385</data>
+    </edge>
+    <edge source="3806" target="6368">
+      <data key="d10">0.11465167381284817</data>
+      <data key="d11">density</data>
+      <data key="d12">10.396416090897317</data>
+    </edge>
+    <edge source="3806" target="4305">
+      <data key="d10">0.2903975417754603</data>
+      <data key="d11">contracted</data>
+      <data key="d12">22.423662836347123</data>
+    </edge>
+    <edge source="3809" target="7478">
+      <data key="d10">2.394845708409514</data>
+      <data key="d11">contracted</data>
+      <data key="d12">196.6690295366547</data>
+    </edge>
+    <edge source="3823" target="7016">
+      <data key="d10">0.25606590369351845</data>
+      <data key="d11">contracted</data>
+      <data key="d12">24.74835693882253</data>
+    </edge>
+    <edge source="3823" target="7543">
+      <data key="d10">0.3720371486225835</data>
+      <data key="d11">contracted</data>
+      <data key="d12">31.98031795452687</data>
+    </edge>
+    <edge source="3852" target="5804">
+      <data key="d10">2.704295807404413</data>
+      <data key="d11">contracted</data>
+      <data key="d12">219.866011655743</data>
+    </edge>
+    <edge source="3884" target="6526">
+      <data key="d10">0.38298519594280434</data>
+      <data key="d11">contracted</data>
+      <data key="d12">34.51312796530099</data>
+    </edge>
+    <edge source="3884" target="6209">
+      <data key="d10">2.1194424372816774</data>
+      <data key="d11">contracted</data>
+      <data key="d12">175.60051227270196</data>
+    </edge>
+    <edge source="3884" target="5725">
+      <data key="d10">3.1693591340278378</data>
+      <data key="d11">contracted</data>
+      <data key="d12">282.82606796634474</data>
+    </edge>
+    <edge source="3885" target="5789">
+      <data key="d10">1.0647136829318862</data>
+      <data key="d11">contracted</data>
+      <data key="d12">98.21605098110712</data>
+    </edge>
+    <edge source="3885" target="7155">
+      <data key="d10">1.1853385741580058</data>
+      <data key="d11">contracted</data>
+      <data key="d12">110.08935633641487</data>
+    </edge>
+    <edge source="3890" target="port_25">
+      <data key="d10">0.2736501793565427</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">27.953467301495703</data>
+    </edge>
+    <edge source="3890" target="port_26">
+      <data key="d10">0.3444111827279087</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">32.74247007174408</data>
+    </edge>
+    <edge source="3898" target="4643">
+      <data key="d10">0.5609257762960693</data>
+      <data key="d11">contracted</data>
+      <data key="d12">49.09421253640646</data>
+    </edge>
+    <edge source="3898" target="4537">
+      <data key="d10">2.7184050322873756</data>
+      <data key="d11">contracted</data>
+      <data key="d12">246.0228169435847</data>
+    </edge>
+    <edge source="3898" target="6256">
+      <data key="d10">1.1989146000502986</data>
+      <data key="d11">contracted</data>
+      <data key="d12">108.86884721954847</data>
+    </edge>
+    <edge source="4048" target="7710">
+      <data key="d10">1.2843221581871873</data>
+      <data key="d11">contracted</data>
+      <data key="d12">121.36307351433133</data>
+    </edge>
+    <edge source="4214" target="6388">
+      <data key="d10">0.14518173999294615</data>
+      <data key="d11">density</data>
+      <data key="d12">13.698346947376482</data>
+    </edge>
+    <edge source="port_7" target="6757">
+      <data key="d10">0.9902070438157612</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">81.36992748133751</data>
+    </edge>
+    <edge source="port_7" target="port_8">
+      <data key="d10">0.7232587063774986</data>
+      <data key="d11">contracted</data>
+      <data key="d12">72.0559268052707</data>
+    </edge>
+    <edge source="4288" target="4494">
+      <data key="d10">0.11682259518384024</data>
+      <data key="d11">density</data>
+      <data key="d12">10.848060293446485</data>
+    </edge>
+    <edge source="4298" target="7120">
+      <data key="d10">0.18205336808771444</data>
+      <data key="d11">density</data>
+      <data key="d12">16.165694119110245</data>
+    </edge>
+    <edge source="4298" target="5677">
+      <data key="d10">0.4188382955378471</data>
+      <data key="d11">contracted</data>
+      <data key="d12">32.93753131872144</data>
+    </edge>
+    <edge source="4305" target="4435">
+      <data key="d10">0.29236475596797384</data>
+      <data key="d11">contracted</data>
+      <data key="d12">26.44904732070373</data>
+    </edge>
+    <edge source="4305" target="7276">
+      <data key="d10">0.29569265762634767</data>
+      <data key="d11">contracted</data>
+      <data key="d12">22.258476111992625</data>
+    </edge>
+    <edge source="port_33" target="4643">
+      <data key="d10">1.9218683856057897</data>
+      <data key="d11">contracted</data>
+      <data key="d12">192.14266818546002</data>
+    </edge>
+    <edge source="4425" target="port_34">
+      <data key="d10">0.5847719162370876</data>
+      <data key="d11">contracted</data>
+      <data key="d12">61.06866735956048</data>
+    </edge>
+    <edge source="4425" target="5903">
+      <data key="d10">1.6495446176111472</data>
+      <data key="d11">contracted</data>
+      <data key="d12">136.59409644367815</data>
+    </edge>
+    <edge source="4464" target="7274">
+      <data key="d10">0.2525803573283999</data>
+      <data key="d11">contracted</data>
+      <data key="d12">27.362705937780813</data>
+    </edge>
+    <edge source="4489" target="8068">
+      <data key="d10">0.28886252016649344</data>
+      <data key="d11">density</data>
+      <data key="d12">31.641497721766857</data>
+    </edge>
+    <edge source="4489" target="5533">
+      <data key="d10">1.1425481832541875</data>
+      <data key="d11">contracted</data>
+      <data key="d12">86.55327147920315</data>
+    </edge>
+    <edge source="4537" target="4727">
+      <data key="d10">0.7488864675085218</data>
+      <data key="d11">contracted</data>
+      <data key="d12">70.84480697556711</data>
+    </edge>
+    <edge source="4627" target="8068">
+      <data key="d10">0.1879654880184346</data>
+      <data key="d11">density</data>
+      <data key="d12">18.252475545471007</data>
+    </edge>
+    <edge source="4627" target="7228">
+      <data key="d10">1.592463451125314</data>
+      <data key="d11">contracted</data>
+      <data key="d12">146.95464596873887</data>
+    </edge>
+    <edge source="4644" target="6225">
+      <data key="d10">0.3006024949217685</data>
+      <data key="d11">contracted</data>
+      <data key="d12">26.68281019102301</data>
+    </edge>
+    <edge source="port_36" target="7905">
+      <data key="d10">3.5732932273233997</data>
+      <data key="d11">contracted</data>
+      <data key="d12">332.06981638393916</data>
+    </edge>
+    <edge source="port_36" target="7460">
+      <data key="d10">6.844059511337672</data>
+      <data key="d11">contracted</data>
+      <data key="d12">555.104215170037</data>
+    </edge>
+    <edge source="4683" target="port_28">
+      <data key="d10">0.9305912683265963</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">102.56987651430545</data>
+    </edge>
+    <edge source="4714" target="6388">
+      <data key="d10">0.150121416660039</data>
+      <data key="d11">density</data>
+      <data key="d12">13.112327599886655</data>
+    </edge>
+    <edge source="4714" target="6899">
+      <data key="d10">0.21369645113763017</data>
+      <data key="d11">density</data>
+      <data key="d12">23.7577911208317</data>
+    </edge>
+    <edge source="4749" target="port_22">
+      <data key="d10">1.6365352506585078</data>
+      <data key="d11">contracted</data>
+      <data key="d12">168.94679314138975</data>
+    </edge>
+    <edge source="4749" target="7193">
+      <data key="d10">0.6823355480371255</data>
+      <data key="d11">contracted</data>
+      <data key="d12">72.54860768934783</data>
+    </edge>
+    <edge source="4808" target="port_9">
+      <data key="d10">0.41382198553068106</data>
+      <data key="d11">contracted</data>
+      <data key="d12">44.2015755581551</data>
+    </edge>
+    <edge source="4808" target="5172">
+      <data key="d10">2.4004611392763526</data>
+      <data key="d11">contracted</data>
+      <data key="d12">228.95823722204315</data>
+    </edge>
+    <edge source="4821" target="port_24">
+      <data key="d10">1.726273476936516</data>
+      <data key="d11">contracted</data>
+      <data key="d12">156.85402872269285</data>
+    </edge>
+    <edge source="4821" target="7129">
+      <data key="d10">2.242376108314478</data>
+      <data key="d11">contracted</data>
+      <data key="d12">207.6209602141281</data>
+    </edge>
+    <edge source="4899" target="port_18">
+      <data key="d10">1.957652256806814</data>
+      <data key="d11">contracted</data>
+      <data key="d12">197.81870480879326</data>
+    </edge>
+    <edge source="4899" target="7394">
+      <data key="d10">0.614811357022941</data>
+      <data key="d11">contracted</data>
+      <data key="d12">47.622602036953005</data>
+    </edge>
+    <edge source="4899" target="6731">
+      <data key="d10">0.8722173771476063</data>
+      <data key="d11">contracted</data>
+      <data key="d12">76.03043473279865</data>
+    </edge>
+    <edge source="4927" target="choke_0">
+      <data key="d10">0.4567456814477264</data>
+      <data key="d11">choke_point_connection</data>
+      <data key="d12">40.28105302635171</data>
+    </edge>
+    <edge source="4927" target="port_16">
+      <data key="d10">2.1063513318592846</data>
+      <data key="d11">contracted</data>
+      <data key="d12">165.7673887324292</data>
+    </edge>
+    <edge source="4933" target="7809">
+      <data key="d10">1.1606333560203352</data>
+      <data key="d11">contracted</data>
+      <data key="d12">113.02520810660765</data>
+    </edge>
+    <edge source="4933" target="6899">
+      <data key="d10">2.851830100881469</data>
+      <data key="d11">contracted</data>
+      <data key="d12">302.38089656778936</data>
+    </edge>
+    <edge source="4949" target="port_37">
+      <data key="d10">0.9725636514590251</data>
+      <data key="d11">contracted</data>
+      <data key="d12">82.4120285620516</data>
+    </edge>
+    <edge source="5026" target="6256">
+      <data key="d10">0.09916087751978314</data>
+      <data key="d11">density</data>
+      <data key="d12">10.495465430911842</data>
+    </edge>
+    <edge source="5026" target="6717">
+      <data key="d10">0.2640784323712092</data>
+      <data key="d11">contracted</data>
+      <data key="d12">23.482704729094987</data>
+    </edge>
+    <edge source="5027" target="5375">
+      <data key="d10">0.9970987233933593</data>
+      <data key="d11">contracted</data>
+      <data key="d12">99.28529633186768</data>
+    </edge>
+    <edge source="5133" target="7532">
+      <data key="d10">0.09986192199503023</data>
+      <data key="d11">density</data>
+      <data key="d12">9.351392275157595</data>
+    </edge>
+    <edge source="5149" target="5903">
+      <data key="d10">0.38346791829085136</data>
+      <data key="d11">contracted</data>
+      <data key="d12">32.242337723281736</data>
+    </edge>
+    <edge source="5275" target="7850">
+      <data key="d10">0.1263511391089136</data>
+      <data key="d11">density</data>
+      <data key="d12">11.99520079257271</data>
+    </edge>
+    <edge source="5275" target="6681">
+      <data key="d10">0.6019648546919627</data>
+      <data key="d11">contracted</data>
+      <data key="d12">52.269488703903534</data>
+    </edge>
+    <edge source="5275" target="7746">
+      <data key="d10">0.37427075192660364</data>
+      <data key="d11">contracted</data>
+      <data key="d12">33.65884497283372</data>
+    </edge>
+    <edge source="5293" target="7634">
+      <data key="d10">1.615837643292457</data>
+      <data key="d11">contracted</data>
+      <data key="d12">153.27141345583374</data>
+    </edge>
+    <edge source="5293" target="7478">
+      <data key="d10">1.1037944596742333</data>
+      <data key="d11">contracted</data>
+      <data key="d12">102.61785495670199</data>
+    </edge>
+    <edge source="5448" target="7593">
+      <data key="d10">0.09965051194595508</data>
+      <data key="d11">density</data>
+      <data key="d12">8.938724739668542</data>
+    </edge>
+    <edge source="5448" target="7200">
+      <data key="d10">1.0987158313887049</data>
+      <data key="d11">contracted</data>
+      <data key="d12">101.39627443640919</data>
+    </edge>
+    <edge source="5454" target="7848">
+      <data key="d10">0.9176689173258379</data>
+      <data key="d11">contracted</data>
+      <data key="d12">71.25878896913895</data>
+    </edge>
+    <edge source="5465" target="6681">
+      <data key="d10">0.21432137004077406</data>
+      <data key="d11">contracted</data>
+      <data key="d12">18.814569686117466</data>
+    </edge>
+    <edge source="5500" target="6836">
+      <data key="d10">1.3263165590586</data>
+      <data key="d11">contracted</data>
+      <data key="d12">118.89098757099256</data>
+    </edge>
+    <edge source="port_24" target="7746">
+      <data key="d10">0.8961939199067545</data>
+      <data key="d11">contracted</data>
+      <data key="d12">84.6179798414049</data>
+    </edge>
+    <edge source="5652" target="7532">
+      <data key="d10">1.2804614238244867</data>
+      <data key="d11">contracted</data>
+      <data key="d12">118.47631559442009</data>
+    </edge>
+    <edge source="5652" target="6722">
+      <data key="d10">0.47161875128028874</data>
+      <data key="d11">contracted</data>
+      <data key="d12">43.84677108198271</data>
+    </edge>
+    <edge source="5677" target="port_11">
+      <data key="d10">0.8205151058745506</data>
+      <data key="d11">contracted</data>
+      <data key="d12">64.36449169028457</data>
+    </edge>
+    <edge source="5725" target="6209">
+      <data key="d10">1.3166904917906046</data>
+      <data key="d11">contracted</data>
+      <data key="d12">123.84333132434156</data>
+    </edge>
+    <edge source="5725" target="5971">
+      <data key="d10">0.8273212176125789</data>
+      <data key="d11">contracted</data>
+      <data key="d12">80.6380417388086</data>
+    </edge>
+    <edge source="5789" target="7228">
+      <data key="d10">0.3568814163701801</data>
+      <data key="d11">contracted</data>
+      <data key="d12">28.73366472415338</data>
+    </edge>
+    <edge source="5804" target="7611">
+      <data key="d10">0.9430985681828559</data>
+      <data key="d11">contracted</data>
+      <data key="d12">78.683090194401</data>
+    </edge>
+    <edge source="5859" target="7193">
+      <data key="d10">0.8498295166027032</data>
+      <data key="d11">contracted</data>
+      <data key="d12">77.17672725836407</data>
+    </edge>
+    <edge source="5879" target="port_28">
+      <data key="d10">1.353657898280002</data>
+      <data key="d11">contracted</data>
+      <data key="d12">123.52197749558883</data>
+    </edge>
+    <edge source="5879" target="6368">
+      <data key="d10">0.5979409404577154</data>
+      <data key="d11">contracted</data>
+      <data key="d12">47.93891178819083</data>
+    </edge>
+    <edge source="5903" target="port_34">
+      <data key="d10">1.9654239667414646</data>
+      <data key="d11">contracted</data>
+      <data key="d12">161.94114182111386</data>
+    </edge>
+    <edge source="5971" target="5989">
+      <data key="d10">0.09166637929354027</data>
+      <data key="d11">density</data>
+      <data key="d12">8.728660665150157</data>
+    </edge>
+    <edge source="6063" target="8149">
+      <data key="d10">1.5112289170499658</data>
+      <data key="d11">contracted</data>
+      <data key="d12">143.6260671697233</data>
+    </edge>
+    <edge source="6063" target="6619">
+      <data key="d10">3.149506355365138</data>
+      <data key="d11">contracted</data>
+      <data key="d12">266.55704964181484</data>
+    </edge>
+    <edge source="6108" target="6225">
+      <data key="d10">1.2299530332872304</data>
+      <data key="d11">contracted</data>
+      <data key="d12">107.51876698062473</data>
+    </edge>
+    <edge source="6209" target="7087">
+      <data key="d10">0.8359897536488983</data>
+      <data key="d11">contracted</data>
+      <data key="d12">83.99957901330178</data>
+    </edge>
+    <edge source="6314" target="8117">
+      <data key="d10">0.5996525576302619</data>
+      <data key="d11">contracted</data>
+      <data key="d12">64.91979827816719</data>
+    </edge>
+    <edge source="6314" target="7195">
+      <data key="d10">0.6934467093599478</data>
+      <data key="d11">contracted</data>
+      <data key="d12">66.5551381282901</data>
+    </edge>
+    <edge source="6368" target="port_28">
+      <data key="d10">1.2443337991020267</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">128.05057146789528</data>
+    </edge>
+    <edge source="6386" target="7456">
+      <data key="d10">1.4004192762603225</data>
+      <data key="d11">contracted</data>
+      <data key="d12">119.4029755529423</data>
+    </edge>
+    <edge source="6388" target="6899">
+      <data key="d10">0.27133777351633875</data>
+      <data key="d11">density</data>
+      <data key="d12">28.49765509360124</data>
+    </edge>
+    <edge source="6437" target="7308">
+      <data key="d10">0.2344345045528624</data>
+      <data key="d11">contracted</data>
+      <data key="d12">21.283277871325605</data>
+    </edge>
+    <edge source="6437" target="7016">
+      <data key="d10">0.4650744331904514</data>
+      <data key="d11">contracted</data>
+      <data key="d12">39.12191613665304</data>
+    </edge>
+    <edge source="6477" target="7516">
+      <data key="d10">0.5076243498970575</data>
+      <data key="d11">contracted</data>
+      <data key="d12">53.10803044418027</data>
+    </edge>
+    <edge source="6526" target="7087">
+      <data key="d10">2.0220399618785985</data>
+      <data key="d11">contracted</data>
+      <data key="d12">166.62369426596308</data>
+    </edge>
+    <edge source="port_37" target="7848">
+      <data key="d10">0.547518315065904</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">46.8155175438183</data>
+    </edge>
+    <edge source="6627" target="7460">
+      <data key="d10">0.19884770137489668</data>
+      <data key="d11">density</data>
+      <data key="d12">18.25163812410307</data>
+    </edge>
+    <edge source="6627" target="6723">
+      <data key="d10">4.836755299808684</data>
+      <data key="d11">contracted</data>
+      <data key="d12">419.004175599697</data>
+    </edge>
+    <edge source="6681" target="7195">
+      <data key="d10">1.875482578612683</data>
+      <data key="d11">contracted</data>
+      <data key="d12">176.63982587825302</data>
+    </edge>
+    <edge source="6717" target="7650">
+      <data key="d10">0.08697915694817522</data>
+      <data key="d11">density</data>
+      <data key="d12">9.561564111784195</data>
+    </edge>
+    <edge source="6723" target="7985">
+      <data key="d10">1.169392066367781</data>
+      <data key="d11">contracted</data>
+      <data key="d12">105.96425328063981</data>
+    </edge>
+    <edge source="6836" target="7200">
+      <data key="d10">0.6890243653944493</data>
+      <data key="d11">contracted</data>
+      <data key="d12">63.45940854410817</data>
+    </edge>
+    <edge source="port_28" target="7728">
+      <data key="d10">1.521321567463996</data>
+      <data key="d11">contracted</data>
+      <data key="d12">137.06310406139679</data>
+    </edge>
+    <edge source="port_15" target="7905">
+      <data key="d10">0.2796905943904133</data>
+      <data key="d11">contracted</data>
+      <data key="d12">27.16616693946484</data>
+    </edge>
+    <edge source="port_15" target="7593">
+      <data key="d10">0.36884993382269027</data>
+      <data key="d11">contracted</data>
+      <data key="d12">39.938190410822045</data>
+    </edge>
+    <edge source="port_29" target="port_18">
+      <data key="d10">4.045620981947693</data>
+      <data key="d11">contracted</data>
+      <data key="d12">397.37196894764554</data>
+    </edge>
+    <edge source="7120" target="8014">
+      <data key="d10">0.2254734974994535</data>
+      <data key="d11">density</data>
+      <data key="d12">24.620536658915942</data>
+    </edge>
+    <edge source="7195" target="8117">
+      <data key="d10">0.646942123285454</data>
+      <data key="d11">contracted</data>
+      <data key="d12">51.19046033215208</data>
+    </edge>
+    <edge source="7195" target="7532">
+      <data key="d10">0.39580144079563406</data>
+      <data key="d11">contracted</data>
+      <data key="d12">32.612072783313344</data>
+    </edge>
+    <edge source="7276" target="port_3">
+      <data key="d10">0.4180141892533431</data>
+      <data key="d11">contracted</data>
+      <data key="d12">41.24047951067705</data>
+    </edge>
+    <edge source="7394" target="7611">
+      <data key="d10">2.2425457350246742</data>
+      <data key="d11">contracted</data>
+      <data key="d12">161.89293031374044</data>
+    </edge>
+    <edge source="7516" target="port_3">
+      <data key="d10">0.3994057160437485</data>
+      <data key="d11">contracted</data>
+      <data key="d12">32.66406213925668</data>
+    </edge>
+    <edge source="7746" target="7850">
+      <data key="d10">0.4999090142389262</data>
+      <data key="d11">contracted</data>
+      <data key="d12">39.193413959600086</data>
+    </edge>
+    <edge source="7985" target="7998">
+      <data key="d10">0.11149154873372423</data>
+      <data key="d11">density</data>
+      <data key="d12">10.596068086858006</data>
+    </edge>
+    <edge source="8014" target="port_19">
+      <data key="d10">0.5285292575627348</data>
+      <data key="d11">port_connection</data>
+      <data key="d12">58.36828954247076</data>
+    </edge>
+  </graph>
+</graphml>
