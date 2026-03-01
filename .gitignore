@@ -1,8 +1,51 @@
+# Secrets
 /COMTRADE_API_KEY.json
 
-# Ignore all CSV files
+# CSV files (raw data)
 *.csv
 
-# Ignore large files that exceed GitHub limits
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code local config
+.claude/
+**/.claude/
+CLAUDE.md
+**/CLAUDE.md
+
+# Data folder (all raw/external data files)
+data/
+
+# Outdated legacy simulation
+simulation_pipeline/part_4_simulation/
+
+# Logs
+pipeline_timing.log
+simulation_pipeline/pipeline_timing.log
+
+# Zip archives
+*.zip
+
+# Large simulation outputs (too large for GitHub)
+simulation_pipeline/part_4_new_simulation/simulation_output_data/*/ship_locations.parquet
+simulation_pipeline/part_4_new_simulation/simulation_output_data/*/ships.parquet
+simulation_pipeline/part_4_new_simulation/simulation_output_data/*/port_pair_routes.pkl
+simulation_pipeline/part_4_new_simulation/simulation_output_data/*/checkpoints/
+
+# Large intermediate network-extraction checkpoints
+simulation_pipeline/part_3_network_extraction/network_outputs/checkpoints/G_*.gpickle
+simulation_pipeline/part_3_network_extraction/network_outputs/checkpoints/used_*.pkl
+
+# Map PNGs (generated figures, not outputs)
+simulation_pipeline/part_5_visualization/visualization_outputs/HS10_map.png
+simulation_pipeline/part_5_visualization/visualization_outputs/HS30_map.png
+
+# Misc large files
 Geospatial_testing.ipynb
-simulation_pipeline/part_4_simulation/simulation_output_data/simulation_ship_location.json
