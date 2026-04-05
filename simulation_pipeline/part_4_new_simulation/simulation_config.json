@@ -125,23 +125,1618 @@
   },
   "CAPACITY_QUANTILE": 0.99,
   "DIRICHLET_CONCENTRATION": 1,
-  "PORT_WEIGHT_SIZE": 0.5,
-  "PORT_WEIGHT_TYPE": 0.5,
-  "DISTANCE_PENALTY_SCALE": 1,
+  "PORT_WEIGHT_ALPHA": 0.5349,
+  "PORT_WEIGHT_BETA": 0.8908,
+  "DISTANCE_PENALTY_SCALE": 0.0942,
   "TARGET_RHO": 0.8,
   "MIN_PORT_CAPACITY": 1,
   "CHOKE_POINT_THROUGHPUT": {},
   "CANAL_CHOKEPOINTS": {
     "Suez Canal": 14,
-    "Panama Canal": 10
+    "Panama Canal": 22
   },
   "CANAL_TARGET_RHO": 0.7,
+  "CANAL_DAILY_RATES": {
+    "Suez Canal": 38,
+    "Panama Canal": 17
+  },
+  "CANAL_DWT_RESTRICTIONS": {
+    "Panama Canal": {
+      "exclude_above_dwt": 120000,
+      "groups": []
+    }
+  },
   "K_ALTERNATIVE_ROUTES": 3,
   "REROUTE_PATIENCE_MULTIPLIER": 1.0,
   "PROACTIVE_REROUTING": true,
   "INTERRUPTION_EVENTS": [],
-  "ECONOMIC_EVENTS": [],
-  "OUTPUT_DIR": "simulation_output_data/scenario_baseline/",
+  "ECONOMIC_EVENTS": [
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 39,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Argentina"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Brazil"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 17,
+      "counterpart_country": "Uruguay"
+    },
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": 65,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "import",
+      "hs_codes": [],
+      "adjustment_pct": 87,
+      "counterpart_country": "India"
+    },
+    {
+      "day": 0,
+      "country": "Belgium",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Bulgaria",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Croatia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Cyprus",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Denmark",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Estonia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Finland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "France",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Germany",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Greece",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Ireland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Italy",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Latvia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Lithuania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Malta",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Netherlands",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Poland",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Portugal",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Romania",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Slovenia",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Spain",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    },
+    {
+      "day": 0,
+      "country": "Sweden",
+      "direction": "export",
+      "hs_codes": [],
+      "adjustment_pct": -17,
+      "counterpart_country": "USA"
+    }
+  ],
+  "OUTPUT_DIR": "simulation_output_data/scenario_eu_trade_deals_and_tariffs/",
   "CHECKPOINT_INTERVAL_DAYS": 30,
   "SAVE_SHIP_LOCATIONS": true,
   "LOCATION_SAMPLE_INTERVAL": 1,

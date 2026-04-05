@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# -------------------------------------------------------
+# Large simulation outputs — too large for GitHub
+# -------------------------------------------------------
+
+# Ship location data (~1.2 GB per scenario, regenerable)
+**/ship_locations.parquet
+
+# Simulation checkpoints (~280-380 MB each, regenerable)
+**/checkpoints/
+
+# Pre-computed port-pair routes (111 MB each, regenerable via 00_precompute_routes.ipynb)
+**/port_pair_routes.pkl
+
+# Compat CSV exports (107–242 MB each — identical data is in the .parquet files)
+**/compat/
+
+# Outdated archived results (large zips, superseded)
+**/outdated_results/
+
+# -------------------------------------------------------
+# Log files (pipeline run output, not essential)
+# -------------------------------------------------------
+pipeline_*.log
+debug_*.log
+pipeline_timing.log

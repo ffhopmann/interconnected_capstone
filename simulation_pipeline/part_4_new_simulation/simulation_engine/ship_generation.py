@@ -53,7 +53,7 @@ def load_trade_matrices(
     """
     matrices: Dict[int, pd.DataFrame] = {}
     for hs_code in hs_codes:
-        path = Path(trade_matrices_dir) / f'trade_matrix_all_transport_modes_HS{hs_code}.csv'
+        path = Path(trade_matrices_dir) / f'weight_trade_matrix_all_transport_modes_HS{hs_code}.csv'
         if not path.exists():
             raise FileNotFoundError(f"Trade matrix not found: {path}")
         df = pd.read_csv(path, index_col=0)
@@ -89,16 +89,27 @@ def apply_economic_adjustments(
 
         factor = max(0.0, 1.0 + event.adjustment_pct / 100.0)
         hs_list = event.hs_codes if event.hs_codes else list(adjusted.keys())
+        counterpart = event.counterpart_country
 
         for hs_code in hs_list:
             if hs_code not in adjusted:
                 continue
             df = adjusted[hs_code]
 
-            if event.direction in ('export', 'both') and country in df.index:
-                df.loc[country, :] *= factor
-            if event.direction in ('import', 'both') and country in df.columns:
-                df.loc[:, country] *= factor
+            if counterpart:
+                # Bilateral: adjust the single (country, counterpart) cell only
+                if event.direction in ('export', 'both'):
+                    if country in df.index and counterpart in df.columns:
+                        df.loc[country, counterpart] *= factor
+                if event.direction in ('import', 'both'):
+                    if counterpart in df.index and country in df.columns:
+                        df.loc[counterpart, country] *= factor
+            else:
+                # Unilateral: adjust whole row or column (original behaviour)
+                if event.direction in ('export', 'both') and country in df.index:
+                    df.loc[country, :] *= factor
+                if event.direction in ('import', 'both') and country in df.columns:
+                    df.loc[:, country] *= factor
 
     return adjusted
 
@@ -259,6 +270,8 @@ _VESSEL_COLS: Dict[str, List[str]] = {
 def build_port_selection_data(
     country_to_ports: Dict[str, List[str]],
     imf_port_df: pd.DataFrame,
+    alpha: float = 1.0,
+    beta: float = 1.0,
 ) -> Dict[str, Dict]:
     """
     Precompute port selection weights from IMF data using a multiplicative scoring rule.
@@ -332,12 +345,13 @@ def build_port_selection_data(
         import_scores: Dict[str, np.ndarray] = {}
 
         for ship_type in ['tanker', 'bulk carrier', 'cargo ship']:
-            ts = type_scores[ship_type]
+            ts_raw = type_scores[ship_type]
+            ts = np.power(ts_raw, beta) if ts_raw.sum() > 0 else np.ones(n)
 
-            raw_exp = export_size * ts
+            raw_exp = np.power(export_size, alpha) * ts
             export_scores[ship_type] = raw_exp / raw_exp.sum() if raw_exp.sum() > 0 else np.ones(n) / n
 
-            raw_imp = import_size * ts
+            raw_imp = np.power(import_size, alpha) * ts
             import_scores[ship_type] = raw_imp / raw_imp.sum() if raw_imp.sum() > 0 else np.ones(n) / n
 
         port_data[country] = {
@@ -443,6 +457,7 @@ def generate_ships_for_epoch(
     dirichlet_concentration: float,
     rng: np.random.Generator,
     show_progress: bool = True,
+    ship_id_start: int = 0,
 ) -> List[Ship]:
     """
     Generate Ship objects for one simulation epoch.
@@ -488,7 +503,7 @@ def generate_ships_for_epoch(
     pair_indices = rng.choice(n_countries * n_countries, size=n_ships, p=flat_probs)
 
     ships: List[Ship] = []
-    ship_id_base = int(start_day * 1000)
+    _ship_id = ship_id_start  # global sequential counter for this epoch
 
     desc = f"Generating ships (day {start_day:.0f}–{end_day:.0f})"
     iterable = tqdm(enumerate(pair_indices), total=n_ships, desc=desc) if show_progress else enumerate(pair_indices)
@@ -587,7 +602,7 @@ def generate_ships_for_epoch(
         injection_day = float(rng.uniform(start_day, end_day))
 
         ship = Ship(
-            id=ship_id_base + local_idx,
+            id=_ship_id,
             origin_country=origin_country,
             dest_country=dest_country,
             origin_port=origin_port,
@@ -604,6 +619,7 @@ def generate_ships_for_epoch(
             loading_remaining=1,
         )
         ships.append(ship)
+        _ship_id += 1
 
     return ships
 
@@ -738,16 +754,12 @@ def generate_all_ships(
         for hs, df in base_matrices.items()
     }
 
-    base_matrices = {
-        hs: df / conversion_factors[hs]
-        for hs, df in base_matrices.items()
-        if conversion_factors.get(hs, 0) > 0
-    }
-
+    # Weight matrices are already in metric tons (no conversion needed).
+    # Conversion factors are still used below to compute cargo_by_hs['value'] per ship.
     hs_codes_info = {hs: info for hs, info in hs_codes_info.items() if hs in base_matrices}
 
     if not base_matrices:
-        raise ValueError("No HS codes have valid conversion factors. Check CONVERSION_FACTORS_FILE.")
+        raise ValueError("No weight trade matrices found. Check TRADE_MATRICES_DIR for weight_trade_matrix_all_transport_modes_HS*.csv files.")
 
     # ------ Apply baseline economic adjustments ------
     baseline_matrices = apply_economic_adjustments(
@@ -759,8 +771,10 @@ def generate_all_ships(
 
     if show_progress:
         print("Building port selection weights from IMF data...")
+    alpha = cfg.get('PORT_WEIGHT_ALPHA', 1.0)
+    beta  = cfg.get('PORT_WEIGHT_BETA',  1.0)
     port_selection_data = build_port_selection_data(
-        country_to_ports, imf_port_df,
+        country_to_ports, imf_port_df, alpha=alpha, beta=beta,
     )
     if show_progress:
         countries_with_data = len(port_selection_data)
@@ -768,6 +782,7 @@ def generate_all_ships(
 
     # ------ Generate ships per epoch ------
     all_ships: List[Ship] = []
+    ship_id_counter = 0  # monotonically increasing across all epochs
 
     epoch_iter = tqdm(epoch_schedule, desc='Epochs', unit='epoch') if show_progress else epoch_schedule
     for epoch in epoch_iter:
@@ -799,7 +814,9 @@ def generate_all_ships(
             dirichlet_concentration=cfg['DIRICHLET_CONCENTRATION'],
             rng=rng,
             show_progress=show_progress,
+            ship_id_start=ship_id_counter,
         )
+        ship_id_counter += len(epoch_ships)
         all_ships.extend(epoch_ships)
 
     # ------ Calibrate port times using the full fleet ------

@@ -43,7 +43,9 @@ from .models import EconomicEvent, InterruptionEvent, LostShip, Ship
 from .port_manager import PortManager
 from .routing import (
     build_choke_point_node_map,
+    compute_shortest_path,
     find_nearest_open_port_in_country,
+    preassign_canal_capacities,
     preassign_chokepoint_routes,
 )
 
@@ -163,6 +165,7 @@ def run_simulation(
     save_locations      = cfg['SAVE_SHIP_LOCATIONS']
     loc_sample          = cfg['LOCATION_SAMPLE_INTERVAL']
     hs_codes            = cfg['HS_CODES_LIST']
+    proactive_rerouting = cfg.get('PROACTIVE_REROUTING', True)
 
     seed = cfg.get('RANDOM_SEED')
     rng  = np.random.default_rng(seed)
@@ -198,9 +201,40 @@ def run_simulation(
     }
 
     # ------------------------------------------------------------------
-    # Pre-assign routes for day-0 chokepoint closures / reductions
+    # Pre-assign canal routes based on explicit daily capacity caps.
+    # Runs FIRST so that canal slots are filled by ships whose natural
+    # routes use them.  Rerouted ships from closures (below) will then
+    # be blocked from using already-full canals.
     # ------------------------------------------------------------------
     from .config_loader import get_interruption_events, get_economic_events
+    _canal_daily_rates      = cfg.get('CANAL_DAILY_RATES', {})
+    _canal_dwr_restrictions = cfg.get('CANAL_DWT_RESTRICTIONS', {})
+    if _canal_daily_rates:
+        _n_canal_rerouted = preassign_canal_capacities(
+            all_ships=all_ships,
+            G=G,
+            choke_name_to_node=choke_name_to_node,
+            canal_daily_rates=_canal_daily_rates,
+            canal_dwr_restrictions=_canal_dwr_restrictions,
+            target_rho=canal_target_rho,
+            simulation_days=simulation_days,
+            rng=rng,
+        )
+        print(f'  Canal capacity caps applied: {_n_canal_rerouted:,} ships rerouted')
+
+    # Collect all canal nodes that are now at capacity so that ships
+    # rerouted around closures cannot spill into them.
+    _capped_canal_nodes: Set = set()
+    for _cname in _canal_daily_rates:
+        _cnode = choke_name_to_node.get(_cname)
+        if _cnode is not None:
+            _capped_canal_nodes.add(_cnode)
+
+    # ------------------------------------------------------------------
+    # Pre-assign routes for day-0 chokepoint closures / reductions.
+    # Runs AFTER canal caps so that rerouted ships see the same blocked
+    # canals as ships that were trimmed above.
+    # ------------------------------------------------------------------
     _interruption_events = get_interruption_events(cfg)
     _n_preassigned, _pre_cancelled = preassign_chokepoint_routes(
         all_ships=all_ships,
@@ -211,14 +245,13 @@ def run_simulation(
         canal_names=set(canal_config.keys()),
         n_intervals=n_intervals,
         rng=rng,
+        blocked_nodes=_capped_canal_nodes,
     )
     if _n_preassigned > 0:
         print(f'  Pre-assigned routes: {_n_preassigned:,} ships rerouted around day-0 closures/reductions')
     if _pre_cancelled:
         print(f'  Pre-cancelled:       {len(_pre_cancelled):,} ships with no route around permanent closure')
         _cancelled_ids = {s.id for s in _pre_cancelled}
-        for _ship in _pre_cancelled:
-            _log_lost_ship(_ship, 0.0, 'no_route_around_closure', lost_ships_records)
         all_ships = [s for s in all_ships if s.id not in _cancelled_ids]
 
     # ------------------------------------------------------------------
@@ -376,14 +409,27 @@ def run_simulation(
                 port_mgr.apply_interruption(event) if tag == 'interruption' \
                     else port_mgr.restore_capacity(event)
 
-                # If a port just closed, handle active ships whose dest is that port
-                if tag == 'interruption' and event.event_type == 'port':
-                    if event.capacity_multiplier <= 0:
+                if tag == 'interruption':
+                    if event.event_type == 'port' and event.capacity_multiplier <= 0:
                         _handle_dest_port_closure(
                             event.target, active_ships, ship_queue,
                             G, country_to_ports, port_name_to_node,
                             port_mgr, current_day, lost_ships_records,
                         )
+                    elif event.event_type == 'choke_point':
+                        choke_node = choke_name_to_node.get(event.target)
+                        if choke_node is not None and proactive_rerouting:
+                            n_rt = _handle_choke_event(
+                                event.target, choke_node,
+                                event.capacity_multiplier,
+                                active_ships, ship_queue, G, port_mgr,
+                                current_day,
+                            )
+                            if n_rt > 0:
+                                tqdm.write(
+                                    f'  Day {current_day:.1f}: {n_rt:,} ships '
+                                    f'rerouted around {event.target}'
+                                )
             # EconomicEvents at day>0 don't affect ships already generated;
             # they were handled at ship generation time via epoch_schedule.
 
@@ -508,16 +554,9 @@ def run_simulation(
                 ship = active_ships.get(next_id)
                 if ship is None:
                     break
-                # Attribute approach edge and advance edge index
-                e = ship.current_edge_idx
-                if e < len(ship.path) - 1:
-                    node1 = ship.path[e]
-                    node2 = ship.path[e + 1]   # the canal node
-                    edge_key = _norm_edge(node1, node2)
-                    if edge_key not in ship_edge_history[ship.id]:
-                        ship_edge_history[ship.id].add(edge_key)
-                        _attribute_cargo_to_edge(edge_traffic, edge_key, ship, hs_codes)
-                    ship.current_edge_idx += 1  # ship is now at the canal node
+                # Ship already arrived at the canal node before queuing
+                # (current_edge_idx points to the edge leaving the canal).
+                # Just start the transit timer.
                 ship.canal_remaining = canal_transit_intervals.get(canal_name, 1)
                 ship.current_canal = canal_name
                 ship.state = 'canal_transit'
@@ -669,43 +708,26 @@ def _advance_ship(
     ship_choke_history: Dict[int, Set],
     hs_codes: List[int],
 ) -> None:
-    """Move ship along its path for one interval's worth of distance."""
+    """Move ship along its path for one interval's worth of distance.
+
+    Choke/canal detection happens AFTER the ship has physically traversed
+    the edge and arrived at the node — not the moment the edge begins.
+    This avoids the old behaviour where ships would queue at a choke
+    immediately upon entering the preceding edge regardless of distance.
+    """
     speed_kmh = ship_speeds.get(ship.ship_type, 25)
     km_remaining = speed_kmh * 24.0 * interval_size
 
     while km_remaining > 0 and ship.state == 'traveling':
         edge_idx = ship.current_edge_idx
         if edge_idx >= len(ship.path) - 1:
-            # Reached destination port
             ship.state = 'waiting_to_unload'
             return
 
         node1 = ship.path[edge_idx]
         node2 = ship.path[edge_idx + 1]
 
-        # Check if next node is a choke point or canal
-        if node2 in choke_node_to_name:
-            choke_name = choke_node_to_name[node2]
-            if port_mgr.is_canal(choke_name):
-                # Canal — always queue (transit time applies even when uncongested)
-                port_mgr.enqueue_canal(choke_name, ship.id)
-                ship.state = 'waiting_at_node'
-                ship.current_canal = choke_name
-                return
-            throughput = port_mgr.effective_choke_throughput(choke_name)
-            if throughput is not None and throughput == 0:
-                # Fully closed — move ship to waiting_at_node immediately
-                ship.state = 'waiting_at_node'
-                port_mgr.enqueue_choke(choke_name, ship.id)
-                return
-            elif throughput is not None:
-                # Restricted throughput — join queue
-                ship.state = 'waiting_at_node'
-                port_mgr.enqueue_choke(choke_name, ship.id)
-                return
-            # else: passthrough (throughput is None) — continue normally
-
-        # Get edge length
+        # Get edge length before deciding whether to complete it
         if G.has_edge(node1, node2):
             edge_len = G[node1][node2].get('length', 0.0)
         elif G.has_edge(node2, node1):
@@ -716,29 +738,47 @@ def _advance_ship(
         km_left_in_edge = edge_len - ship.km_into_current_edge
         edge_key = _norm_edge(node1, node2)
 
-        # Attribute cargo to edge (first traversal only)
+        # Attribute cargo to edge on first traversal
         if edge_key not in ship_edge_history[ship.id]:
             ship_edge_history[ship.id].add(edge_key)
             _attribute_cargo_to_edge(edge_traffic, edge_key, ship, hs_codes)
 
         if km_remaining >= km_left_in_edge:
-            # Complete the edge
+            # Ship completes this edge and arrives at node2
             hours_on_edge = (km_left_in_edge / speed_kmh) if speed_kmh > 0 else 0.0
             edge_traffic[edge_key]['total_time_hours'] += hours_on_edge
             km_remaining -= km_left_in_edge
             ship.current_edge_idx += 1
             ship.km_into_current_edge = 0.0
 
-            # Record passthrough choke point passage (restricted chokes are
-            # recorded in Phase 3 when the ship is released from the queue)
+            # Ship has physically arrived at node2 — check if it's a choke/canal
             if node2 in choke_node_to_name:
                 choke_name = choke_node_to_name[node2]
+                if port_mgr.is_canal(choke_name):
+                    # Always queue for canal transit (transit time applies)
+                    port_mgr.enqueue_canal(choke_name, ship.id)
+                    ship.state = 'waiting_at_node'
+                    ship.current_canal = choke_name
+                    return
+                throughput = port_mgr.effective_choke_throughput(choke_name)
+                if throughput is not None:
+                    # Restricted or fully closed — join queue
+                    port_mgr.enqueue_choke(choke_name, ship.id)
+                    ship.state = 'waiting_at_node'
+                    return
+                # Passthrough: attribute cargo and continue
                 if choke_name not in ship_choke_history.get(ship.id, set()):
                     ship_choke_history.setdefault(ship.id, set()).add(choke_name)
                     if choke_name in choke_cargo:
                         _attribute_cargo_to_node(choke_cargo, choke_name, ship, hs_codes)
+
+            # Check if ship has reached its destination (last node in path)
+            if ship.current_edge_idx >= len(ship.path) - 1:
+                ship.state = 'waiting_to_unload'
+                return
+
         else:
-            # Partial traversal
+            # Partial traversal — ship does not reach node2 this interval
             hours_on_segment = (km_remaining / speed_kmh) if speed_kmh > 0 else 0.0
             edge_traffic[edge_key]['total_time_hours'] += hours_on_segment
             ship.km_into_current_edge += km_remaining
@@ -772,21 +812,21 @@ def _process_waiting_at_node(
     if ship.current_canal and port_mgr.is_canal(ship.current_canal):
         return
 
-    # Regular choke: check if the path is now clear (edge index safety)
+    # In the new model the ship is physically AT path[current_edge_idx]
+    # (the choke node itself), not approaching it.
     edge_idx = ship.current_edge_idx
     if edge_idx >= len(ship.path) - 1:
         ship.state = 'waiting_to_unload'
         return
 
-    blocked_node = ship.path[edge_idx + 1]
+    blocked_node = ship.path[edge_idx]
     if blocked_node not in choke_node_to_name:
-        # Node is no longer identified as a choke (shouldn't normally happen)
         ship.state = 'traveling'
         return
 
     choke_name = choke_node_to_name[blocked_node]
     if port_mgr.effective_choke_throughput(choke_name) is None:
-        # Choke restored to passthrough — release the ship immediately
+        # Choke restored to passthrough — release immediately
         port_mgr.remove_from_choke_queue(choke_name, ship.id)
         ship.state = 'traveling'
 
@@ -850,6 +890,7 @@ def _handle_dest_port_closure(
             })
             ship.completed = True
             ship.state = 'completed'
+            active_ships.pop(ship.id, None)
         else:
             new_port, new_path, new_length = result
             ship.reroute_history.append({
@@ -865,6 +906,114 @@ def _handle_dest_port_closure(
             ship.km_into_current_edge = 0.0
             if ship.state not in ('waiting_to_load', 'loading'):
                 ship.state = 'traveling'
+
+
+# ---------------------------------------------------------------------------
+# Helper: reroute ships when a choke point closes mid-simulation
+# ---------------------------------------------------------------------------
+
+def _handle_choke_event(
+    choke_name: str,
+    choke_node: Any,
+    capacity_multiplier: float,
+    active_ships: Dict[int, Ship],
+    ship_queue: Deque,
+    G: nx.Graph,
+    port_mgr: PortManager,
+    current_day: float,
+) -> int:
+    """
+    When a choke point closes (or partially reduces) mid-simulation, reroute
+    all ships whose future path passes through it.
+
+    Only full closures (multiplier == 0) trigger immediate rerouting.
+    Partial reductions are handled by the throughput model at runtime.
+
+    Ships currently in canal_transit are allowed to finish their transit;
+    new arrivals will encounter the closed choke and queue indefinitely
+    unless rerouted here.
+
+    In the updated movement model, a ship waiting_at_node is physically AT
+    path[current_edge_idx] (the choke node itself), so we back up one step
+    to the preceding node when computing the reroute origin.
+
+    Returns the number of ships whose paths were changed.
+    """
+    if capacity_multiplier > 0:
+        return 0  # Partial reduction — throughput model handles it
+
+    G_modified = G.copy()
+    G_modified.remove_node(choke_node)
+
+    _route_cache: Dict[Tuple, Optional[Tuple]] = {}
+    n_rerouted = 0
+
+    # Process both in-flight ships and ships not yet injected
+    all_candidates = list(active_ships.values()) + list(ship_queue)
+
+    for ship in all_candidates:
+        if ship.completed or ship.state == 'canal_transit':
+            # Mid-transit ships continue; they will have exited before the
+            # closure matters.  Pre-reroute ships not yet in canal.
+            continue
+
+        current_idx = ship.current_edge_idx
+
+        # Skip if choke is not in the remaining path
+        if choke_node not in ship.path[current_idx:]:
+            continue
+
+        # Determine the reroute origin node and path prefix length
+        if ship.state == 'waiting_at_node':
+            # Ship is AT the choke node (path[current_idx] == choke_node).
+            # Back up one step so we can route in G_modified.
+            back_idx = max(0, current_idx - 1)
+            from_node = ship.path[back_idx]
+            prefix_end = back_idx
+            if port_mgr.is_canal(choke_name):
+                port_mgr.remove_from_canal_queue(choke_name, ship.id)
+            else:
+                port_mgr.remove_from_choke_queue(choke_name, ship.id)
+            ship.current_canal = None
+        elif ship.state in ('waiting_to_load', 'loading') or current_idx == 0:
+            from_node = ship.path[0]
+            prefix_end = 0
+        else:
+            from_node = ship.path[current_idx]
+            prefix_end = current_idx
+
+        dest_node = ship.path[-1]
+        cache_key = (from_node, dest_node)
+        if cache_key not in _route_cache:
+            _route_cache[cache_key] = compute_shortest_path(
+                G_modified, from_node, dest_node
+            )
+        result = _route_cache[cache_key]
+
+        if result is None:
+            continue  # No alternative — ship keeps its route (will queue at closure)
+
+        new_path, new_length = result
+        old_length = ship.path_length
+
+        ship.path = ship.path[:prefix_end] + new_path
+        ship.path_length = new_length
+        ship.current_edge_idx = prefix_end
+        ship.km_into_current_edge = 0.0
+
+        if ship.state == 'waiting_at_node':
+            ship.state = 'traveling'
+
+        ship.reroute_history.append({
+            'day':          current_day,
+            'reason':       'choke_closure_mid_sim',
+            'blocked_node': choke_node,
+            'old_path_len': old_length,
+            'new_path_len': new_length,
+        })
+        n_rerouted += 1
+
+    return n_rerouted
 
 
 def _log_lost_ship(

@@ -505,6 +505,7 @@ def preassign_chokepoint_routes(
     canal_names: Set[str],
     n_intervals: int,
     rng: Any,
+    blocked_nodes: Optional[Set] = None,
 ) -> Tuple[int, List]:
     """
     Pre-assign alternative routes for ships affected by day-0 chokepoint events.
@@ -537,6 +538,8 @@ def preassign_chokepoint_routes(
     canal_names           : set of choke names that use the canal transit model
     n_intervals           : total simulation intervals (for annual capacity calc)
     rng                   : numpy.random.Generator (for reproducible sampling)
+    blocked_nodes         : set of network node IDs (canal nodes already at capacity)
+                            that rerouted ships must not route through
 
     Returns
     -------
@@ -603,9 +606,15 @@ def preassign_chokepoint_routes(
         if not ships_to_reroute:
             continue
 
-        # Build a modified graph with the chokepoint node removed
+        # Build a modified graph with the chokepoint node removed.
+        # Also remove any canal nodes already at capacity so that rerouted
+        # ships cannot spill into other fully-booked canals.
         G_modified = G.copy()
         G_modified.remove_node(choke_node)
+        if blocked_nodes:
+            for bn in blocked_nodes:
+                if bn in G_modified:
+                    G_modified.remove_node(bn)
 
         for ship in ships_to_reroute:
             origin_node = ship.path[0]
@@ -633,3 +642,162 @@ def preassign_chokepoint_routes(
             n_rerouted += 1
 
     return n_rerouted, pre_cancelled
+
+
+# ---------------------------------------------------------------------------
+# Pre-simulation canal capacity pre-assignment
+# ---------------------------------------------------------------------------
+
+def preassign_canal_capacities(
+    all_ships: List,
+    G: nx.Graph,
+    choke_name_to_node: Dict[str, Any],
+    canal_daily_rates: Dict[str, float],
+    canal_dwr_restrictions: Dict[str, Dict],
+    target_rho: float,
+    simulation_days: float,
+    rng: Any,
+) -> int:
+    """
+    Pre-assign canal routes based on explicit daily capacity caps and optional
+    DWT-band restrictions.  Called once before the simulation loop.
+
+    For each canal in canal_daily_rates:
+      1. Find all ships whose route passes through the canal node.
+      2. If DWT restrictions exist:
+         a. Ships with DWT >= exclude_above_dwt are always rerouted.
+         b. Remaining eligible ships are split into DWT groups.
+         c. Per group: keep floor(target_rho * group_daily_rate * simulation_days)
+            ships; reroute the rest.
+      3. Without DWT restrictions:
+         Keep floor(target_rho * daily_rate * simulation_days) ships; reroute rest.
+
+    Modifies ship.path and ship.path_length in-place.
+
+    Parameters
+    ----------
+    all_ships             : full list of Ship objects
+    G                     : NetworkX shipping network
+    choke_name_to_node    : {choke_name: node_id}
+    canal_daily_rates     : {canal_name: ships_per_day}
+    canal_dwr_restrictions: {
+        canal_name: {
+            'exclude_above_dwt': float,
+            'groups': [
+                {'label': str, 'min_dwt': float, 'max_dwt': float, 'daily_rate': float},
+                ...
+            ]
+        }
+    }
+    target_rho            : utilisation rate (e.g. 0.7)
+    simulation_days       : number of simulated days
+    rng                   : numpy.random.Generator
+
+    Returns
+    -------
+    int — total number of ships rerouted
+    """
+    n_rerouted = 0
+    processed_canal_nodes: List = []  # nodes already capped; excluded from future rerouting graphs
+
+    for canal_name, daily_rate in canal_daily_rates.items():
+        choke_node = choke_name_to_node.get(canal_name)
+        if choke_node is None:
+            print(f'  [preassign_canal_capacities] Warning: "{canal_name}" not in network.')
+            continue
+
+        affected = [s for s in all_ships if choke_node in s.path]
+        if not affected:
+            processed_canal_nodes.append(choke_node)
+            continue
+
+        restrictions = canal_dwr_restrictions.get(canal_name)
+        # Remove the current canal node AND all previously-capped canal nodes so that
+        # ships rerouted away from this canal cannot overflow into already-capped canals.
+        G_modified = G.copy()
+        G_modified.remove_node(choke_node)
+        for prev_node in processed_canal_nodes:
+            if prev_node in G_modified:
+                G_modified.remove_node(prev_node)
+
+        ships_to_reroute: List = []
+
+        if restrictions:
+            exclude_above = restrictions.get('exclude_above_dwt', math.inf)
+            groups = restrictions.get('groups', [])
+
+            oversized = [s for s in affected if s.cargo_total_weight >= exclude_above]
+            eligible  = [s for s in affected if s.cargo_total_weight < exclude_above]
+            ships_to_reroute.extend(oversized)
+
+            if not groups:
+                # Global cap on all eligible ships (no DWT-band split)
+                n_can_pass = math.floor(target_rho * daily_rate * simulation_days)
+                if n_can_pass < len(eligible):
+                    keep_idx = set(rng.choice(len(eligible), n_can_pass, replace=False).tolist())
+                    ships_to_reroute.extend(
+                        s for i, s in enumerate(eligible) if i not in keep_idx
+                    )
+            else:
+                # Per-DWT-band caps
+                for group in groups:
+                    min_dwt     = group.get('min_dwt', 0)
+                    max_dwt     = group.get('max_dwt', math.inf)
+                    g_rate      = group['daily_rate']
+                    group_ships = [
+                        s for s in eligible
+                        if min_dwt <= s.cargo_total_weight < max_dwt
+                    ]
+                    if not group_ships:
+                        continue
+                    n_can_pass = math.floor(target_rho * g_rate * simulation_days)
+                    if n_can_pass < len(group_ships):
+                        keep_idx = set(
+                            rng.choice(len(group_ships), n_can_pass, replace=False).tolist()
+                        )
+                        ships_to_reroute.extend(
+                            s for i, s in enumerate(group_ships) if i not in keep_idx
+                        )
+        else:
+            # No DWT restrictions — global capacity cap
+            n_can_pass = math.floor(target_rho * daily_rate * simulation_days)
+            if n_can_pass < len(affected):
+                keep_idx = set(rng.choice(len(affected), n_can_pass, replace=False).tolist())
+                ships_to_reroute.extend(
+                    s for i, s in enumerate(affected) if i not in keep_idx
+                )
+
+        # Reroute the selected ships; cache A* results by (origin, dest) pair
+        # since many ships share the same port-pair route.
+        _route_cache: Dict[Tuple, Optional[Tuple]] = {}
+        n_canal_rerouted = 0
+        for ship in ships_to_reroute:
+            origin_node = ship.path[0]
+            dest_node   = ship.path[-1]
+            cache_key = (origin_node, dest_node)
+            if cache_key not in _route_cache:
+                _route_cache[cache_key] = compute_shortest_path(
+                    G_modified, origin_node, dest_node
+                )
+            result = _route_cache[cache_key]
+            if result is None:
+                continue  # No alternative — ship keeps its original path
+            new_path, new_length = result
+            old_length           = ship.path_length
+            ship.path            = new_path
+            ship.path_length     = new_length
+            ship.reroute_history.append({
+                'day':          0.0,
+                'reason':       'canal_capacity_cap',
+                'blocked_node': choke_node,
+                'old_path_len': old_length,
+                'new_path_len': new_length,
+            })
+            n_canal_rerouted += 1
+
+        n_rerouted += n_canal_rerouted
+        print(f'  Canal capacity pre-assignment: {canal_name} — '
+              f'{len(affected):,} affected, {n_canal_rerouted:,} rerouted')
+        processed_canal_nodes.append(choke_node)
+
+    return n_rerouted

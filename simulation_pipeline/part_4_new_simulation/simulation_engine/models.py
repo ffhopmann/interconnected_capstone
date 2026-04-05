@@ -172,12 +172,17 @@ class EconomicEvent:
         -10   = 10 % reduction in trade volume
         +20   = 20 % increase in trade volume
         -100  = zero out this trade flow entirely
+
+    counterpart_country:
+        None  = adjust the full row/column (all trading partners)
+        str   = adjust only the single cell (country ↔ counterpart bilateral flow)
     """
     day: float
     country: str
     direction: str                        # 'export' | 'import' | 'both'
     hs_codes: List[int]                  # [] = all
     adjustment_pct: float                # percentage change
+    counterpart_country: Optional[str] = None  # None = all partners; str = bilateral only
 
     sort_index: float = field(init=False, repr=False)
 

@@ -91,6 +91,12 @@ def _validate(cfg: Dict[str, Any]) -> None:
 
     # PROACTIVE_REROUTING is optional (default True for backward compat)
     cfg.setdefault('PROACTIVE_REROUTING', True)
+    # Port weight exponents — optional, default to current behaviour (linear)
+    cfg.setdefault('PORT_WEIGHT_ALPHA', 1.0)
+    cfg.setdefault('PORT_WEIGHT_BETA',  1.0)
+    # Canal capacity caps (optional — empty dict = no pre-assignment)
+    cfg.setdefault('CANAL_DAILY_RATES', {})
+    cfg.setdefault('CANAL_DWT_RESTRICTIONS', {})
 
 
 def get_interruption_events(cfg: Dict[str, Any]) -> List[InterruptionEvent]:
@@ -118,6 +124,7 @@ def get_economic_events(cfg: Dict[str, Any]) -> List[EconomicEvent]:
             direction=e['direction'],
             hs_codes=[int(h) for h in e.get('hs_codes', [])],
             adjustment_pct=float(e['adjustment_pct']),
+            counterpart_country=e.get('counterpart_country'),
         ))
     return events
 
