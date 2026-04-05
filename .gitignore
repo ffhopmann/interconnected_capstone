@@ -1,9 +1,6 @@
 # Secrets
 /COMTRADE_API_KEY.json
 
-# CSV files (raw data)
-*.csv
-
 # macOS
 .DS_Store
 **/.DS_Store
@@ -14,38 +11,57 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Claude Code local config
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Claude Code local config (personal settings, not project instructions)
 .claude/
 **/.claude/
-CLAUDE.md
-**/CLAUDE.md
 
-# Data folder (all raw/external data files)
+# Data folder (all raw/external data — too large, not in repo)
 data/
 
-# Outdated legacy simulation
-simulation_pipeline/part_4_simulation/
+# Outdated legacy simulation (superseded by part_4_new_simulation)
+part_4_simulation/
 
 # Logs
+pipeline_*.log
+debug_*.log
 pipeline_timing.log
-simulation_pipeline/pipeline_timing.log
 
 # Zip archives
 *.zip
 
-# Large simulation outputs (too large for GitHub)
-simulation_pipeline/part_4_new_simulation/simulation_output_data/*/ship_locations.parquet
-simulation_pipeline/part_4_new_simulation/simulation_output_data/*/ships.parquet
-simulation_pipeline/part_4_new_simulation/simulation_output_data/*/port_pair_routes.pkl
-simulation_pipeline/part_4_new_simulation/simulation_output_data/*/checkpoints/
+# -------------------------------------------------------
+# Large simulation outputs — too large for GitHub
+# -------------------------------------------------------
 
+# Ship location data (~1.2 GB per scenario, regenerable)
+**/ship_locations.parquet
+
+# Simulation checkpoints (~280-380 MB each, regenerable)
+**/checkpoints/
+
+# Pre-computed port-pair routes (111 MB each, regenerable via 00_precompute_routes.ipynb)
+**/port_pair_routes.pkl
+
+# Compat CSV exports (107-242 MB — same data is in the .parquet files)
+**/compat/
+
+# ships.parquet (46 MB each, regenerable from ship generation step)
+part_4_new_simulation/simulation_output_data/*/ships.parquet
+
+# Outdated archived results (large zips, superseded)
+**/outdated_results/
+
+# -------------------------------------------------------
 # Large intermediate network-extraction checkpoints
-simulation_pipeline/part_3_network_extraction/network_outputs/checkpoints/G_*.gpickle
-simulation_pipeline/part_3_network_extraction/network_outputs/checkpoints/used_*.pkl
+# -------------------------------------------------------
+part_3_network_extraction/network_outputs/checkpoints/G_*.gpickle
+part_3_network_extraction/network_outputs/checkpoints/used_*.pkl
 
-# Map PNGs (generated figures, not outputs)
-simulation_pipeline/part_5_visualization/visualization_outputs/HS10_map.png
-simulation_pipeline/part_5_visualization/visualization_outputs/HS30_map.png
-
-# Misc large files
+# -------------------------------------------------------
+# Misc
+# -------------------------------------------------------
 Geospatial_testing.ipynb
